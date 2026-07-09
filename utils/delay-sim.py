@@ -1,6 +1,6 @@
 def generate_spice_deck():
 
-    signals = ["A", "B", "C", "D"]
+    signals = ["D", "E"]
     outputs = ["out"]
 
     W = 700.0
