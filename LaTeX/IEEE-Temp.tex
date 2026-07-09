@@ -1,0 +1,418 @@
+\usepackage[margin=1.5cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[table]{xcolor}
+\usepackage{xcolor}
+\usepackage{makecell}
+\usepackage{amsmath, bm}
+\usepackage{listings}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{circuitikz}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{mwe}
+\usepackage{verbatim}
+\usepackage{multirow}
+\usepackage{longtable}
+
+\newif\ifpersiandoc
+% \persiandocfalse
+\persiandoctrue
+
+\newcommand{\coursename}{}
+\newcommand{\studentname}{}
+\newcommand{\studentid}{}
+\newcommand{\professorname}{}
+\newcommand{\duedate}{}
+\newcommand{\projectabstract}{}
+
+\newcommand{\assignmenttitle}{}
+\newcommand{\assignmentsubtitle}{}
+
+\newcommand{\setassignmenttitle}[2]{
+    \renewcommand{\assignmenttitle}{#1}
+    \renewcommand{\assignmentsubtitle}{#2}
+}
+\newcommand{\setcoursename}[1]{\renewcommand{\coursename}{#1}}
+\newcommand{\setstudentname}[1]{\renewcommand{\studentname}{#1}}
+\newcommand{\setstudentid}[1]{\renewcommand{\studentid}{#1}}
+\newcommand{\setprofessorname}[1]{\renewcommand{\professorname}{#1}}
+\newcommand{\setduedate}[1]{\renewcommand{\duedate}{#1}}
+\newcommand{\setprojectabstract}[1]{\renewcommand{\projectabstract}{#1}}
+
+\definecolor{primary}{RGB}{0, 32, 96}
+\definecolor{codegray}{rgb}{0.95,0.95,0.95}
+
+\setlength{\columnsep}{0.63cm}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    filecolor=magenta,
+    urlcolor=primary,
+}
+
+\ifpersiandoc
+    \titleformat{\section}[block]{\Large\bfseries\color{primary}}{\thesection-}{0.5em}{}
+    \titleformat{\subsection}[block]{\large\bfseries\color{primary}}{\thesubsection-}{0.5em}{}
+\else
+    \renewcommand{\thesection}{\arabic{section}}
+    \renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
+    \titleformat{\section}[block]{\Large\bfseries\color{primary}}{\thesection.}{0.5em}{}
+    \titleformat{\subsection}[block]{\large\bfseries\color{primary}}{\thesubsection.}{0.5em}{}
+\fi
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\ifpersiandoc
+    \fancyhead[RO]{\textcolor{gray}{\small \coursename\ - \assignmenttitle}}
+    \fancyhead[LO]{\textcolor{gray}{\small صفحه \thepage}}
+
+    \fancyhead[LE]{\textcolor{gray}{\small \coursename\ - \assignmenttitle}}
+    \fancyhead[RE]{\textcolor{gray}{\small صفحه \thepage}}
+\else
+    \fancyhead[LO]{\textcolor{gray}{\small \lr{\coursename\ - \assignmenttitle}}}
+    \fancyhead[RO]{\textcolor{gray}{\small Page \thepage}}
+
+    \fancyhead[RE]{\textcolor{gray}{\small \lr{\coursename\ - \assignmenttitle}}}
+    \fancyhead[LE]{\textcolor{gray}{\small Page \thepage}}
+\fi
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.0pt}
+
+\definecolor{codebackground}{rgb}{0.97, 0.97, 0.97}
+\definecolor{codecomment}{rgb}{0.0, 0.5, 0.0}
+\definecolor{codekeyword}{rgb}{0.0, 0.0, 1.0}
+\definecolor{codestring}{rgb}{0.64, 0.08, 0.08}
+\definecolor{codenumber}{rgb}{0.5, 0.5, 0.5}
+
+\lstset{
+    backgroundcolor=\color{codebackground},
+    commentstyle=\color{codecomment}\itshape,
+    keywordstyle=\color{codekeyword}\bfseries,
+    stringstyle=\color{codestring},
+    numberstyle=\tiny\color{codenumber},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=10pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=true,
+    tabsize=4,
+    frame=tlbr, framesep=4pt,
+    rulecolor=\color{black!30}
+}
+
+\usepackage{xcolor}
+
+\definecolor{SpComment}{HTML}{008000}
+\definecolor{SpString}{HTML}{A31515}
+\definecolor{SpCmd}{HTML}{AF00DB}
+\definecolor{SpFunc}{HTML}{0000FF}
+% رنگ‌های دیگر چون استفاده نمی‌شوند، می‌توانند حذف شوند
+% \definecolor{SpComp}{HTML}{795E26}
+% \definecolor{SpSub}{HTML}{0070C1} 
+% \definecolor{SpSource}{HTML}{008080}
+
+\lstdefinelanguage{SPICE}{
+    alsoletter={.},
+    keywords=[1]{.PARAM, .LIB, .END, .ENDS, .SUBCKT, .MODEL, .INCLUDE, .OPTION, .MEASURE, .MEAS, .ALTER, .TEMP, .TRAN, .DC, .AC, .OP, .IC, .NODESET},
+    keywordstyle=[1]\color{SpCmd}\bfseries,
+    keywords=[2]{PWL, PULSE, SIN, EXP, SFFM, MIN, MAX, AVG, TRIG, TARG, CROSS, FALL, RISE, DELAY, VAL, GOAL},
+    keywordstyle=[2]\color{SpFunc},
+    sensitive=false,
+    comment=[l]{*},
+    morecomment=[l]{\$},
+    commentstyle=\color{SpComment}\ttfamily,
+    morestring=[b]',
+    morestring=[b]",
+    stringstyle=\color{SpString},
+    basicstyle=\ttfamily\color{black},
+}
+
+% تعریف رنگ‌ها
+\definecolor{jsonKey}{HTML}{1A5276}      % آبی تیره برای کلیدها (برای تفکیک کامل از مقادیر)
+\definecolor{jsonValue}{HTML}{27AE60}    % سبز برای مقادیر متنی (Value)
+\definecolor{jsonDigit}{HTML}{D35400}    % نارنجی/قرمز برای اعداد
+\definecolor{jsonBool}{HTML}{C0392B}     % قرمز تیره برای true/false/null
+\definecolor{jsonBrackets}{HTML}{7F8C8D} % خاکستری برای {} و []
+
+\lstdefinelanguage{json}{
+    % مقادیر خاص
+    keywords=[1]{true, false, null},
+    keywordstyle=[1]\color{jsonBool}\bfseries,
+    %
+    sensitive=true,
+    %
+    % به طور پیش‌فرض تمام رشته‌ها رنگ کلید (آبی تیره) را می‌گیرند
+    morestring=[b]",
+    stringstyle=\color{jsonKey},
+    %
+    % با این ترفند، بعد از علامت دو نقطه (:) رنگ رشته‌ها به سبز (Value) تغییر می‌کند
+    literate=
+     *{0}{{{\color{jsonDigit}0}}}{1}
+      {1}{{{\color{jsonDigit}1}}}{1}
+      {2}{{{\color{jsonDigit}2}}}{1}
+      {3}{{{\color{jsonDigit}3}}}{1}
+      {4}{{{\color{jsonDigit}4}}}{1}
+      {5}{{{\color{jsonDigit}5}}}{1}
+      {6}{{{\color{jsonDigit}6}}}{1}
+      {7}{{{\color{jsonDigit}7}}}{1}
+      {8}{{{\color{jsonDigit}8}}}{1}
+      {9}{{{\color{jsonDigit}9}}}{1}
+      {.}{{{\color{jsonDigit}.}}}{1}
+      {\{}{{{\color{jsonBrackets}{\{}}}}{1}
+      {\}}{{{\color{jsonBrackets}{\}}}}}{1}
+      {[}{{{\color{jsonBrackets}{[}}}}{1}
+      {]}{{{\color{jsonBrackets}{]}}}}{1}
+      {:}{{{\color{black}{:}\color{jsonValue}}}}{1} % ترفند تغییر رنگ پس از دو نقطه به سبز
+      {,}{{{\color{black}{,}\color{jsonKey}}}}{1},  % ترفند بازگرداندن رنگ به رنگ کلید پس از کاما
+    basicstyle=\ttfamily\color{jsonKey}
+}
+
+\lstdefinelanguage{DirTree}{
+basicstyle=\ttfamily\color{black},
+% تبدیل خطوط گرافیکی به علائم ساده کیبورد برای سازگاری ۱۰۰٪
+literate=
+    {├}{|-}2
+{─}{-}1
+{└}{`-}2
+{│}{|}1
+}
+
+
+
+
+\newcommand{\newimage}[4][\columnwidth]{
+    \begin{center}
+        \phantomsection
+        \includegraphics[width=#1]{#2}
+        \captionsetup{font=footnotesize, skip=5pt, hypcap=false}
+        \captionof{figure}{#3}
+        \label{#4}
+    \end{center}
+}
+
+
+
+\newcommand{\newcode}[5][1.0]{
+    \vspace{0.1cm}
+    \begin{center}
+        \captionsetup{hypcap=false} % <-- این خط هشدار را فقط برای این کد غیرفعال می‌کند
+        \resizebox{#1\columnwidth}{!}{%
+            \parbox{\linewidth}{%
+                \ifpersiandoc
+                    \begin{latin}
+                        \lstinputlisting[language=#2]{#3}
+                    \end{latin}
+                \else
+                    \lstinputlisting[language=#2]{#3}
+                \fi
+            }%
+        }
+        \vspace{-0.4cm}
+        \captionof{lstlisting}{#4}
+        \label{#5}
+    \end{center}
+    \vspace{0.1cm}
+}
+
+
+\newcommand{\newcodeFont}[5][\footnotesize]{
+    \vspace{0.1cm}
+    \begin{center}
+        \ifpersiandoc
+            \begin{latin}
+                % اعمال سایز فونت مورد نظر شما
+                \lstinputlisting[language=#2, basicstyle=#1\ttfamily]{#3}
+            \end{latin}
+        \else
+            \lstinputlisting[language=#2, basicstyle=#1\ttfamily]{#3}
+        \fi
+        \vspace{-0.4cm}
+        \captionof{lstlisting}{#4}
+        \label{#5}
+    \end{center}
+    \vspace{0.1cm}
+}
+
+% نحوه استفاده:
+% \newcodeFont[\scriptsize]{Python}{code.py}{کپشن}{لیبل}
+
+
+\newcommand{\newtable}[4]{
+    \vspace{0.2cm}
+    \begin{center}
+        \captionsetup{font=footnotesize, skip=5pt,position=top,  hypcap=false}
+        \captionof{table}{#1}
+        \label{#2}
+        \resizebox{0.87\columnwidth}{!}{
+            \begin{tabular}{#3}
+                #4
+            \end{tabular}
+        }
+    \end{center}
+    \vspace{0.1cm}
+}
+
+
+\usepackage{xepersian}
+\settextfont{Yas}
+\setmonofont{Consolas}
+
+\ifpersiandoc
+    \setdigitfont{Yas}
+    \renewcommand{\lstlistingname}{قطعه‌کد}
+    \renewcommand{\figurename}{تصویر}
+    \renewcommand{\tablename}{جدول}
+\else
+    \renewcommand{\lstlistingname}{code}
+    \renewcommand{\figurename}{Figure}
+    \renewcommand{\tablename}{Table}
+\fi
+
+\AtBeginDocument{
+    \ifpersiandoc
+    \else
+        \setLTR
+        \LTRmulticolcolumns
+        \begin{latin}
+            \fi
+            }
+
+            \AtEndDocument{
+            \ifpersiandoc
+            \else
+        \end{latin}
+    \fi
+}
+
+
+\renewcommand{\footnoterule}{
+    \vspace*{4pt}
+    \noindent\rule{\textwidth}{0.5pt}
+    \vspace*{2.6pt}
+}
+\newcommand{\pfnote}[1]{\footnote{ #1}}
+\newcommand{\efnote}[1]{\LTRfootnote{ #1}}
+
+
+\newcommand{\makecoverpage}{
+    \begin{titlepage}
+        \centering
+        \ifpersiandoc
+            \noindent
+            \begin{minipage}{0.2\textwidth}
+                \centering
+                \includegraphics[width=1\linewidth]{Logo/Fani-logo.png}
+            \end{minipage}%
+            \begin{minipage}{0.6\textwidth}
+                \centering
+                {\Large \textbf{\textcolor{primary}{دانشگاه تهران}}}\\[0.3cm]
+                {\large \textbf{پردیس دانشکدگان فنی}}\\[0.3cm]
+                {\large \textbf{دانشکده‌ی مهندسی برق و کامپیوتر}}
+            \end{minipage}%
+            \begin{minipage}{0.2\textwidth}
+                \centering
+                \includegraphics[width=0.90\linewidth]{Logo/tehran-logo.png}
+            \end{minipage}
+
+            \vspace{1.5cm}
+            {\hrule height 1pt} \vspace{0.5cm}
+            {\large \textbf{\assignmentsubtitle}} \\[0.3cm]
+            {\Large \textbf{\assignmenttitle}} \\[0.3cm]
+            {\large \textbf{\coursename}}
+            \vspace{0.5cm} \hrule \vspace{1cm}
+            {\Large \textbf{\studentname}} \\[0.3cm]
+            {\large \studentid} \\[0.3cm]
+            {\large \professorname} \\[0.3cm]
+            {\large \duedate}
+
+            \vspace{1.5cm}
+
+            \begin{flushright}
+                \textbf{\textcolor{primary}{چکیده:}}\\
+                \vspace{0.3cm}
+                \small\projectabstract
+            \end{flushright}
+
+
+        \else
+            \begin{latin}
+                \noindent
+                \begin{minipage}{0.2\textwidth}
+                    \centering
+                    \includegraphics[width=0.90\linewidth]{Logo/tehran-logo.png}
+                \end{minipage}%
+
+                \begin{minipage}{0.6\textwidth}
+                    \centering
+                    {\Large \textbf{\textcolor{primary}{University of Tehran}}}\\[0.3cm]
+                    {\large \textbf{College of Engineering}}\\[0.3cm]
+                    {\large \textbf{School of Electrical and Computer Engineering}}
+                \end{minipage}%
+
+                \begin{minipage}{0.2\textwidth}
+                    \centering
+                    \includegraphics[width=1\linewidth]{Logo/Fani-logo.png}
+                \end{minipage}
+
+                \vspace{1.5cm}
+                {\hrule height 1pt} \vspace{0.5cm}
+                {\Large \textbf{\assignmenttitle}} \\[0.3cm]
+                {\large \textbf{\assignmentsubtitle}} \\[0.3cm]
+                {\large \textbf{\coursename}}
+                \vspace{0.5cm} \hrule \vspace{2.5cm}
+
+                {\Large \textbf{\studentname}} \\[0.3cm]
+                {\large \studentid} \\[2cm]
+                {\large \professorname} \\[2cm]
+                {\large \duedate}
+
+                \vfill
+                \begin{flushleft}
+                    \textbf{\textcolor{primary}{Abstract:}}\\
+                    \vspace{0.3cm}
+                    \small\projectabstract
+                \end{flushleft}
+            \end{latin}
+        \fi
+    \end{titlepage}
+
+    \setcounter{page}{1}
+}
+
+
+
+% \newcode[1]{SPICE}{codes/params.sp}{پارامتر‌های تعریف شده برای شبیه‌سازی}{code:param}
+% \newtable{ابعاد ترانزیستور‌های گیت‌های پایه}{tab:WnWp}
+% {|c|c|c|c|c|}
+% {
+%     \hline
+%     \textbf{$C_p$} & \textbf{$W_p$} & \textbf{$C_n$} & \textbf{$W_n$} & \textbf{Gate} \\
+%     \hline
+%     \hline
+%     1 & $\beta\mu m$ & 1 & $1\mu m$ & NOT/INV \\
+%     \hline
+%     1 & $\beta\mu m$ & 2 & $2\mu m$ & NAND \\
+%     \hline
+%     2 & $2\beta\mu m$ & 1 & $1\mu m$ & NOR \\
+%     \hline
+%     2 & $2\beta\mu m$ & 2 & $2\mu m$ & XOR \\
+%     \hline
+%     2 & $2\beta\mu m$ & 2 & $2\mu m$ & MUX \\
+%     \hline
+% }
+
+% \newimage[0.35\textwidth]{images/corners.png}{گوشه‌های طراحی}{fig:corners}
