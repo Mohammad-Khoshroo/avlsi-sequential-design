@@ -1,0 +1,32 @@
+{
+    "2_0": {
+        "type": "sweep",
+        "sweep_parameter": "t_eq",
+        "measurements": {
+            "t_eq": 7.255e-11,
+            "t_dq": 4.811e-10
+        }
+    },
+    "summary": {
+        "sweep_parameter": "t_eq",
+        "measurements": {
+            "t_eq": {
+                "min": 7.255e-11,
+                "max": 7.255e-11,
+                "avg": 7.255e-11
+            },
+            "t_dq": {
+                "min": 4.811e-10,
+                "max": 4.811e-10,
+                "avg": 4.811e-10
+            }
+        },
+        "sweep_range": {
+            "start": 7.255e-11,
+            "end": 7.255e-11,
+            "min": 7.255e-11,
+            "max": 7.255e-11,
+            "step": null
+        }
+    }
+}

@@ -1,0 +1,4672 @@
+{
+    "3_0": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_1": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.99e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_2": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.98e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_3": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.97e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_4": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.96e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_5": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.95e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_6": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.94e-10,
+            "q_max": 1.8027
+        }
+    },
+    "3_7": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.93e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_8": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.92e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_9": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.91e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_10": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.9e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_11": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.89e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_12": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.88e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_13": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.87e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_14": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.86e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_15": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.85e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_16": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.84e-10,
+            "q_max": 1.8027
+        }
+    },
+    "3_17": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.83e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_18": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.82e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_19": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.81e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_20": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.8e-10,
+            "q_max": 1.8027
+        }
+    },
+    "3_21": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.79e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_22": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.78e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_23": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.77e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_24": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.76e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_25": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.75e-10,
+            "q_max": 1.8027
+        }
+    },
+    "3_26": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.74e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_27": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.73e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_28": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.72e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_29": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.71e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_30": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.7e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_31": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.69e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_32": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.68e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_33": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.67e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_34": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.66e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_35": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.65e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_36": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.64e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_37": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.63e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_38": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.62e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_39": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.61e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_40": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.6e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_41": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.59e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_42": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.58e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_43": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.57e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_44": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.56e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_45": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.55e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_46": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.54e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_47": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.53e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_48": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.52e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_49": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.51e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_50": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.5e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_51": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.49e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_52": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.48e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_53": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.47e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_54": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.46e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_55": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.45e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_56": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.44e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_57": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.43e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_58": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.42e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_59": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.41e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_60": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.4e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_61": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.39e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_62": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.38e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_63": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.37e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_64": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.36e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_65": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.35e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_66": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.34e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_67": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.33e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_68": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.32e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_69": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.31e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_70": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.3e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_71": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.29e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_72": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.28e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_73": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.27e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_74": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.26e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_75": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.25e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_76": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.24e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_77": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.23e-10,
+            "q_max": 1.8027
+        }
+    },
+    "3_78": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.22e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_79": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.21e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_80": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.2e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_81": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.19e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_82": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.18e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_83": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.17e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_84": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.16e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_85": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.15e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_86": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.14e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_87": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.13e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_88": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.12e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_89": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.11e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_90": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.1e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_91": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.09e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_92": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.08e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_93": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.07e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_94": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.06e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_95": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.05e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_96": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.04e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_97": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.03e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_98": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.02e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_99": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.01e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_100": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_101": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.99e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_102": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.98e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_103": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.97e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_104": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.96e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_105": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.95e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_106": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.94e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_107": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.93e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_108": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.92e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_109": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.91e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_110": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.9e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_111": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.89e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_112": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.88e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_113": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.87e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_114": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.86e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_115": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.85e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_116": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.84e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_117": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.83e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_118": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.82e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_119": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.81e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_120": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.8e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_121": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.79e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_122": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.78e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_123": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.77e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_124": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.76e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_125": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.75e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_126": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.74e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_127": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.73e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_128": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.72e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_129": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.71e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_130": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.7e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_131": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.69e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_132": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.68e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_133": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.67e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_134": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.66e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_135": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.65e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_136": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.64e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_137": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.63e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_138": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.62e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_139": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.61e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_140": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.6e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_141": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.59e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_142": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.58e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_143": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.57e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_144": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.56e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_145": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.55e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_146": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.54e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_147": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.53e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_148": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.52e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_149": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.51e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_150": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.5e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_151": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.49e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_152": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.48e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_153": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.47e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_154": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.46e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_155": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.45e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_156": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.44e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_157": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.43e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_158": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.42e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_159": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.41e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_160": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.4e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_161": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.39e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_162": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.38e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_163": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.37e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_164": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.36e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_165": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.35e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_166": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.34e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_167": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.33e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_168": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.32e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_169": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.31e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_170": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.3e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_171": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.29e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_172": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.28e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_173": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.27e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_174": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.26e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_175": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.25e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_176": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.24e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_177": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.23e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_178": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.22e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_179": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.21e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_180": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.2e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_181": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.19e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_182": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.18e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_183": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.17e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_184": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.16e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_185": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.15e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_186": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.14e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_187": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.13e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_188": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.12e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_189": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.11e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_190": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.1e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_191": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.09e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_192": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.08e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_193": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.07e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_194": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.06e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_195": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.05e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_196": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.04e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_197": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.03e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_198": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.02e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_199": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.01e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_200": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_201": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_202": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.8e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_203": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.7e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_204": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_205": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.5e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_206": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.4e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_207": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_208": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.2e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_209": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_210": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_211": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_212": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.8e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_213": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.7e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_214": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_215": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.5e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_216": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.4e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_217": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_218": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.2e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_219": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_220": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_221": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_222": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.8e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_223": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.7e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_224": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.6e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_225": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.5e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_226": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.4e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_227": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_228": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.2e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_229": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_230": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_231": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_232": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.8e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_233": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.7e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_234": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_235": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.5e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_236": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.4e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_237": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_238": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.2e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_239": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_240": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_241": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_242": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.8e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_243": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.7e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_244": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_245": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.5e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_246": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.4e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_247": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_248": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.2e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_249": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_250": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_251": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_252": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.8e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_253": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.7e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_254": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_255": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.5e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_256": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.4e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_257": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.3e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_258": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.2e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_259": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_260": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_261": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_262": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.8e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_263": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.7e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_264": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_265": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.5e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_266": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.4e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_267": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_268": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.2e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_269": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_270": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_271": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_272": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.8e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_273": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.7e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_274": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_275": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.5e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_276": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.4e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_277": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_278": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.2e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_279": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_280": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_281": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_282": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.8e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_283": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.7e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_284": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_285": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.5e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_286": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.4e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_287": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_288": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.2e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_289": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_290": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_291": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_292": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.2e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_293": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_294": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.4e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_295": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.5e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_296": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_297": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.7e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_298": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.8e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_299": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_300": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_301": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_302": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.2e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_303": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_304": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.4e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_305": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.5e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_306": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_307": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.7e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_308": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.8e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_309": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_310": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_311": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_312": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.2e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_313": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_314": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.4e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_315": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.5e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_316": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_317": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.7e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_318": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.8e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_319": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_320": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_321": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_322": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.2e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_323": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.3e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_324": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.4e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_325": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.5e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_326": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_327": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.7e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_328": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.8e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_329": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 4.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_330": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_331": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_332": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.2e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_333": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_334": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.4e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_335": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.5e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_336": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_337": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.7e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_338": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.8e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_339": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 5.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_340": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_341": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_342": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.2e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_343": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_344": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.4e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_345": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.5e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_346": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_347": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.7e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_348": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.8e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_349": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 6.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_350": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_351": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_352": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.2e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_353": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_354": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.4e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_355": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.5e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_356": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.6e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_357": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.7e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_358": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.8e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_359": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 7.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_360": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_361": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_362": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.2e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_363": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_364": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.4e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_365": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.5e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_366": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_367": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.7e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_368": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.8e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_369": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 8.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_370": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_371": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.1e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_372": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.2e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_373": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.3e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_374": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.4e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_375": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.5e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_376": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.6e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_377": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.7e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_378": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.8e-11,
+            "q_max": 1.8029
+        }
+    },
+    "3_379": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 9.9e-11,
+            "q_max": 1.8028
+        }
+    },
+    "3_380": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_381": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.01e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_382": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.02e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_383": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.03e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_384": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.04e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_385": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.05e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_386": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.06e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_387": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.07e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_388": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.08e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_389": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.09e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_390": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.1e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_391": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.11e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_392": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.12e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_393": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.13e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_394": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.14e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_395": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.15e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_396": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.16e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_397": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.17e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_398": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.18e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_399": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.19e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_400": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.2e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_401": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.21e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_402": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.22e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_403": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.23e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_404": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.24e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_405": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.25e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_406": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.26e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_407": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.27e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_408": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.28e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_409": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.29e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_410": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.3e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_411": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.31e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_412": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.32e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_413": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.33e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_414": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.34e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_415": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.35e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_416": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.36e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_417": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.37e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_418": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.38e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_419": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.39e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_420": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.4e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_421": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.41e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_422": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.42e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_423": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.43e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_424": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.44e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_425": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.45e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_426": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.46e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_427": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.47e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_428": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.48e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_429": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.49e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_430": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.5e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_431": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.51e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_432": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.52e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_433": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.53e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_434": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.54e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_435": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.55e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_436": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.56e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_437": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.57e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_438": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.58e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_439": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.59e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_440": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.6e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_441": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.61e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_442": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.62e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_443": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.63e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_444": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.64e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_445": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.65e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_446": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.66e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_447": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.67e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_448": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.68e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_449": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.69e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_450": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.7e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_451": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.71e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_452": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.72e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_453": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.73e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_454": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.74e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_455": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.75e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_456": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.76e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_457": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.77e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_458": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.78e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_459": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.79e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_460": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.8e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_461": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.81e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_462": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.82e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_463": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.83e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_464": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.84e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_465": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.85e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_466": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.86e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_467": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.87e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_468": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.88e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_469": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.89e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_470": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.9e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_471": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.91e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_472": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.92e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_473": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.93e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_474": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.94e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_475": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.95e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_476": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.96e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_477": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.97e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_478": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.98e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_479": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 1.99e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_480": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_481": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.01e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_482": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.02e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_483": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.03e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_484": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.04e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_485": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.05e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_486": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.06e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_487": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.07e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_488": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.08e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_489": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.09e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_490": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.1e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_491": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.11e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_492": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.12e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_493": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.13e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_494": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.14e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_495": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.15e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_496": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.16e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_497": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.17e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_498": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.18e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_499": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.19e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_500": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.2e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_501": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.21e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_502": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.22e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_503": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.23e-10,
+            "q_max": 1.8027
+        }
+    },
+    "3_504": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.24e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_505": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.25e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_506": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.26e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_507": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.27e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_508": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.28e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_509": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.29e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_510": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.3e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_511": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.31e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_512": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.32e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_513": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.33e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_514": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.34e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_515": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.35e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_516": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.36e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_517": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.37e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_518": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.38e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_519": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.39e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_520": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.4e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_521": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.41e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_522": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.42e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_523": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.43e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_524": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.44e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_525": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.45e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_526": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.46e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_527": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.47e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_528": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.48e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_529": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.49e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_530": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.5e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_531": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.51e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_532": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.52e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_533": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.53e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_534": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.54e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_535": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.55e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_536": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.56e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_537": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.57e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_538": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.58e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_539": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.59e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_540": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.6e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_541": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.61e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_542": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.62e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_543": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.63e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_544": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.64e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_545": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.65e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_546": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.66e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_547": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.67e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_548": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.68e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_549": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.69e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_550": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.7e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_551": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.71e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_552": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.72e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_553": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.73e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_554": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.74e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_555": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.75e-10,
+            "q_max": 1.8027
+        }
+    },
+    "3_556": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.76e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_557": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.77e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_558": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.78e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_559": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.79e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_560": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.8e-10,
+            "q_max": 1.8027
+        }
+    },
+    "3_561": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.81e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_562": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.82e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_563": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.83e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_564": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.84e-10,
+            "q_max": 1.8027
+        }
+    },
+    "3_565": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.85e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_566": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.86e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_567": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.87e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_568": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.88e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_569": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.89e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_570": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.9e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_571": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.91e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_572": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.92e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_573": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.93e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_574": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.94e-10,
+            "q_max": 1.8027
+        }
+    },
+    "3_575": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.95e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_576": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.96e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_577": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.97e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_578": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.98e-10,
+            "q_max": 1.8029
+        }
+    },
+    "3_579": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 2.99e-10,
+            "q_max": 1.8028
+        }
+    },
+    "3_580": {
+        "type": "sweep",
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": 3e-10,
+            "q_max": 1.8029
+        }
+    },
+    "summary": {
+        "sweep_parameter": "t_setup",
+        "measurements": {
+            "t_setup": {
+                "min": 1e-11,
+                "max": 3e-10,
+                "avg": 1.5524956970740104e-10
+            },
+            "q_max": {
+                "min": 1.8027,
+                "max": 1.8029,
+                "avg": 1.8028089500860585
+            }
+        },
+        "sweep_range": {
+            "start": 3e-10,
+            "end": 3e-10,
+            "min": 1e-11,
+            "max": 3e-10,
+            "step": -9.999999999999965e-13
+        }
+    }
+}

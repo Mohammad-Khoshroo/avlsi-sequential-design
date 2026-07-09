@@ -1,0 +1,56 @@
+****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******
+Input File: sim.sp
+lic:
+lic: FLEXlm: SDK_12.3
+lic: USER:   Mohammad-Khohsroo    HOSTNAME: DESKTOP-GMQQFUO
+lic: HOSTID: "088fc3e7a24d"       PID:      21736
+lic: Using FLEXlm license file:
+lic: 27000@DESKTOP-GMQQFUO
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 30-dec-2030/2020.12
+lic: 1(in_use)/99(total) FLOATING license(s) on SERVER 27000@DESKTOP-GMQQFUO
+lic:
+
+ init: begin read circuit files, cpu clock= 1.04E-01
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/behave/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/AD/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/XILINX/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TLINE/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/SIGNET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PCI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/LIN_TEC
+                         H/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/DI0/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/COMLINE
+                         /
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BURR_BR
+                         M/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BJT/
+       option nomod
+       option post =     2.00
+       option probe
+       option runlvl =     6.00
+ init: end read circuit files, cpu clock= 1.10E-01 peak memory=      63 mb
+ init: begin check errors, cpu clock= 1.10E-01
+ init: end check errors, cpu clock= 1.15E-01 peak memory=      64 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 1.15E-01
+       establish matrix -- done, cpu clock= 1.15E-01 peak memory=      64 mb
+       re-order matrix -- done, cpu clock= 1.16E-01 peak memory=      64 mb
+ init: end setup matrix, cpu clock= 1.17E-01 peak memory=      64 mb
+ output: D:\UT.CE\Term-06\AVLSI\CA\CA04\simulation\seq-elements\D-Latch\sim.tr0
+ sweep: tran tran0    begin, stop_t=  3.20E-09 #sweeps=3201 cpu clock= 1.17E-01
+ tran: time= 3.3168E-10 tot_iter=     314 conv_iter=      96 cpu clock= 1.24E-01
+ tran: time= 6.4146E-10 tot_iter=     458 conv_iter=     148 cpu clock= 1.28E-01
+ tran: time= 9.7481E-10 tot_iter=     659 conv_iter=     218 cpu clock= 1.34E-01
+ tran: time= 1.2910E-09 tot_iter=     941 conv_iter=     310 cpu clock= 1.41E-01
+ tran: time= 1.6000E-09 tot_iter=    1202 conv_iter=     393 cpu clock= 1.46E-01
+ tran: time= 1.9287E-09 tot_iter=    1544 conv_iter=     504 cpu clock= 1.54E-01
+ tran: time= 2.2454E-09 tot_iter=    1677 conv_iter=     551 cpu clock= 1.57E-01
+ tran: time= 2.5606E-09 tot_iter=    1895 conv_iter=     621 cpu clock= 1.61E-01
+ tran: time= 2.8846E-09 tot_iter=    2189 conv_iter=     716 cpu clock= 1.66E-01
+ tran: time= 3.2000E-09 tot_iter=    2376 conv_iter=     777 cpu clock= 1.70E-01
+ sweep: tran tran0    end, cpu clock= 1.70E-01 peak memory=      64 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

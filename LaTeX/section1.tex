@@ -1,6 +1,6 @@
 \section{طراحی مدار محاسباتی}
 
-\newimage[\textwidth]{images/comb-circuit.png}{مدار محاسباتی}{fig:comb-circuit}
+\newimage[\textwidth]{images/comb-circuit/comb-circuit.png}{مدار محاسباتی}{fig:comb-circuit}
 
 ساختار فوق را با استفاده از کتابخانه‌ی \texttt{basic\_gates.inc} که از پروژه اول تا الان بروزرسانی شده است و عملکرد درستی دارند پیاده‌سازی می‌کنیم.
 گیت‌ها به گونه‌ای پیاده سازی شده‌اند که با پارامتر scale می‌توان بدون درگیر شدن در محاسبات Sizing ابعاد آن‌ها را تغییر بدهیم.
@@ -35,12 +35,12 @@
 
 \newcodeFont[\tiny]{spice}{codes/delay-sim.sp}{بخشی‌ از .DATA ساخته شده توسط اسکریپت}{code:delay-sim}
 
-\newimage[\textwidth]{images/delay-sim.png}{شکل موج خروجی شبیه‌سازی‌ها به ازای تمام \lr{Transition}ها}{fig:delay-sim}
+\newimage[\textwidth]{images/comb-circuit/delay-sim.png}{شکل موج خروجی شبیه‌سازی‌ها به ازای تمام \lr{Transition}ها}{fig:delay-sim}
 
 خروجی شبیه‌سازی مطابق انتظار است چون خروجی همیشه باید صفر باشد. مگر اینکه با یک glich حاصل از دو مسیر اول و دوم برای مدتی یک شود.
 به این ترتیب تاخیر انتشار این مدار برابر با زمانی است که از تغییر ورودی تا stable شدن خروجی می‌گذرد.
 
-\newimage[\textwidth]{images/comb-circuit-2.png}{مدار محاسباتی}{fig:comb-circuit-2}
+\newimage[\textwidth]{images/comb-circuit/comb-circuit-2.png}{مدار محاسباتی}{fig:comb-circuit-2}
 
 برای یک بودن خروجی می‌بایست تمام ورودی‌های آخرین گیت (که یک گیت \lr{NOR3} هست) صفر باشند.
 ولی اگر خروجی \lr{XOR2} صفر شود، خروجی گیت \lr{NAND2}ای که drive می‌کند یک می‌شود!
