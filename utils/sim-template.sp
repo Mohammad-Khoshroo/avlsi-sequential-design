@@ -3,24 +3,24 @@
 *   Mohammad Khoshroo - 810102441 
 *   Spring 2026
 *   AVLSI Course - by Dr. Vahdat
-*   Thechnolegy - crn90g_2d5_lk_v1d2p1.lib (90nm)
-*   Standard MOSFET Model Name : nch , pch
-*   FA SIMULATION
+*   Thechnolegy - mm018.lib (180nm)
+*   Standard MOSFET Model Name : nmos , pmos
+*   CIRCUIT SIMULATION
 *   TEMP(℃) 25
 *   CORNER TT
 *
 **************************** PARAMETERS *****************************
 
 .OPTION NOMOD
-.LIB "../../../../include/crn90g_2d5_lk_v1d2p1.lib" TT
+.LIB "../../../../include/mm018.lib" TT
 .INC "../../../../include/FA.inc"
 
-.PARAM Vdd_val = 1                  $ supply-1 voltage
-.PARAM Vss_val = 0                  $ supply-0 voltage
-.PARAM beta = 2                     $ un/up
-.PARAM L = 180n                     $ Channel length
-.PARAM Wn_min = 1u                  $ Minimum Transistor width for n-types
-.PARAM Wp_min = 'beta * Wn_min'     $ Minimum Transistor width for p-types
+.PARAM Vdd_val = 1.8                  $ supply-1 voltage
+.PARAM Vss_val = 0                    $ supply-0 voltage
+.PARAM beta = 2                       $ un/up
+.PARAM L = 180n                       $ Channel length
+.PARAM Wn_min = 220n                  $ Minimum Transistor width for n-types
+.PARAM Wp_min = 'beta * Wn_min'       $ Minimum Transistor width for p-types
 
 
 ****************************** CIRCUIT ******************************

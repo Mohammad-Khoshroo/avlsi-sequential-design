@@ -1,16 +1,16 @@
 def generate_spice_deck():
 
-    signals = ["A", "B", "Cin"]
-    outputs = ["S", "Cout"]
+    signals = ["A", "B", "C", "D"]
+    outputs = ["out"]
 
-    W = 500.0
+    W = 700.0
     delta_t = 50.0
     t_start = 75.0
 
     temp = 25
 
     vdd_var = "Vdd_val"
-    data_name = "FA_TRANSISSION"
+    data_name = "CIRCUIT"
 
     filename = "delay.sp"
     
@@ -33,18 +33,19 @@ def generate_spice_deck():
         for b in range(2 ** (len(signals) - 1)):
 
             static_states = {}
+            static_comments = []
 
             for bit_idx, other_sig in enumerate(other_sigs):
-
-                static_states[other_sig] = (
-                    (b >> bit_idx) & 1
-                )
+                state = (b >> bit_idx) & 1
+                static_states[other_sig] = state
+                static_comments.append(f"{other_sig}={state}")
+            
+            static_str = ", ".join(static_comments)
 
             row_rise = {toggle_sig: (0, 1)}
             row_fall = {toggle_sig: (1, 0)}
 
             for sig, state in static_states.items():
-
                 row_rise[sig] = (state, state)
                 row_fall[sig] = (state, state)
 
@@ -52,7 +53,6 @@ def generate_spice_deck():
             fall_vals = []
 
             for sig in signals:
-
                 rise_vals.extend(row_rise[sig])
                 fall_vals.extend(row_fall[sig])
 
@@ -60,7 +60,7 @@ def generate_spice_deck():
                 (
                     *rise_vals,
                     0,                      # is_fall_transition
-                    f"SWITCH={toggle_sig}"
+                    f"T{test_id}-w1: {toggle_sig} changes (RISE), {static_str}"
                 )
             )
 
@@ -68,7 +68,7 @@ def generate_spice_deck():
                 (
                     *fall_vals,
                     1,                      # is_fall_transition
-                    f"SWITCH={toggle_sig}"
+                    f"T{test_id}-w2: {toggle_sig} changes (FALL), {static_str}"
                 )
             )
 

@@ -1,0 +1,48 @@
+\section{طراحی مدار محاسباتی}
+
+\newimage[\textwidth]{images/comb-circuit.png}{مدار محاسباتی}{fig:comb-circuit}
+
+ساختار فوق را با استفاده از کتابخانه‌ی \texttt{basic\_gates.inc} که از پروژه اول تا الان بروزرسانی شده است و عملکرد درستی دارند پیاده‌سازی می‌کنیم.
+گیت‌ها به گونه‌ای پیاده سازی شده‌اند که با پارامتر scale می‌توان بدون درگیر شدن در محاسبات Sizing ابعاد آن‌ها را تغییر بدهیم.
+
+\newcode[1]{SPICE}{codes/params.sp}{پارامتر‌های تعریف شده برای شبیه‌سازی}{code:param}
+\newcode[1]{SPICE}{codes/samp-gate.sp}{نمونه گیت \lr{NOR3} از کتابخانه گیت‌های پایه}{code:sample-gate}
+
+\begin{multicols}{2}
+    \newimage[0.45\textwidth]{./images/gate/NAND2.png}{شماتیک گیت \lr{NAND2}}{fig:NAND2}
+    \newimage[0.45\textwidth]{./images/gate/NOR2.png}{شماتیک گیت \lr{NOR2}}{fig:NOR2}
+\end{multicols}
+
+\begin{multicols}{2}
+    \newimage[0.53\textwidth]{./images/gate/NAND3.png}{شماتیک گیت \lr{NAND3}}{fig:NAND3}
+    \newimage[0.45\textwidth]{./images/gate/NOR3.png}{شماتیک گیت \lr{NOR3}}{fig:NOR3}
+\end{multicols}
+
+\begin{multicols}{2}
+    \newimage[0.45\textwidth]{./images/gate/XOR2.png}{شماتیک گیت \lr{XOR2}}{fig:XOR2}
+    \newimage[0.45\textwidth]{./images/gate/XNOR2.png}{شماتیک گیت \lr{XNOR2}}{fig:XNOR2}
+\end{multicols}
+
+
+\subsection{شبیه‌سازی مدار}
+
+\newcode[1]{SPICE}{codes/comb-circuit.sp}{پیاده‌سازی \lr{HSPICE} مدار محاسباتی}{code:comb-circuit}
+
+برای تولید \lr{transition‌}های شبیه‌سازی از اسکریپت پایتون \texttt{delay-sim.py} استفاده شده.
+از اسکریپت‌ پایتون \texttt{modify-mtx.py} برای استخراج دقیق تاخیرها از فایل‌های خروجی شبیه‌سازی استفاده می‌کنیم. این اسکریپت‌ها به صورت خودکار \lr{Transition}های داده‌های ورودی را ساخته و داده‌های مربوط به تأخیر انتشار  را از فایل‌های \texttt{.mtx} استخراج کرده و در قالب فایل \texttt{.json} ذخیره می‌کنند.
+\pfnote{این اسکریپت‌ها توسط \lr{LLM-Tools} تولید شده اند ولی هزار بار چک شده اند :D}
+با این روش در هر idex از شبیه‌سازی ما یکی از حالات transition را بررسی می‌کنیم و مقدار تاخیر را اندازه‌گیری می‌کنیم.
+
+\newcodeFont[\tiny]{spice}{codes/delay-sim.sp}{بخشی‌ از .DATA ساخته شده توسط اسکریپت}{code:delay-sim}
+
+\newimage[\textwidth]{images/delay-sim.png}{شکل موج خروجی شبیه‌سازی‌ها به ازای تمام \lr{Transition}ها}{fig:delay-sim}
+
+خروجی شبیه‌سازی مطابق انتظار است چون خروجی همیشه باید صفر باشد. مگر اینکه با یک glich حاصل از دو مسیر اول و دوم برای مدتی یک شود.
+به این ترتیب تاخیر انتشار این مدار برابر با زمانی است که از تغییر ورودی تا stable شدن خروجی می‌گذرد.
+
+\newimage[\textwidth]{images/comb-circuit-2.png}{مدار محاسباتی}{fig:comb-circuit-2}
+
+برای یک بودن خروجی می‌بایست تمام ورودی‌های آخرین گیت (که یک گیت \lr{NOR3} هست) صفر باشند.
+ولی اگر خروجی \lr{XOR2} صفر شود، خروجی گیت \lr{NAND2}ای که drive می‌کند یک می‌شود!
+اما در این میان برای مدتی به اندازه تاخیر انتشار گیت \lr{NAND2} هرسه ورودی می‌توانند صفر باشند.
+ازونجایی که \lr{$V_{dd}/2$} روی ورودی‌ها در \lr{100ps} اتفاق می‌افتد می‌توان تأخیرها را اینگونه فرض کرد: \lr{$t_{cd}=250ps$} و \lr{$t_{pd}=400ps$}.

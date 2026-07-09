@@ -85,9 +85,9 @@
 *     .lib 'lib_path/lib_name' model_name                                    *
 *                                                                            *
 *                                                                            *
-*    EX: .lib '/home/user/tsmc/LOGIC/mm018.l' TT                             *
+*    EX: .lib '/home/user/tsmc/LOGIC/mm018.lib' TT                             *
 *        for typical 1.8V N,PMOS                                             *
-*        .lib '/home/user/tsmc/LOGIC/mm018.l' TT_3V                          *
+*        .lib '/home/user/tsmc/LOGIC/mm018.lib' TT_3V                          *
 *        for typical 3.3V N,PMOS                                             *
 *  note:                                                                     *
 *      corner_name                                                           *
@@ -136,7 +136,7 @@
 +cjswgn = 3.340547E-10    cjswgp = 4.221E-10      
 +cgon   = 3.665E-10       cgop   = 3.28E-10      
 +hdifn  = 2E-07           hdifp  = 2E-07          
-.lib mm018.l MOS
+.lib mm018.lib MOS
 .ENDL TT
 ***************** CORNER_LIB OF SNSP MODEL ***************
 .LIB SS
@@ -149,7 +149,7 @@
 +cjswgn = 3.507574E-10    cjswgp = 4.43205E-10    
 +cgon   = 3.48175E-10     cgop   = 3.116E-10    
 +hdifn  = 2E-07           hdifp  = 2E-07          
-.lib mm018.l MOS
+.lib mm018.lib MOS
 .ENDL SS
 ***************** CORNER_LIB OF FNFP MODEL ***************
 .LIB FF
@@ -162,7 +162,7 @@
 +cjswgn = 3.17352E-10     cjswgp = 4.00995E-10    
 +cgon   = 3.84825E-10     cgop   = 3.444E-10    
 +hdifn  = 2E-07           hdifp  = 2E-07          
-.lib mm018.l MOS
+.lib mm018.lib MOS
 .ENDL FF
 ***************** CORNER_LIB OF SNFP MODEL ***************
 .LIB SF
@@ -175,7 +175,7 @@
 +cjswgn = 3.507574E-10    cjswgp = 4.00995E-10    
 +cgon   = 3.665E-10       cgop   = 3.28E-10      
 +hdifn  = 2E-07           hdifp  = 2E-07          
-.lib mm018.l MOS
+.lib mm018.lib MOS
 .ENDL SF
 ***************** CORNER_LIB OF FNSP MODEL ***************
 .LIB FS
@@ -188,7 +188,7 @@
 +cjswgn = 3.17352E-10     cjswgp = 4.43205E-10    
 +cgon   = 3.665E-10       cgop   = 3.28E-10      
 +hdifn  = 2E-07           hdifp  = 2E-07          
-.lib mm018.l MOS
+.lib mm018.lib MOS
 .ENDL FS
 ***************************************************************
 *                                                             *
@@ -206,7 +206,7 @@
 +cjswgn3 = 3.00664E-10     cjswgp3 = 2.345762E-10    
 +cgon3   = 3.18E-10        cgop3   = 2.77E-10      
 +hdifn3  = 2E-07           hdifp3  = 2E-07          
-.lib mm018.l MOS_3V
+.lib mm018.lib MOS_3V
 .ENDL TT_3V
 ***************** CORNER_LIB OF SNSP MODEL ***************
 .LIB SS_3V
@@ -219,7 +219,7 @@
 +cjswgn3 = 3.156972E-10    cjswgp3 = 2.46305E-10    
 +cgon3   = 3.021E-10       cgop3   = 2.6315E-10     
 +hdifn3  = 2E-07           hdifp3  = 2E-07          
-.lib mm018.l MOS_3V
+.lib mm018.lib MOS_3V
 .ENDL SS_3V
 ***************** CORNER_LIB OF FNFP MODEL ***************
 .LIB FF_3V
@@ -232,7 +232,7 @@
 +cjswgn3 = 2.856308E-10    cjswgp3 = 2.228474E-10   
 +cgon3   = 3.339E-10       cgop3   = 2.9085E-10     
 +hdifn3  = 2E-07           hdifp3  = 2E-07          
-.lib mm018.l MOS_3V
+.lib mm018.lib MOS_3V
 .ENDL FF_3V
 ***************** CORNER_LIB OF SNFP MODEL ***************
 .LIB SF_3V
@@ -245,7 +245,7 @@
 +cjswgn3 = 3.156972E-10    cjswgp3 = 2.228474E-10   
 +cgon3   = 3.18E-10        cgop3   = 2.77E-10       
 +hdifn3  = 2E-07           hdifp3  = 2E-07          
-.lib mm018.l MOS_3V
+.lib mm018.lib MOS_3V
 .ENDL SF_3V
 ***************** CORNER_LIB OF FNSP MODEL ***************
 .LIB FS_3V
@@ -258,7 +258,7 @@
 +cjswgn3 = 2.856308E-10    cjswgp3 = 2.46305E-10    
 +cgon3   = 3.18E-10        cgop3   = 2.77E-10       
 +hdifn3  = 2E-07           hdifp3  = 2E-07          
-.lib mm018.l MOS_3V
+.lib mm018.lib MOS_3V
 .ENDL FS_3V
 ***************************************************************
 *                                                             *
@@ -272,7 +272,7 @@
 +cjswgna = 3.173876E-10    cgona   = 5.553E-10      
 +dvthna  = 0               hdifna  = 2E-07          
 +dxlna   = 0               dxwna   = 0              
-.lib mm018.l MOSNA
+.lib mm018.lib MOSNA
 .ENDL TT_NA
 ***************** CORNER_LIB OF SNSP MODEL ***************
 .LIB SS_NA
@@ -281,7 +281,7 @@
 +cjswgna = 3.33257E-10     cgona   = 5.27535E-10    
 +dvthna  = 0.08            hdifna  = 2E-07          
 +dxlna   = 1.33E-08        dxwna   = -2.2E-08      
-.lib mm018.l MOSNA
+.lib mm018.lib MOSNA
 .ENDL SS_NA
 ***************** CORNER_LIB OF FNFP MODEL ***************
 .LIB FF_NA
@@ -290,7 +290,7 @@
 +cjswgna = 3.015182E-10    cgona   = 5.83065E-10    
 +dvthna  = -0.08           hdifna  = 2E-07          
 +dxlna   = -1.33E-08       dxwna   = 2.2E-08       
-.lib mm018.l MOSNA
+.lib mm018.lib MOSNA
 .ENDL FF_NA
 ***************** CORNER_LIB OF SNFP MODEL ***************
 .LIB SF_NA
@@ -299,7 +299,7 @@
 +cjswgna = 3.33257E-10     cgona   = 5.553E-10      
 +dvthna  = 0.08            hdifna  = 2E-07          
 +dxlna   = 0               dxwna   = 0              
-.lib mm018.l MOSNA
+.lib mm018.lib MOSNA
 .ENDL SF_NA
 ***************** CORNER_LIB OF FNSP MODEL ***************
 .LIB FS_NA
@@ -308,7 +308,7 @@
 +cjswgna = 3.015182E-10    cgona   = 5.553E-10      
 +dvthna  = -0.08           hdifna  = 2E-07          
 +dxlna   = 0               dxwna   = 0              
-.lib mm018.l MOSNA
+.lib mm018.lib MOSNA
 .ENDL FS_NA
 ***************************************************************
 *                                                             *
@@ -322,7 +322,7 @@
 +cjswgna3 = 3.180842E-10    cgona3   = 4.942E-10      
 +dvthna3  = 0               hdifna3  = 2E-08          
 +dxlna3    = 0              dxwna3    = 0              
-.lib mm018.l MOSNA3
+.lib mm018.lib MOSNA3
 .ENDL TT_3VNA
 ***************** CORNER_LIB OF SNSP MODEL ***************
 .LIB SS_3VNA
@@ -331,7 +331,7 @@
 +cjswgna3 = 3.339884E-10    cgona3   = 4.6949E-10     
 +dvthna3  = 0.1             hdifna3  = 2E-08          
 +dxlna3    = 1.33E-08       dxwna3    = -2.2E-08      
-.lib mm018.l MOSNA3
+.lib mm018.lib MOSNA3
 .ENDL SS_3VNA
 ***************** CORNER_LIB OF FNFP MODEL ***************
 .LIB FF_3VNA
@@ -340,7 +340,7 @@
 +cjswgna3 = 3.0218E-10      cgona3   = 5.1891E-10     
 +dvthna3  = -0.1            hdifna3  = 2E-08          
 +dxlna3    = -1.33E-08      dxwna3    = 2.2E-08       
-.lib mm018.l MOSNA3
+.lib mm018.lib MOSNA3
 .ENDL FF_3VNA
 ***************** CORNER_LIB OF SNFP MODEL ***************
 .LIB SF_3VNA
@@ -349,7 +349,7 @@
 +cjswgna3 = 3.339884E-10    cgona3   = 4.942E-10      
 +dvthna3  = 0.1             hdifna3  = 2E-08          
 +dxlna3    = 0              dxwna3    = 0              
-.lib mm018.l MOSNA3
+.lib mm018.lib MOSNA3
 .ENDL SF_3VNA
 ***************** CORNER_LIB OF FNSP MODEL ***************
 .LIB FS_3VNA
@@ -358,7 +358,7 @@
 +cjswgna3 = 3.0218E-10      cgona3   = 4.942E-10      
 +dvthna3  = -0.1            hdifna3  = 2E-08          
 +dxlna3    = 0              dxwna3    = 0              
-.lib mm018.l MOSNA3
+.lib mm018.lib MOSNA3
 .ENDL FS_3VNA
 *
 ***************************************************************
@@ -376,7 +376,7 @@
 +cjswgnm = 2.3838255e-10  cjswgpm =2.01431E-10
 +cgonm = 3.8E-10       cgopm = 3.426E-10
 +hdifnm = 2E-07        hdifpm = 2E-07
-.lib mm018.l MOSM
+.lib mm018.lib MOSM
 .ENDL TT_M
 **************** CORNER_LIB OF SNSP MODEL ****************************
 .LIB SS_M
@@ -388,7 +388,7 @@
 +cjswgnm = 2.503017E-10   cjswgpm = 2.11503E-10
 +cgonm = 3.61e-10       cgopm   = 3.2547E-10
 +hdifnm = 2E-07         hdifpm = 2E-07
-.lib mm018.l MOSM
+.lib mm018.lib MOSM
 .ENDL SS_M
 **************** CORNER_LIB OF FNFP MODEL ****************************
 .LIB FF_M
@@ -400,7 +400,7 @@
 +cjswgnm = 2.264634E-10   cjswgpm = 1.91359E-10
 +cgonm = 3.99e-10         cgopm = 3.5973E-10
 +hdifnm = 2E-07           hdifpm = 2E-07
-.lib mm018.l MOSM
+.lib mm018.lib MOSM
 .ENDL FF_M
 **************** CORNER_LIB OF SNFP MODEL ****************************
 .LIB SF_M
@@ -412,7 +412,7 @@
 +cjswgnm = 2.503017E-10   cjswgpm = 1.91359E-10
 +cgonm = 3.8E-10          cgopm =  3.426E-10
 +hdifnm = 2E-07           hdifpm = 2E-7
-.lib mm018.l MOSM
+.lib mm018.lib MOSM
 .ENDL SF_M
 **************** CORNER_LIB OF FNSP MODEL ****************************
 .LIB FS_M
@@ -424,7 +424,7 @@
 +cjswgnm = 2.264634E-10   cjswgpm = 2.11503E-10
 +cgonm = 3.8E-10          cgopm =  3.426E-10
 +hdifnm = 2E-07           hdifpm = 2E-7
-.lib mm018.l MOSM
+.lib mm018.lib MOSM
 .ENDL FS_M
 ***************************************************************
 *                                                             *
@@ -442,7 +442,7 @@
 +cjswng3m = 1.421706E-10     
 +cgon3m = 3.136E-10      
 +hdifn3m = 2e-07       
-.lib mm018.l MOS3M
+.lib mm018.lib MOS3M
 .ENDL TT_3M
 **************** CORNER_LIB OF  SNSP   MODEL ****************************
 .LIB SS_3M
@@ -454,7 +454,7 @@
 +cjswng3m = 1.492791E-10   
 +cgon3m   = 2.9792E-10   
 +hdifn3m = 2e-07     
-.lib mm018.l MOS3M
+.lib mm018.lib MOS3M
 .ENDL SS_3M
 **************** CORNER_LIB OF  FNFP   MODEL ****************************
 .LIB FF_3M
@@ -466,7 +466,7 @@
 +cjswng3m = 1.350621E-10  
 +cgon3m = 3.2928E-10    
 +hdifn3m = 2e-07      
-.lib mm018.l MOS3M
+.lib mm018.lib MOS3M
 .ENDL FF_3M
 **************** CORNER_LIB OF  SNFP   MODEL ****************************
 .LIB SF_3M
@@ -478,7 +478,7 @@
 +cjswng3m = 1.492791E-10   
 +cgon3m =  3.136E-10    
 +hdifn3m = 2e-7       
-.lib mm018.l MOS3M
+.lib mm018.lib MOS3M
 .ENDL SF_3M
 **************** CORNER_LIB OF  FNSP   MODEL ****************************
 .LIB FS_3M
@@ -490,7 +490,7 @@
 +cjswng3m = 1.350621E-10  
 +cgon3m =  3.136E-10  
 +hdifn3m = 2e-7       
-.lib mm018.l MOS3M
+.lib mm018.lib MOS3M
 .ENDL FS_3M
 
 .LIB MOS
@@ -6001,21 +6001,21 @@
 .param
 +isa= 1         bfa= 1         nfa= 1         rba= 1         rea= 1         
 +rca= 1         rbma= 1        cjea= 1        cjca= 1         
-.lib mm018.l BIP
+.lib mm018.lib BIP
 .ENDL TT_BIP
 
 .LIB SS_BIP
 .param
 +isa= 0.70      bfa= 0.85      nfa= 1.015     rba= 1.2       rea=  1.2        
 +rca= 1.2       rbma= 1.2      cjea= 1.05     cjca= 1.05      
-.lib mm018.l BIP
+.lib mm018.lib BIP
 .ENDL SS_BIP
 
 .LIB FF_BIP
 .param
 +isa= 1.30      bfa= 1.15      nfa= 0.985     rba= 0.8       rea= 0.8        
 +rca= 0.8       rbma= 0.8      cjea= 0.95     cjca= 0.95      
-.lib mm018.l BIP
+.lib mm018.lib BIP
 .ENDL FF_BIP
 
 .LIB BIP
@@ -6145,21 +6145,21 @@
 .param
 +isa3= 1         bfa3= 1         nfa3= 1         rba3= 1         rea3= 1         
 +rca3= 1         rbma3= 1        cjea3= 1        cjca3= 1         
-.lib mm018.l BIP3
+.lib mm018.lib BIP3
 .ENDL TT_BIP3
 
 .LIB SS_BIP3
 .param
 +isa3= 0.70      bfa3= 0.85      nfa3= 1.015     rba3= 1.2       rea3=  1.2        
 +rca3= 1.2       rbma3= 1.2      cjea3= 1.05     cjca3= 1.05      
-.lib mm018.l BIP3
+.lib mm018.lib BIP3
 .ENDL SS_BIP3
 
 .LIB FF_BIP3
 .param
 +isa3= 1.30      bfa3= 1.15      nfa3= 0.985     rba3= 0.8       rea3= 0.8        
 +rca3= 0.8       rbma3= 0.8      cjea3= 0.95     cjca3= 0.95      
-.lib mm018.l BIP3
+.lib mm018.lib BIP3
 .ENDL FF_BIP3
 
 
