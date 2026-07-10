@@ -1,0 +1,26 @@
+{
+    "2_0": {
+        "type": "sweep",
+        "sweep_parameter": "t_cq",
+        "measurements": {
+            "t_cq": 1.826e-10
+        }
+    },
+    "summary": {
+        "sweep_parameter": "t_cq",
+        "measurements": {
+            "t_cq": {
+                "min": 1.826e-10,
+                "max": 1.826e-10,
+                "avg": 1.826e-10
+            }
+        },
+        "sweep_range": {
+            "start": 1.826e-10,
+            "end": 1.826e-10,
+            "min": 1.826e-10,
+            "max": 1.826e-10,
+            "step": null
+        }
+    }
+}

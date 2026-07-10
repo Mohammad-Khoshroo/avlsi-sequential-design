@@ -1,0 +1,2432 @@
+{
+    "4_0": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 2e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_1": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.99e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_2": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.98e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_3": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.97e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_4": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.96e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_5": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.95e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_6": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.94e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_7": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.93e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_8": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.92e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_9": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.91e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_10": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.9e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_11": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.89e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_12": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.88e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_13": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.87e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_14": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.86e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_15": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.85e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_16": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.84e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_17": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.83e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_18": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.82e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_19": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.81e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_20": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.8e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_21": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.79e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_22": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.78e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_23": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.77e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_24": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.76e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_25": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.75e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_26": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.74e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_27": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.73e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_28": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.72e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_29": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.71e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_30": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.7e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_31": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.69e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_32": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.68e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_33": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.67e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_34": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.66e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_35": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.65e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_36": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.64e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_37": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.63e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_38": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.62e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_39": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.61e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_40": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.6e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_41": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.59e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_42": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.58e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_43": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.57e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_44": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.56e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_45": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.55e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_46": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.54e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_47": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.53e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_48": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.52e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_49": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.51e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_50": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.5e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_51": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.49e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_52": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.48e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_53": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.47e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_54": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.46e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_55": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.45e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_56": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.44e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_57": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.43e-10,
+            "q_min": 1.7363
+        }
+    },
+    "4_58": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.42e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_59": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.41e-10,
+            "q_min": 1.7362
+        }
+    },
+    "4_60": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.4e-10,
+            "q_min": 1.7363
+        }
+    },
+    "4_61": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.39e-10,
+            "q_min": 1.7364
+        }
+    },
+    "4_62": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.38e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_63": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.37e-10,
+            "q_min": 1.7362
+        }
+    },
+    "4_64": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.36e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_65": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.35e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_66": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.34e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_67": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.33e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_68": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.32e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_69": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.31e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_70": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.3e-10,
+            "q_min": 1.736
+        }
+    },
+    "4_71": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.29e-10,
+            "q_min": 1.736
+        }
+    },
+    "4_72": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.28e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_73": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.27e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_74": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.26e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_75": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.25e-10,
+            "q_min": 1.7364
+        }
+    },
+    "4_76": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.24e-10,
+            "q_min": 1.736
+        }
+    },
+    "4_77": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.23e-10,
+            "q_min": 1.7362
+        }
+    },
+    "4_78": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.22e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_79": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.21e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_80": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.2e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_81": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.19e-10,
+            "q_min": 1.736
+        }
+    },
+    "4_82": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.18e-10,
+            "q_min": 1.736
+        }
+    },
+    "4_83": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.17e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_84": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.16e-10,
+            "q_min": 1.7361
+        }
+    },
+    "4_85": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.15e-10,
+            "q_min": 1.736
+        }
+    },
+    "4_86": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.14e-10,
+            "q_min": 1.7363
+        }
+    },
+    "4_87": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.13e-10,
+            "q_min": 1.736
+        }
+    },
+    "4_88": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.12e-10,
+            "q_min": 1.736
+        }
+    },
+    "4_89": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.11e-10,
+            "q_min": 1.7362
+        }
+    },
+    "4_90": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.1e-10,
+            "q_min": 1.7363
+        }
+    },
+    "4_91": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.09e-10,
+            "q_min": 1.7363
+        }
+    },
+    "4_92": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.08e-10,
+            "q_min": 1.7362
+        }
+    },
+    "4_93": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.07e-10,
+            "q_min": 1.7363
+        }
+    },
+    "4_94": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.06e-10,
+            "q_min": 1.7362
+        }
+    },
+    "4_95": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.05e-10,
+            "q_min": 1.7362
+        }
+    },
+    "4_96": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.04e-10,
+            "q_min": 1.7363
+        }
+    },
+    "4_97": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.03e-10,
+            "q_min": 1.7365
+        }
+    },
+    "4_98": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.02e-10,
+            "q_min": 1.7364
+        }
+    },
+    "4_99": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.01e-10,
+            "q_min": 1.7362
+        }
+    },
+    "4_100": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1e-10,
+            "q_min": 1.7363
+        }
+    },
+    "4_101": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 9.9e-11,
+            "q_min": 1.7363
+        }
+    },
+    "4_102": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 9.8e-11,
+            "q_min": 1.7363
+        }
+    },
+    "4_103": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 9.7e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_104": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 9.6e-11,
+            "q_min": 1.7363
+        }
+    },
+    "4_105": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 9.5e-11,
+            "q_min": 1.7366
+        }
+    },
+    "4_106": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 9.4e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_107": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 9.3e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_108": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 9.2e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_109": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 9.1e-11,
+            "q_min": 1.7367
+        }
+    },
+    "4_110": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 9e-11,
+            "q_min": 1.7365
+        }
+    },
+    "4_111": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 8.9e-11,
+            "q_min": 1.7365
+        }
+    },
+    "4_112": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 8.8e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_113": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 8.7e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_114": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 8.6e-11,
+            "q_min": 1.7371
+        }
+    },
+    "4_115": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 8.5e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_116": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 8.4e-11,
+            "q_min": 1.7368
+        }
+    },
+    "4_117": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 8.3e-11,
+            "q_min": 1.7365
+        }
+    },
+    "4_118": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 8.2e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_119": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 8.1e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_120": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 8e-11,
+            "q_min": 1.7366
+        }
+    },
+    "4_121": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 7.9e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_122": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 7.8e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_123": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 7.7e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_124": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 7.6e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_125": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 7.5e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_126": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 7.4e-11,
+            "q_min": 1.7368
+        }
+    },
+    "4_127": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 7.3e-11,
+            "q_min": 1.7366
+        }
+    },
+    "4_128": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 7.2e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_129": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 7.1e-11,
+            "q_min": 1.7366
+        }
+    },
+    "4_130": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 7e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_131": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 6.9e-11,
+            "q_min": 1.7366
+        }
+    },
+    "4_132": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 6.8e-11,
+            "q_min": 1.7367
+        }
+    },
+    "4_133": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 6.7e-11,
+            "q_min": 1.7366
+        }
+    },
+    "4_134": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 6.6e-11,
+            "q_min": 1.7367
+        }
+    },
+    "4_135": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 6.5e-11,
+            "q_min": 1.7363
+        }
+    },
+    "4_136": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 6.4e-11,
+            "q_min": 1.7363
+        }
+    },
+    "4_137": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 6.3e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_138": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 6.2e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_139": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 6.1e-11,
+            "q_min": 1.7363
+        }
+    },
+    "4_140": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 6e-11,
+            "q_min": 1.7365
+        }
+    },
+    "4_141": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 5.9e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_142": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 5.8e-11,
+            "q_min": 1.7366
+        }
+    },
+    "4_143": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 5.7e-11,
+            "q_min": 1.7363
+        }
+    },
+    "4_144": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 5.6e-11,
+            "q_min": 1.7363
+        }
+    },
+    "4_145": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 5.5e-11,
+            "q_min": 1.7363
+        }
+    },
+    "4_146": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 5.4e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_147": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 5.3e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_148": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 5.2e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_149": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 5.1e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_150": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 5e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_151": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 4.9e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_152": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 4.8e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_153": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 4.7e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_154": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 4.6e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_155": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 4.5e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_156": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 4.4e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_157": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 4.3e-11,
+            "q_min": 1.7365
+        }
+    },
+    "4_158": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 4.2e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_159": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 4.1e-11,
+            "q_min": 1.7363
+        }
+    },
+    "4_160": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 4e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_161": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 3.9e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_162": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 3.8e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_163": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 3.7e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_164": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 3.6e-11,
+            "q_min": 1.7363
+        }
+    },
+    "4_165": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 3.5e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_166": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 3.4e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_167": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 3.3e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_168": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 3.2e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_169": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 3.1e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_170": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 3e-11,
+            "q_min": 1.7363
+        }
+    },
+    "4_171": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 2.9e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_172": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 2.8e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_173": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 2.7e-11,
+            "q_min": 1.7365
+        }
+    },
+    "4_174": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 2.6e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_175": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 2.5e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_176": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 2.4e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_177": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 2.3e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_178": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 2.2e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_179": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 2.1e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_180": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 2e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_181": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.9e-11,
+            "q_min": 1.7365
+        }
+    },
+    "4_182": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.8e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_183": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.7e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_184": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.6e-11,
+            "q_min": 1.7363
+        }
+    },
+    "4_185": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.5e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_186": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.4e-11,
+            "q_min": 1.7359
+        }
+    },
+    "4_187": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.3e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_188": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.2e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_189": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1.1e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_190": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_191": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 9e-12,
+            "q_min": 1.7361
+        }
+    },
+    "4_192": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 8e-12,
+            "q_min": 1.736
+        }
+    },
+    "4_193": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 7e-12,
+            "q_min": 1.736
+        }
+    },
+    "4_194": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 6e-12,
+            "q_min": 1.7359
+        }
+    },
+    "4_195": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 5e-12,
+            "q_min": 1.736
+        }
+    },
+    "4_196": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 4e-12,
+            "q_min": 1.736
+        }
+    },
+    "4_197": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 3e-12,
+            "q_min": 1.7363
+        }
+    },
+    "4_198": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 2e-12,
+            "q_min": 1.7364
+        }
+    },
+    "4_199": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 1e-12,
+            "q_min": 1.7363
+        }
+    },
+    "4_200": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": 0.0,
+            "q_min": 1.736
+        }
+    },
+    "4_201": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -1e-12,
+            "q_min": 1.736
+        }
+    },
+    "4_202": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -2e-12,
+            "q_min": 1.7363
+        }
+    },
+    "4_203": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -3e-12,
+            "q_min": 1.7362
+        }
+    },
+    "4_204": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -4e-12,
+            "q_min": 1.7359
+        }
+    },
+    "4_205": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -5e-12,
+            "q_min": 1.736
+        }
+    },
+    "4_206": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -6e-12,
+            "q_min": 1.7359
+        }
+    },
+    "4_207": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -7e-12,
+            "q_min": 1.7359
+        }
+    },
+    "4_208": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -8e-12,
+            "q_min": 1.736
+        }
+    },
+    "4_209": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -9e-12,
+            "q_min": 1.736
+        }
+    },
+    "4_210": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -1e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_211": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -1.1e-11,
+            "q_min": 1.7365
+        }
+    },
+    "4_212": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -1.2e-11,
+            "q_min": 1.7365
+        }
+    },
+    "4_213": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -1.3e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_214": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -1.4e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_215": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -1.5e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_216": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -1.6e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_217": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -1.7e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_218": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -1.8e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_219": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -1.9e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_220": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -2e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_221": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -2.1e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_222": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -2.2e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_223": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -2.3e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_224": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -2.4e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_225": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -2.5e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_226": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -2.6e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_227": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -2.7e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_228": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -2.8e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_229": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -2.9e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_230": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -3e-11,
+            "q_min": 1.7359
+        }
+    },
+    "4_231": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -3.1e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_232": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -3.2e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_233": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -3.3e-11,
+            "q_min": 1.736
+        }
+    },
+    "4_234": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -3.4e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_235": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -3.5e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_236": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -3.6e-11,
+            "q_min": 1.7361
+        }
+    },
+    "4_237": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -3.7e-11,
+            "q_min": 1.7363
+        }
+    },
+    "4_238": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -3.8e-11,
+            "q_min": 1.7362
+        }
+    },
+    "4_239": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -3.9e-11,
+            "q_min": 1.7364
+        }
+    },
+    "4_240": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -4e-11,
+            "q_min": 1.7365
+        }
+    },
+    "4_241": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -4.1e-11,
+            "q_min": 1.7368
+        }
+    },
+    "4_242": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -4.2e-11,
+            "q_min": 1.7374
+        }
+    },
+    "4_243": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -4.3e-11,
+            "q_min": 1.7379
+        }
+    },
+    "4_244": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -4.4e-11,
+            "q_min": 1.7388
+        }
+    },
+    "4_245": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -4.5e-11,
+            "q_min": 1.7405
+        }
+    },
+    "4_246": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -4.6e-11,
+            "q_min": 1.742
+        }
+    },
+    "4_247": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -4.7e-11,
+            "q_min": 1.7447
+        }
+    },
+    "4_248": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -4.8e-11,
+            "q_min": 1.7473
+        }
+    },
+    "4_249": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -4.9e-11,
+            "q_min": 1.7501
+        }
+    },
+    "4_250": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -5e-11,
+            "q_min": 1.7535
+        }
+    },
+    "4_251": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -5.1e-11,
+            "q_min": 1.758
+        }
+    },
+    "4_252": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -5.2e-11,
+            "q_min": -0.001332
+        }
+    },
+    "4_253": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -5.3e-11,
+            "q_min": -0.001332
+        }
+    },
+    "4_254": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -5.4e-11,
+            "q_min": -0.001348
+        }
+    },
+    "4_255": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -5.5e-11,
+            "q_min": -0.001332
+        }
+    },
+    "4_256": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -5.6e-11,
+            "q_min": -0.001345
+        }
+    },
+    "4_257": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -5.7e-11,
+            "q_min": -0.001348
+        }
+    },
+    "4_258": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -5.8e-11,
+            "q_min": -0.001333
+        }
+    },
+    "4_259": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -5.9e-11,
+            "q_min": -0.001345
+        }
+    },
+    "4_260": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -6e-11,
+            "q_min": -0.001345
+        }
+    },
+    "4_261": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -6.1e-11,
+            "q_min": -0.001345
+        }
+    },
+    "4_262": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -6.2e-11,
+            "q_min": -0.001345
+        }
+    },
+    "4_263": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -6.3e-11,
+            "q_min": -0.001345
+        }
+    },
+    "4_264": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -6.4e-11,
+            "q_min": -0.001323
+        }
+    },
+    "4_265": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -6.5e-11,
+            "q_min": -0.001346
+        }
+    },
+    "4_266": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -6.6e-11,
+            "q_min": -0.001343
+        }
+    },
+    "4_267": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -6.7e-11,
+            "q_min": -0.001345
+        }
+    },
+    "4_268": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -6.8e-11,
+            "q_min": -0.001343
+        }
+    },
+    "4_269": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -6.9e-11,
+            "q_min": -0.001344
+        }
+    },
+    "4_270": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -7e-11,
+            "q_min": -0.001342
+        }
+    },
+    "4_271": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -7.1e-11,
+            "q_min": -0.001324
+        }
+    },
+    "4_272": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -7.2e-11,
+            "q_min": -0.001344
+        }
+    },
+    "4_273": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -7.3e-11,
+            "q_min": -0.001339
+        }
+    },
+    "4_274": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -7.4e-11,
+            "q_min": -0.001347
+        }
+    },
+    "4_275": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -7.5e-11,
+            "q_min": -0.001332
+        }
+    },
+    "4_276": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -7.6e-11,
+            "q_min": -0.001343
+        }
+    },
+    "4_277": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -7.7e-11,
+            "q_min": -0.001332
+        }
+    },
+    "4_278": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -7.8e-11,
+            "q_min": -0.001348
+        }
+    },
+    "4_279": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -7.9e-11,
+            "q_min": -0.001344
+        }
+    },
+    "4_280": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -8e-11,
+            "q_min": -0.001345
+        }
+    },
+    "4_281": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -8.1e-11,
+            "q_min": -0.001348
+        }
+    },
+    "4_282": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -8.2e-11,
+            "q_min": -0.001344
+        }
+    },
+    "4_283": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -8.3e-11,
+            "q_min": -0.001345
+        }
+    },
+    "4_284": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -8.4e-11,
+            "q_min": -0.001345
+        }
+    },
+    "4_285": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -8.5e-11,
+            "q_min": -0.001332
+        }
+    },
+    "4_286": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -8.6e-11,
+            "q_min": -0.001324
+        }
+    },
+    "4_287": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -8.7e-11,
+            "q_min": -0.001345
+        }
+    },
+    "4_288": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -8.8e-11,
+            "q_min": -0.00133
+        }
+    },
+    "4_289": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -8.9e-11,
+            "q_min": -0.001346
+        }
+    },
+    "4_290": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -9e-11,
+            "q_min": -0.001344
+        }
+    },
+    "4_291": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -9.1e-11,
+            "q_min": -0.001343
+        }
+    },
+    "4_292": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -9.2e-11,
+            "q_min": -0.001342
+        }
+    },
+    "4_293": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -9.3e-11,
+            "q_min": -0.001344
+        }
+    },
+    "4_294": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -9.4e-11,
+            "q_min": -0.001345
+        }
+    },
+    "4_295": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -9.5e-11,
+            "q_min": -0.001348
+        }
+    },
+    "4_296": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -9.6e-11,
+            "q_min": -0.001344
+        }
+    },
+    "4_297": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -9.7e-11,
+            "q_min": -0.001343
+        }
+    },
+    "4_298": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -9.8e-11,
+            "q_min": -0.001342
+        }
+    },
+    "4_299": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -9.9e-11,
+            "q_min": -0.001341
+        }
+    },
+    "4_300": {
+        "type": "sweep",
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": -1e-10,
+            "q_min": -0.001338
+        }
+    },
+    "summary": {
+        "sweep_parameter": "t_hold",
+        "measurements": {
+            "t_hold": {
+                "min": -1e-10,
+                "max": 2e-10,
+                "avg": 4.9999999999999995e-11
+            },
+            "q_min": {
+                "min": -0.001348,
+                "max": 1.758,
+                "avg": 1.4536361727574751
+            }
+        },
+        "sweep_range": {
+            "start": 2e-10,
+            "end": -1e-10,
+            "min": -1e-10,
+            "max": 2e-10,
+            "step": -9.999999999999965e-13
+        }
+    }
+}

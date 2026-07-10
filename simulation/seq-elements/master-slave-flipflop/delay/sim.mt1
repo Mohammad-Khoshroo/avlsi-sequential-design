@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE 'tdq_tcq_measure'
+ t_cq             t_dq             temper           alter#          
+  1.826e-10          failed          25.0000        2               
