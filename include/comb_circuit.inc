@@ -6,7 +6,7 @@
 *   Standard MOSFET Model Name : nmos , pmos
 *
 
-* .INC "basic_gates.inc"
+.INC "basic_gates.inc"
 
 ************************** COMB-CISRCUIT .SUBCKT *********************
 

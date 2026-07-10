@@ -1,0 +1,2660 @@
+{
+    "1_0": {
+        "transition": {
+            "signal": "A",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "B": 0,
+            "C": 0,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_1": {
+        "transition": {
+            "signal": "A",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "B": 0,
+            "C": 0,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_2": {
+        "transition": {
+            "signal": "A",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "B": 1,
+            "C": 0,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": 2.605e-10,
+            "tplh_out_a": 4.329e-10,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_3": {
+        "transition": {
+            "signal": "A",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "B": 1,
+            "C": 0,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": 2.745e-10,
+            "tphl_out_a": 5.247e-10,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_4": {
+        "transition": {
+            "signal": "A",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "B": 0,
+            "C": 1,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_5": {
+        "transition": {
+            "signal": "A",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "B": 0,
+            "C": 1,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_6": {
+        "transition": {
+            "signal": "A",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "B": 1,
+            "C": 1,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": 2.604e-10,
+            "tplh_out_a": 4.329e-10,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_7": {
+        "transition": {
+            "signal": "A",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "B": 1,
+            "C": 1,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": 2.743e-10,
+            "tphl_out_a": 5.235e-10,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_8": {
+        "transition": {
+            "signal": "A",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "B": 0,
+            "C": 0,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_9": {
+        "transition": {
+            "signal": "A",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "B": 0,
+            "C": 0,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_10": {
+        "transition": {
+            "signal": "A",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "B": 1,
+            "C": 0,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_11": {
+        "transition": {
+            "signal": "A",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "B": 1,
+            "C": 0,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_12": {
+        "transition": {
+            "signal": "A",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "B": 0,
+            "C": 1,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_13": {
+        "transition": {
+            "signal": "A",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "B": 0,
+            "C": 1,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_14": {
+        "transition": {
+            "signal": "A",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "B": 1,
+            "C": 1,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_15": {
+        "transition": {
+            "signal": "A",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "B": 1,
+            "C": 1,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_16": {
+        "transition": {
+            "signal": "B",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 0,
+            "C": 0,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": 2.193e-10,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_17": {
+        "transition": {
+            "signal": "B",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 0,
+            "C": 0,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": 2.084e-10,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_18": {
+        "transition": {
+            "signal": "B",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 1,
+            "C": 0,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": 2.045e-10,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": 4.399e-10,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_19": {
+        "transition": {
+            "signal": "B",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 1,
+            "C": 0,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": 2.182e-10,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": 4.992e-10,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_20": {
+        "transition": {
+            "signal": "B",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 0,
+            "C": 1,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_21": {
+        "transition": {
+            "signal": "B",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 0,
+            "C": 1,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_22": {
+        "transition": {
+            "signal": "B",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 1,
+            "C": 1,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": 2.603e-10,
+            "tplh_out_a": null,
+            "tplh_out_b": 4.379e-10,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_23": {
+        "transition": {
+            "signal": "B",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 1,
+            "C": 1,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": 2.745e-10,
+            "tphl_out_a": null,
+            "tphl_out_b": 5.41e-10,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_24": {
+        "transition": {
+            "signal": "B",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 0,
+            "C": 0,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": 1.323e-10,
+            "tphl_clbb_xor": 1.309e-10,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": 2.224e-10,
+            "tplh_clba_b_xor": 2.237e-10,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_25": {
+        "transition": {
+            "signal": "B",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 0,
+            "C": 0,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": 2.246e-10,
+            "tphl_clba_b_xor": 2.115e-10,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": 2.976e-10,
+            "tplh_clbb_xor": 3.107e-10,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_26": {
+        "transition": {
+            "signal": "B",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 1,
+            "C": 0,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": 2.167e-10,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": 2.229e-10,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_27": {
+        "transition": {
+            "signal": "B",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 1,
+            "C": 0,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": 2.107e-10,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": 2.052e-10,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_28": {
+        "transition": {
+            "signal": "B",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 0,
+            "C": 1,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_29": {
+        "transition": {
+            "signal": "B",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 0,
+            "C": 1,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_30": {
+        "transition": {
+            "signal": "B",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 1,
+            "C": 1,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_31": {
+        "transition": {
+            "signal": "B",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 1,
+            "C": 1,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_32": {
+        "transition": {
+            "signal": "C",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 0,
+            "B": 0,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": 1.977e-10,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_33": {
+        "transition": {
+            "signal": "C",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 0,
+            "B": 0,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": 1.914e-10,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_34": {
+        "transition": {
+            "signal": "C",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 1,
+            "B": 0,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": 1.975e-10,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_35": {
+        "transition": {
+            "signal": "C",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 1,
+            "B": 0,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": 1.919e-10,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_36": {
+        "transition": {
+            "signal": "C",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 0,
+            "B": 1,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_37": {
+        "transition": {
+            "signal": "C",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 0,
+            "B": 1,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_38": {
+        "transition": {
+            "signal": "C",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 1,
+            "B": 1,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_39": {
+        "transition": {
+            "signal": "C",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 1,
+            "B": 1,
+            "D": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_40": {
+        "transition": {
+            "signal": "C",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 0,
+            "B": 0,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": 1.313e-10,
+            "tphl_clbb_xor": 1.317e-10,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": 2.022e-10,
+            "tplh_clba_c_xor": 2.019e-10,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_41": {
+        "transition": {
+            "signal": "C",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 0,
+            "B": 0,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": 2.076e-10,
+            "tphl_clba_c_xor": 1.945e-10,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": 2.975e-10,
+            "tplh_clbb_xor": 3.107e-10,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_42": {
+        "transition": {
+            "signal": "C",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 1,
+            "B": 0,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": 1.314e-10,
+            "tphl_clbb_xor": 1.319e-10,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": 2.022e-10,
+            "tplh_clba_c_xor": 2.017e-10,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_43": {
+        "transition": {
+            "signal": "C",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 1,
+            "B": 0,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": 2.076e-10,
+            "tphl_clba_c_xor": 1.949e-10,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": 2.979e-10,
+            "tplh_clbb_xor": 3.106e-10,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_44": {
+        "transition": {
+            "signal": "C",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 0,
+            "B": 1,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_45": {
+        "transition": {
+            "signal": "C",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 0,
+            "B": 1,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_46": {
+        "transition": {
+            "signal": "C",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 1,
+            "B": 1,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_47": {
+        "transition": {
+            "signal": "C",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 1,
+            "B": 1,
+            "D": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_48": {
+        "transition": {
+            "signal": "D",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": 2.03e-10,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": 4.242e-10
+        },
+        "measurements": {}
+    },
+    "1_49": {
+        "transition": {
+            "signal": "D",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": 2.185e-10,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": 4.666e-10,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_50": {
+        "transition": {
+            "signal": "D",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 1,
+            "B": 0,
+            "C": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": 2.03e-10,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": 4.242e-10
+        },
+        "measurements": {}
+    },
+    "1_51": {
+        "transition": {
+            "signal": "D",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 1,
+            "B": 0,
+            "C": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": 2.185e-10,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": 4.666e-10,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_52": {
+        "transition": {
+            "signal": "D",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 0,
+            "B": 1,
+            "C": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": 1.803e-10,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_53": {
+        "transition": {
+            "signal": "D",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 0,
+            "B": 1,
+            "C": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": 2.103e-10,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_54": {
+        "transition": {
+            "signal": "D",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 1,
+            "B": 1,
+            "C": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": 2.192e-10,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": 1.953e-10,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_55": {
+        "transition": {
+            "signal": "D",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 1,
+            "B": 1,
+            "C": 0
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": 2.129e-10,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": 2.079e-10,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_56": {
+        "transition": {
+            "signal": "D",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 0,
+            "B": 0,
+            "C": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": 1.803e-10,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_57": {
+        "transition": {
+            "signal": "D",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 0,
+            "B": 0,
+            "C": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": 2.103e-10,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_58": {
+        "transition": {
+            "signal": "D",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 1,
+            "B": 0,
+            "C": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": 1.803e-10,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_59": {
+        "transition": {
+            "signal": "D",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 1,
+            "B": 0,
+            "C": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": 2.103e-10,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_60": {
+        "transition": {
+            "signal": "D",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 0,
+            "B": 1,
+            "C": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": 1.803e-10,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_61": {
+        "transition": {
+            "signal": "D",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 0,
+            "B": 1,
+            "C": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": 2.103e-10,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_62": {
+        "transition": {
+            "signal": "D",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "A": 1,
+            "B": 1,
+            "C": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": null,
+            "tphl_clbb_xnor": 2.192e-10,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": 1.953e-10,
+            "tplh_clbb_xnor": null,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "1_63": {
+        "transition": {
+            "signal": "D",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "A": 1,
+            "B": 1,
+            "C": 1
+        },
+        "delay": {
+            "tphl_clba_a_xor": null,
+            "tphl_clba_b_xnor": null,
+            "tphl_clba_b_xor": null,
+            "tphl_clba_c_xnor": null,
+            "tphl_clba_c_xor": null,
+            "tphl_clba_d_xnor": 2.129e-10,
+            "tphl_clbb_xnor": null,
+            "tphl_clbb_xor": null,
+            "tphl_out_a": null,
+            "tphl_out_b": null,
+            "tphl_out_c": null,
+            "tphl_out_d": null,
+            "tplh_clba_a_xor": null,
+            "tplh_clba_b_xnor": null,
+            "tplh_clba_b_xor": null,
+            "tplh_clba_c_xnor": null,
+            "tplh_clba_c_xor": null,
+            "tplh_clba_d_xnor": null,
+            "tplh_clbb_xnor": 2.078e-10,
+            "tplh_clbb_xor": null,
+            "tplh_out_a": null,
+            "tplh_out_b": null,
+            "tplh_out_c": null,
+            "tplh_out_d": null
+        },
+        "measurements": {}
+    },
+    "summary": {
+        "delay": {
+            "tplh_clbb_xor": {
+                "min": 2.603e-10,
+                "max": 3.107e-10,
+                "avg": 2.8553333333333334e-10
+            },
+            "tplh_out_a": {
+                "min": 4.329e-10,
+                "max": 4.329e-10,
+                "avg": 4.329e-10
+            },
+            "tphl_clbb_xor": {
+                "min": 1.309e-10,
+                "max": 2.745e-10,
+                "avg": 2.0296666666666668e-10
+            },
+            "tphl_out_a": {
+                "min": 5.235e-10,
+                "max": 5.247e-10,
+                "avg": 5.241e-10
+            },
+            "tplh_clba_b_xor": {
+                "min": 2.193e-10,
+                "max": 2.237e-10,
+                "avg": 2.215e-10
+            },
+            "tphl_clba_b_xor": {
+                "min": 2.084e-10,
+                "max": 2.115e-10,
+                "avg": 2.0994999999999998e-10
+            },
+            "tplh_clbb_xnor": {
+                "min": 2.03e-10,
+                "max": 2.979e-10,
+                "avg": 2.360444444444444e-10
+            },
+            "tplh_out_b": {
+                "min": 4.379e-10,
+                "max": 4.399e-10,
+                "avg": 4.389e-10
+            },
+            "tphl_clbb_xnor": {
+                "min": 1.313e-10,
+                "max": 2.192e-10,
+                "avg": 1.894777777777778e-10
+            },
+            "tphl_out_b": {
+                "min": 4.992e-10,
+                "max": 5.41e-10,
+                "avg": 5.201e-10
+            },
+            "tplh_clba_b_xnor": {
+                "min": 2.224e-10,
+                "max": 2.229e-10,
+                "avg": 2.2265e-10
+            },
+            "tphl_clba_b_xnor": {
+                "min": 2.107e-10,
+                "max": 2.246e-10,
+                "avg": 2.1765000000000002e-10
+            },
+            "tplh_clba_c_xor": {
+                "min": 1.975e-10,
+                "max": 2.019e-10,
+                "avg": 1.997e-10
+            },
+            "tphl_clba_c_xor": {
+                "min": 1.914e-10,
+                "max": 1.949e-10,
+                "avg": 1.93175e-10
+            },
+            "tplh_clba_c_xnor": {
+                "min": 2.022e-10,
+                "max": 2.022e-10,
+                "avg": 2.022e-10
+            },
+            "tphl_clba_c_xnor": {
+                "min": 2.076e-10,
+                "max": 2.076e-10,
+                "avg": 2.076e-10
+            },
+            "tplh_out_d": {
+                "min": 4.242e-10,
+                "max": 4.242e-10,
+                "avg": 4.242e-10
+            },
+            "tphl_out_d": {
+                "min": 4.666e-10,
+                "max": 4.666e-10,
+                "avg": 4.666e-10
+            },
+            "tplh_clba_d_xnor": {
+                "min": 1.803e-10,
+                "max": 1.953e-10,
+                "avg": 1.8529999999999997e-10
+            },
+            "tphl_clba_d_xnor": {
+                "min": 2.103e-10,
+                "max": 2.129e-10,
+                "avg": 2.1116666666666664e-10
+            },
+            "tplh_clbb": {
+                "min": 2.03e-10,
+                "max": 3.107e-10,
+                "avg": 2.5584e-10
+            },
+            "tphl_clbb": {
+                "min": 1.309e-10,
+                "max": 2.745e-10,
+                "avg": 1.9487333333333334e-10
+            },
+            "t_p_clbb": {
+                "min": 1.309e-10,
+                "max": 3.107e-10,
+                "avg": 2.2535666666666667e-10
+            },
+            "tplh_out": {
+                "min": 4.242e-10,
+                "max": 4.399e-10,
+                "avg": 4.32e-10
+            },
+            "tphl_out": {
+                "min": 4.666e-10,
+                "max": 5.41e-10,
+                "avg": 5.036e-10
+            },
+            "t_p_out": {
+                "min": 4.242e-10,
+                "max": 5.41e-10,
+                "avg": 4.678e-10
+            },
+            "tplh_clba": {
+                "min": 1.803e-10,
+                "max": 2.237e-10,
+                "avg": 2.0020625e-10
+            },
+            "tphl_clba": {
+                "min": 1.914e-10,
+                "max": 2.246e-10,
+                "avg": 2.0688125e-10
+            },
+            "t_p_clba": {
+                "min": 1.803e-10,
+                "max": 2.246e-10,
+                "avg": 2.0354375e-10
+            }
+        },
+        "measurements": {},
+        "worst_case_delay": 5.41e-10,
+        "best_case_delay": 1.309e-10,
+        "avg_case_delay": 2.552391891891892e-10,
+        "worst_case_delay_clba": 2.246e-10,
+        "best_case_delay_clba": 1.803e-10,
+        "avg_case_delay_clba": 2.0354375e-10,
+        "worst_case_delay_clbb": 3.107e-10,
+        "best_case_delay_clbb": 1.309e-10,
+        "avg_case_delay_clbb": 2.2535666666666667e-10,
+        "worst_case_delay_out": 5.41e-10,
+        "best_case_delay_out": 4.242e-10,
+        "avg_case_delay_out": 4.678e-10
+    }
+}

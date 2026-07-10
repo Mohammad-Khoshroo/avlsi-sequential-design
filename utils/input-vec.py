@@ -1,9 +1,11 @@
 import itertools
 import re
 
-INPUT_DEFS = {"A": 8, "B": 8, "Cin": 1}
-OUTPUT_DEFS = {"S": 8, "Cout": 1}
-LOGIC = {"S": "A + B + Cin", "Cout": "(A + B + Cin) >> 8"}
+INPUT_DEFS = {"A": 1, "B": 1, "C": 1, "D":1}
+OUTPUT_DEFS = {"OUT": 1}
+LOGIC = {
+    "OUT": "~(( (~(A & B)) ^ (~(B | C)) ) | (( (~(A & B)) ^ (~(B | C)) ) & (~( (~(B | C)) ^ (~D) ))) | (~( (~(B | C)) ^ (~D) )))"
+}
 
 VEC_SETTINGS = {
     "tunit": "ns",

@@ -28,36 +28,103 @@
 
 % همچنین دلیل نمونه‌برداری اشتباه برای دوره تناوب‌های کمتر این‌ است که برای عبور داده‌ی درست از ورودی مدار به خروجی آن می‌بایست یک حداقل زمان برای آن به مدار فرصت بدهیم در غیر این صورت در بدترین شرایط کاری مدار(شرایطی که ما در اینجا به مدار اعمال کردیم) داده خروجی مدار محاسبات درست نیست و نمونه‌برداری ما اشتباه می‌شود.
 
-\subsection{\lr{pipe-Line} مبتنی بر Latch}
-\subsubsection{ساختار یک طبقه‌ای}
+% \subsection{\lr{pipe-Line} مبتنی بر Latch}
+% \subsubsection{ساختار یک طبقه‌ای}
 
-\newimage[0.6\textwidth]{./images/latch-pipe1.png}{شماتیک \lr{pipe-Line} مبنتی بر \lr{D-Latch} در یک طبقه}{fig:latch-pipe-1}
+% \newimage[0.6\textwidth]{./images/latch-pipe1.png}{شماتیک \lr{pipe-Line} مبنتی بر \lr{D-Latch} در یک طبقه}{fig:latch-pipe-1}
 
-می‌خواهیم که به بالاترین فرکانس کاری (یا همان کمترین دوره تناوب سیگنال CLK) برای پایپ‌لاین تک طبقه مبتنی بر \lr{D-Latch} برسیم.
-چون داده‌ها قبل از لبه بالارونده آماده هستند، از Latch حساس به سطح مثبت استفاده کنیم. به محض اینکه سیگنال CLK 1  می‌شود، این \lr{Latch}ها داده را به ورودی‌های مدار محاسباتی منتقل می‌کنند.
-و پس از آن برای اینکه مدار محاسباتی بیشترین زمان ممکن را برای تولید خروجی داشته باشد، در خروجی از Latch حساس به سطح منفی استفاده می‌کنیم. به این ترتیب مدار محاسباتی در تمام دوره تناوب (به جز مدت زمان $t_{cq}$ و $t_{dq}$ و $t_{setup}$) فرصت دارد تا خروجی را تولید کند .
+% می‌خواهیم که به بالاترین فرکانس کاری (یا همان کمترین دوره تناوب سیگنال CLK) برای پایپ‌لاین تک طبقه مبتنی بر \lr{D-Latch} برسیم.
+% چون داده‌ها قبل از لبه بالارونده آماده هستند، از Latch حساس به سطح مثبت استفاده کنیم. به محض اینکه سیگنال CLK 1  می‌شود، این \lr{Latch}ها داده را به ورودی‌های مدار محاسباتی منتقل می‌کنند.
+% و پس از آن برای اینکه مدار محاسباتی بیشترین زمان ممکن را برای تولید خروجی داشته باشد، در خروجی از Latch حساس به سطح منفی استفاده می‌کنیم. به این ترتیب مدار محاسباتی در تمام دوره تناوب (به جز مدت زمان $t_{cq}$ و $t_{dq}$ و $t_{setup}$) فرصت دارد تا خروجی را تولید کند .
 
-پس برای \lr{Latch}های ورودی از حساس به سطح مثبت و برای خروجی از حساس به سطح منفی استفاده می‌کنیم.
+% پس برای \lr{Latch}های ورودی از حساس به سطح مثبت و برای خروجی از حساس به سطح منفی استفاده می‌کنیم.
 
-از نظر تئوری حداقل دوره تناوب از رابطه زیر پیروی می‌کند و طبق تاخیر‌های اندازه‌گیری شده در دو بخش قبل برابر با \lr{673.25ps}
-($\delta$ مربوط به skew حاصل از قرار دادن inv بر سر راه سیگنال CLK است.)
-{\Large
-    $$
-        T_c \geq t_{cq_{pos-latch}} + t_{pd_{CLB}} + t_{setup_{neg-latch}} - \delta
-    $$
-}
+% از نظر تئوری حداقل دوره تناوب از رابطه زیر پیروی می‌کند و طبق تاخیر‌های اندازه‌گیری شده در دو بخش قبل برابر با \lr{673.25ps}
+% ($\delta$ مربوط به skew حاصل از قرار دادن inv بر سر راه سیگنال CLK است.)
+% {\Large
+%     $$
+%         T_c \geq t_{cq_{pos-latch}} + t_{pd_{CLB}} + t_{setup_{neg-latch}} - \delta
+%     $$
+% }
 
-\newcodeFont[\small]{spice}{codes/latch2-pipe.sp}{پیاده‌سازی HSPICE پایپ‌لاین مبتنی بر \lr{D-Latch} تک طبقه}{code:latch2-pipe}
-در اینجا نیز مثل پایپ‌لاین مبتنی بر رجیستر حداقل دوره تناوب CLK بیشتر از تئوری شد و برابر با \lr{1.348e-09s} یا همان \lr{1348ps} اندازه‌گیری شد.
-احتمالا دلیلش هم همون هست.
+% \newcodeFont[\small]{spice}{codes/latch2-pipe.sp}{پیاده‌سازی HSPICE پایپ‌لاین مبتنی بر \lr{D-Latch} تک طبقه}{code:latch2-pipe}
+% در اینجا نیز مثل پایپ‌لاین مبتنی بر رجیستر حداقل دوره تناوب CLK بیشتر از تئوری شد و برابر با \lr{1.348e-09s} یا همان \lr{1348ps} اندازه‌گیری شد.
+% احتمالا دلیلش هم همون هست.
 
-\newimage[0.8\textwidth]{./images/latch2-pipe-1500-sim.png}{شکل موج \lr{$T_c = 1500ps$} برای مدار \lr{pipe-Line} مبتنی بر Latch تک طبقه}{fig:latch2-pipe-1500-sim}
-\newimage[0.8\textwidth]{./images/latch2-pipe-sim.png}{شکل موج \texttt{SWEEP} $T_c$ برای مدار \lr{pipe-Line} مبتنی بر Latch تک طبقه}{fig:latch2-pipe-sim}
-\newimage[0.8\textwidth]{./images/latch2-tc-plot.png}{نمودار تاثیر دوره تناوب بر عملکرد صحیح مدار \lr{pipe-Line} مبتنی بر Latch تک طبقه}{fig:latch2-pipe-plot}
+% \newimage[0.8\textwidth]{./images/latch2-pipe-1500-sim.png}{شکل موج \lr{$T_c = 1500ps$} برای مدار \lr{pipe-Line} مبتنی بر Latch تک طبقه}{fig:latch2-pipe-1500-sim}
+% \newimage[0.8\textwidth]{./images/latch2-pipe-sim.png}{شکل موج \texttt{SWEEP} $T_c$ برای مدار \lr{pipe-Line} مبتنی بر Latch تک طبقه}{fig:latch2-pipe-sim}
+% \newimage[0.8\textwidth]{./images/latch2-tc-plot.png}{نمودار تاثیر دوره تناوب بر عملکرد صحیح مدار \lr{pipe-Line} مبتنی بر Latch تک طبقه}{fig:latch2-pipe-plot}
+
+% \newpage
+
+% \subsubsection{ساختار دو طبقه‌ای}
+
+% \newimage[0.7\textwidth]{./images/latch-pipe.png}{شماتیک \lr{pipe-Line} مبنتی بر Latch}{fig:latch-pipe}
+
+% مهم‌ترین مزیت استفاده از \lr{Latch}ها به جای رجیسترها، قرض گرفتن زمان \lr{(Time Borrowing)} است.
+
+% برای عملکرد صحیح پایپ‌لاین \lr{Latch}، \lr{CLK1} و \lr{CLK2}
+% باید غیرهمپوشان \lr{(Non-overlapping)} یکدیگر باشند.
+
+% یعنی نباید هر دو CLK به طور همزمان در وضعیت فعال  قرار داشته باشند چرا که باعث عبور دادن داده‌ها به طور نا‌خواسته شده و عملکرد را از دست می‌دهیم.
+% اگر تمام \lr{Latch}ها حساس به سطح مثبت باشند هرگاه که \lr{CLK1} برابر یک باشد \lr{CLK2} باید برابر صفر باشد و برعکس.
+% اگر هم \lr{Latch}های زوج حساس به سطح منفی باشند \lr{CLK1} و \lr{CLK2} باید همزمان یک باشند و صفر باشند.
+
+
+% بقیه اش وقت نشد اگه سامانه باز بود تا 3 شب میفرستم :(
+
+% برای استفاده از ساختار پایپ‌لاین دو طبقه مبتنی بر \lr{Latch} مدار محاسباتی را به دو بخش تقسیم می‌کنیم.
+% دو نوع رویکرد برای بخش‌بندی داریم:
+
+% \newimage[0.7\textwidth]{images/comb-circuit/comb-circuit-5.png}{مدار محاسباتی شکل 5 در صورت پروژه}{fig:comb-circuit-5}
+% \newimage[0.7\textwidth]{images/comb-circuit/comb-circuit-4.png}{مدار محاسباتی شکل 6 در صورت پروژه}{fig:comb-circuit-4}
+
+% در ادامه با انجام شبیه‌سازی تاخیر‌های هر بخش را بدست می‌آوریم. (مدار رو نمیشکونم و دستورات \texttt{.MEASURE} جدید اضافه می‌کنم چون ورودی‌های بخش دوم مدار محاسباتی تمام حالت‌های ممکن رو شامل نمیشن چرا که خروچی‌های بخش اول مدار محاسباتی با هم رابطه دارند و از هم مستقل نیستند.)
+
+% \newpage
+
+
+% \newimage[0.9\textwidth]{images/comb-circuit/part1-delay-sim.png}{شکل موج خروجی شبیه‌سازی‌ها به ازای تمام \lr{Transition}ها برای بخش‌بندی اول}{fig:comb-circuit-5-sim}
+% {
+%     \lr{
+%         $$
+%             \text{CLB\_A:} \quad
+%             \begin{cases}
+%                 t_{pd} = 224.6 \text{ ps} & (2.246 \times 10^{-10} \text{ s}) \\
+%                 t_{cd} = 180.3 \text{ ps} & (1.803 \times 10^{-10} \text{ s})
+%             \end{cases}
+%         $$
+%         $$
+%             \text{CLB\_B:} \quad
+%             \begin{cases}
+%                 t_{pd} = 310.7 \text{ ps} & (3.107 \times 10^{-10} \text{ s}) \\
+%                 t_{cd} = 130.9 \text{ ps} & (1.309 \times 10^{-10} \text{ s})
+%             \end{cases}
+%         $$
+%     }
+% }
+% \newimage[0.9\textwidth]{images/comb-circuit/part2-delay-sim.png}{شکل موج خروجی شبیه‌سازی‌ها به ازای تمام \lr{Transition}ها برای بخش‌بندی دوم}{fig:comb-circuit-4-sim}
+% {
+%     \lr{
+%         $$
+%             \text{CLB\_A:} \quad
+%             \begin{cases}
+%                 t_{pd} = 131.5 \text{ ps} & (1.315 \times 10^{-10} \text{ s}) \\
+%                 t_{cd} = 42.01 \text{ ps} & (4.201 \times 10^{-11} \text{ s})
+%             \end{cases}
+%         $$
+%         $$
+%             \text{CLB\_B:} \quad
+%             \begin{cases}
+%                 t_{pd} = 441.5 \text{ ps} & (4.415 \times 10^{-10} \text{ s}) \\
+%                 t_{cd} = 344.9 \text{ ps} & (3.449 \times 10^{-10} \text{ s})
+%             \end{cases}
+%         $$
+%     }
+% }
 
 \newpage
 
-\subsubsection{ساختار دو طبقه‌ای}
+\newcodeFont[\scriptsize]{spice}{codes/part.sp}{پیاده‌سازی HSPICE پایپ‌لاین مبتنی بر \lr{D-Latch} دو طبقه}{code:part}
 
-\newimage[0.7\textwidth]{./images/latch-pipe.png.png}{شماتیک \lr{pipe-Line} مبنتی بر Latch}{fig:latch-pipe}
-مهم‌ترین مزیت استفاده از \lr{Latch}ها به جای رجیسترها، قرض گرفتن زمان \lr{(Time Borrowing)} است.
+\newpage

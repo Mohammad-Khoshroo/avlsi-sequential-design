@@ -1,0 +1,2278 @@
+ ****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******                    
+  Copyright (c) 1986 - 2026 by Synopsys, Inc. All Rights Reserved.              
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: sim.sp                                                            
+  Command line options: C:\synopsys\Hspice_P-2019.06-SP1-1\WIN64\hspice.com -i sim.sp -o D:\UT.CE\Term-06\AVLSI\CA\CA04\simulation\combinational-circuit\partitioning1\sim.lis
+  Start time: Sat Jul 11 02:08:42 2026
+  lic:  
+  lic: FLEXlm: SDK_12.3 
+  lic: USER:   Mohammad-Khohsroo    HOSTNAME: DESKTOP-GMQQFUO 
+  lic: HOSTID: "088fc3e7a24d"       PID:      15472 
+  lic: Using FLEXlm license file: 
+  lic: 27000@DESKTOP-GMQQFUO 
+  lic: Checkout 1 hspice 
+  lic: License/Maintenance for hspice will expire on 30-dec-2030/2020.12 
+  lic: 1(in_use)/99(total) FLOATING license(s) on SERVER 27000@DESKTOP-GMQQFUO 
+  lic:   
+1****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******                    
+ ******  
+ ********************* hspice fa gates modeling **********************
+
+ ****** circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 xcircuit.                       circuit            1.00 
+        2 xcircuit.xnand1.                nand2              1.00 
+        3 xcircuit.xnor1.                 nor2               1.00 
+        4 xcircuit.xinv1.                 inv                1.00 
+        5 xcircuit.xxor1.                 xor2_sym           1.00 
+        6 xcircuit.xxnor1.                xnor2_sym          1.00 
+        7 xcircuit.xnand2.                and2               1.00 
+        8 xcircuit.xnor3.                 nor3               1.00 
+        9 xcircuit.xxor1.xinv1.           inv                1.00 
+       10 xcircuit.xxor1.xinv2.           inv                1.00 
+       11 xcircuit.xxnor1.xinv1.          inv                1.00 
+       12 xcircuit.xxnor1.xinv2.          inv                1.00 
+       13 xcircuit.xnand2.xinv.           inv                1.00 
+       14 xcircuit.xnand2.xnand.          nand2              1.00 
+  **info** (sim.sp:39) DC voltage reset to initial transient source value in source 0:va. new dc=0.0000D+00
+ 
+
+  
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 6         bypass  = 2.0000    
+  Opening plot unit= 79
+ file=D:\UT.CE\Term-06\AVLSI\CA\CA04\simulation\combinational-circuit\partitioning1\sim.pa0
+
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =     1 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  **warning** (sim.sp:112) .MEASURE tplh_out_a never reached the target value, Measurement failed! 
+   tplh_out_a= failed       targ= not found    trig=  100.0000p
+  **warning** (sim.sp:113) .MEASURE tphl_out_a never reached the trigger value, Measurement failed! 
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =     2 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed       targ= not found    trig=  100.0000p
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =     3 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+ tplh_out_a= 432.9363p  targ= 532.9363p   trig= 100.0000p
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+ tplh_clbb_xor= 260.5276p  targ= 532.9363p   trig= 272.4087p
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =     4 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+ tphl_out_a= 524.6598p  targ= 624.6598p   trig= 100.0000p
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+ tphl_clbb_xor= 274.4542p  targ= 624.6598p   trig= 350.2056p
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =     5 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed       targ= not found    trig=  100.0000p
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =     6 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed       targ= not found    trig=  100.0000p
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =     7 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+ tplh_out_a= 432.8586p  targ= 532.8586p   trig= 100.0000p
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+ tplh_clbb_xor= 260.3513p  targ= 532.8586p   trig= 272.5073p
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =     8 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+ tphl_out_a= 523.5036p  targ= 623.5036p   trig= 100.0000p
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+ tphl_clbb_xor= 274.3178p  targ= 623.5036p   trig= 349.1859p
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =     9 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed       targ= not found    trig=  100.0000p
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    10 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed       targ= not found    trig=  100.0000p
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    11 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed       targ= not found    trig=  100.0000p
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed       targ= not found    trig=  274.3202p
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    12 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed       targ= not found    trig=  100.0000p
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed       targ= not found    trig=  351.7026p
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    13 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed       targ= not found    trig=  100.0000p
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    14 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed       targ= not found    trig=  100.0000p
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    15 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed       targ= not found    trig=  100.0000p
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed       targ= not found    trig=  274.4153p
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    16 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed       targ= not found    trig=  100.0000p
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed       targ= not found    trig=  350.6720p
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    17 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed       targ= not found    trig=  100.0000p
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+ tplh_clba_b_xor= 219.3231p  targ= 319.3231p   trig= 100.0000p
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed       targ= not found    trig=  319.3231p
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed       targ= not found    trig=  336.4219p
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    18 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed       targ= not found    trig=  100.0000p
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+ tphl_clba_b_xor= 208.4154p  targ= 308.4154p   trig= 100.0000p
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed       targ= not found    trig=  308.4154p
+   tphl_clbb_xnor= failed       targ= not found    trig=  375.7120p
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    19 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+ tplh_out_b= 439.8965p  targ= 539.8965p   trig= 100.0000p
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+ tplh_clbb_xnor= 204.5057p  targ= 539.8965p   trig= 335.3907p
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    20 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+ tphl_out_b= 499.1592p  targ= 599.1592p   trig= 100.0000p
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+ tphl_clbb_xnor= 218.2213p  targ= 599.1592p   trig= 380.9379p
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    21 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed       targ= not found    trig=  100.0000p
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    22 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed       targ= not found    trig=  100.0000p
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    23 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+ tplh_out_b= 437.8848p  targ= 537.8848p   trig= 100.0000p
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+ tplh_clbb_xor= 260.3154p  targ= 537.8848p   trig= 277.5694p
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    24 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+ tphl_out_b= 540.9892p  targ= 640.9892p   trig= 100.0000p
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+ tphl_clbb_xor= 274.4751p  targ= 640.9892p   trig= 366.5141p
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    25 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed       targ= not found    trig=  100.0000p
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+ tplh_clba_b_xor= 223.7346p  targ= 323.7346p   trig= 100.0000p
+   tphl_clba_b_xor= failed                          trig= not found
+ tplh_clba_b_xnor= 222.3598p  targ= 322.3598p   trig= 100.0000p
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+ tphl_clbb_xor= 130.8825p  targ= 454.6171p   trig= 323.7346p
+   tplh_clbb_xor= failed                          trig= not found
+ tphl_clbb_xnor= 132.2573p  targ= 454.6171p   trig= 322.3598p
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    26 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed       targ= not found    trig=  100.0000p
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+ tphl_clba_b_xor= 211.4545p  targ= 311.4545p   trig= 100.0000p
+   tplh_clba_b_xnor= failed                          trig= not found
+ tphl_clba_b_xnor= 224.5777p  targ= 324.5777p   trig= 100.0000p
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+ tplh_clbb_xor= 310.6853p  targ= 622.1397p   trig= 311.4545p
+   tphl_clbb_xnor= failed                          trig= not found
+ tplh_clbb_xnor= 297.5620p  targ= 622.1397p   trig= 324.5777p
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    27 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed       targ= not found    trig=  100.0000p
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_b_xor= failed                          trig= not found
+ tplh_clba_b_xnor= 222.8870p  targ= 322.8870p   trig= 100.0000p
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+ tphl_clbb_xnor= 216.7472p  targ= 539.6342p   trig= 322.8870p
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    28 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed       targ= not found    trig=  100.0000p
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_b_xnor= failed                          trig= not found
+ tphl_clba_b_xnor= 210.6832p  targ= 310.6832p   trig= 100.0000p
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+ tplh_clbb_xnor= 205.1528p  targ= 515.8360p   trig= 310.6832p
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    29 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed       targ= not found    trig=  100.0000p
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    30 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed       targ= not found    trig=  100.0000p
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    31 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed       targ= not found    trig=  100.0000p
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed       targ= not found    trig=  279.4720p
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    32 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed       targ= not found    trig=  100.0000p
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed       targ= not found    trig=  368.0123p
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    33 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed       targ= not found    trig=  100.0000p
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+ tplh_clba_c_xor= 197.7043p  targ= 297.7043p   trig= 100.0000p
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed       targ= not found    trig=  297.7043p
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed       targ= not found    trig=  314.5236p
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    34 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed       targ= not found    trig=  100.0000p
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+ tphl_clba_c_xor= 191.4357p  targ= 291.4357p   trig= 100.0000p
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed       targ= not found    trig=  291.4357p
+   tphl_clbb_xnor= failed       targ= not found    trig=  358.7350p
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    35 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed       targ= not found    trig=  100.0000p
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+ tplh_clba_c_xor= 197.4921p  targ= 297.4921p   trig= 100.0000p
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed       targ= not found    trig=  297.4921p
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed       targ= not found    trig=  314.5241p
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    36 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed       targ= not found    trig=  100.0000p
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+ tphl_clba_c_xor= 191.8561p  targ= 291.8561p   trig= 100.0000p
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed       targ= not found    trig=  291.8561p
+   tphl_clbb_xnor= failed       targ= not found    trig=  358.8026p
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    37 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed       targ= not found    trig=  100.0000p
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    38 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed       targ= not found    trig=  100.0000p
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    39 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed       targ= not found    trig=  100.0000p
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    40 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed       targ= not found    trig=  100.0000p
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    41 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed       targ= not found    trig=  100.0000p
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+ tplh_clba_c_xor= 201.8764p  targ= 301.8764p   trig= 100.0000p
+   tphl_clba_c_xor= failed                          trig= not found
+ tplh_clba_c_xnor= 202.2231p  targ= 302.2231p   trig= 100.0000p
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+ tphl_clbb_xor= 131.6883p  targ= 433.5647p   trig= 301.8764p
+   tplh_clbb_xor= failed                          trig= not found
+ tphl_clbb_xnor= 131.3415p  targ= 433.5647p   trig= 302.2231p
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    42 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed       targ= not found    trig=  100.0000p
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+ tphl_clba_c_xor= 194.4717p  targ= 294.4717p   trig= 100.0000p
+   tplh_clba_c_xnor= failed                          trig= not found
+ tphl_clba_c_xnor= 207.5839p  targ= 307.5839p   trig= 100.0000p
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+ tplh_clbb_xor= 310.6512p  targ= 605.1229p   trig= 294.4717p
+   tphl_clbb_xnor= failed                          trig= not found
+ tplh_clbb_xnor= 297.5390p  targ= 605.1229p   trig= 307.5839p
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    43 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed       targ= not found    trig=  100.0000p
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+ tplh_clba_c_xor= 201.6660p  targ= 301.6660p   trig= 100.0000p
+   tphl_clba_c_xor= failed                          trig= not found
+ tplh_clba_c_xnor= 202.2296p  targ= 302.2296p   trig= 100.0000p
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+ tphl_clbb_xor= 131.9256p  targ= 433.5915p   trig= 301.6660p
+   tplh_clbb_xor= failed                          trig= not found
+ tphl_clbb_xnor= 131.3619p  targ= 433.5915p   trig= 302.2296p
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    44 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed       targ= not found    trig=  100.0000p
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+ tphl_clba_c_xor= 194.9030p  targ= 294.9030p   trig= 100.0000p
+   tplh_clba_c_xnor= failed                          trig= not found
+ tphl_clba_c_xnor= 207.6050p  targ= 307.6050p   trig= 100.0000p
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+ tplh_clbb_xor= 310.6485p  targ= 605.5515p   trig= 294.9030p
+   tphl_clbb_xnor= failed                          trig= not found
+ tplh_clbb_xnor= 297.9465p  targ= 605.5515p   trig= 307.6050p
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    45 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed       targ= not found    trig=  100.0000p
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    46 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed       targ= not found    trig=  100.0000p
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    47 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed       targ= not found    trig=  100.0000p
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    48 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed       targ= not found    trig=  100.0000p
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed       targ= not found    trig=  100.0000p
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    49 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+ tplh_out_d= 424.1599p  targ= 524.1599p   trig= 100.0000p
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+ tplh_clbb_xnor= 202.9699p  targ= 524.1599p   trig= 321.1900p
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    50 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+ tphl_out_d= 466.5600p  targ= 566.5600p   trig= 100.0000p
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed       targ= not found    trig=  100.0000p
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+ tphl_clbb_xnor= 218.5054p  targ= 566.5600p   trig= 348.0546p
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    51 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+ tplh_out_d= 424.1600p  targ= 524.1600p   trig= 100.0000p
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed       targ= not found    trig=  100.0000p
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+ tplh_clbb_xnor= 202.9700p  targ= 524.1600p   trig= 321.1900p
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    52 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+ tphl_out_d= 466.5600p  targ= 566.5600p   trig= 100.0000p
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+   tphl_clba_d_xnor= failed       targ= not found    trig=  100.0000p
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+ tphl_clbb_xnor= 218.5054p  targ= 566.5600p   trig= 348.0546p
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    53 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed       targ= not found    trig=  100.0000p
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+ tplh_clba_d_xnor= 180.2849p  targ= 280.2849p   trig= 100.0000p
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed       targ= not found    trig=  280.2849p
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    54 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed       targ= not found    trig=  100.0000p
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+ tphl_clba_d_xnor= 210.2835p  targ= 310.2835p   trig= 100.0000p
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed       targ= not found    trig=  310.2835p
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    55 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed       targ= not found    trig=  100.0000p
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+ tplh_clba_d_xnor= 195.2861p  targ= 295.2861p   trig= 100.0000p
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+ tphl_clbb_xnor= 219.2171p  targ= 514.5032p   trig= 295.2861p
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    56 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed       targ= not found    trig=  100.0000p
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+ tphl_clba_d_xnor= 212.9304p  targ= 312.9304p   trig= 100.0000p
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+ tplh_clbb_xnor= 207.8517p  targ= 520.7821p   trig= 312.9304p
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    57 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed       targ= not found    trig=  100.0000p
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+ tplh_clba_d_xnor= 180.2849p  targ= 280.2849p   trig= 100.0000p
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed       targ= not found    trig=  280.2849p
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    58 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed       targ= not found    trig=  100.0000p
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+ tphl_clba_d_xnor= 210.2836p  targ= 310.2836p   trig= 100.0000p
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed       targ= not found    trig=  310.2836p
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    59 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed       targ= not found    trig=  100.0000p
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+ tplh_clba_d_xnor= 180.2849p  targ= 280.2849p   trig= 100.0000p
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed       targ= not found    trig=  280.2849p
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    60 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed       targ= not found    trig=  100.0000p
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+ tphl_clba_d_xnor= 210.2836p  targ= 310.2836p   trig= 100.0000p
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed       targ= not found    trig=  310.2836p
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    61 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed       targ= not found    trig=  100.0000p
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+ tplh_clba_d_xnor= 180.3064p  targ= 280.3064p   trig= 100.0000p
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed       targ= not found    trig=  280.3064p
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    62 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed       targ= not found    trig=  100.0000p
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+ tphl_clba_d_xnor= 210.2906p  targ= 310.2906p   trig= 100.0000p
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+   tplh_clbb_xnor= failed       targ= not found    trig=  310.2906p
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    63 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed       targ= not found    trig=  100.0000p
+   tphl_out_d= failed                          trig= not found
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+ tplh_clba_d_xnor= 195.3125p  targ= 295.3125p   trig= 100.0000p
+   tphl_clba_d_xnor= failed                          trig= not found
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+ tphl_clbb_xnor= 219.1880p  targ= 514.5006p   trig= 295.3125p
+   tplh_clbb_xnor= failed                          trig= not found
+
+          ***** job concluded
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** data name = circuit_input , index =    64 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+   tplh_out_a= failed                          trig= not found
+   tphl_out_a= failed                          trig= not found
+   tplh_out_b= failed                          trig= not found
+   tphl_out_b= failed                          trig= not found
+   tplh_out_c= failed                          trig= not found
+   tphl_out_c= failed                          trig= not found
+   tplh_out_d= failed                          trig= not found
+   tphl_out_d= failed       targ= not found    trig=  100.0000p
+   tplh_clba_a_xor= failed                          trig= not found
+   tphl_clba_a_xor= failed                          trig= not found
+   tplh_clba_b_xor= failed                          trig= not found
+   tphl_clba_b_xor= failed                          trig= not found
+   tplh_clba_b_xnor= failed                          trig= not found
+   tphl_clba_b_xnor= failed                          trig= not found
+   tplh_clba_c_xor= failed                          trig= not found
+   tphl_clba_c_xor= failed                          trig= not found
+   tplh_clba_c_xnor= failed                          trig= not found
+   tphl_clba_c_xnor= failed                          trig= not found
+   tplh_clba_d_xnor= failed                          trig= not found
+ tphl_clba_d_xnor= 212.9374p  targ= 312.9374p   trig= 100.0000p
+   tphl_clbb_xor= failed                          trig= not found
+   tplh_clbb_xor= failed                          trig= not found
+   tphl_clbb_xnor= failed                          trig= not found
+ tplh_clbb_xnor= 207.8392p  targ= 520.7767p   trig= 312.9374p
+
+          ***** job concluded
+ ******  
+ ********************* hspice fa gates modeling **********************
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    16
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =     124 # elements   =      53
+  # resistors   =       0 # capacitors =       1 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       6
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =      46 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.07           1        1456
+  transient          0.79     7680064       26865        9218 rev=      1334
+  readin             0.05
+  errchk             0.01
+  setup              0.00
+  output             0.01
+
+
+           peak memory used         72.39 megabytes
+           total cpu time            0.94 seconds
+           total elapsed time        0.97 seconds
+           job started at     02:08:42 07/11/2026
+           job ended   at     02:08:43 07/11/2026
+           job total runtime         0.97 seconds
+
+
+  lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.02(s)
