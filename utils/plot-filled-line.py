@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # ==========================================================
 
 TARGET_DIRS = [
-    r"./simulation/seq-elements/master-slave-flipflop/delay/sim_mt3_measure.json",
+    r"simulation/pipe/FF/sim_mt0_measure.json",
 ]
 
 LEGEND_LABELS = [
@@ -18,8 +18,8 @@ LEGEND_LABELS = [
 # --- What to plot -------------------------------------------------
 # "t بر حسب Q"  ->  t on Y-axis, Q on X-axis.
 # Swap these two if you want the conventional Q(t) orientation instead.
-X_PARAM  = "t_setup"     # X-axis measurement key
-Y_PARAM  = "q_max"   # Y-axis measurement key
+X_PARAM  = "tc"     # X-axis measurement key
+Y_PARAM  = "out"   # Y-axis measurement key
 X_UNIT   = "s"         # unit symbol for X (empty string to omit)
 Y_UNIT   = "V"         # unit symbol for Y (will be SI-prefixed: p, n, µ, m ...)
 

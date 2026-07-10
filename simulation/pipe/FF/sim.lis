@@ -1,0 +1,4687 @@
+ ****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******                    
+  Copyright (c) 1986 - 2026 by Synopsys, Inc. All Rights Reserved.              
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: sim.sp                                                            
+  Command line options: C:\synopsys\Hspice_P-2019.06-SP1-1\WIN64\hspice.com -i sim.sp -o D:\UT.CE\Term-06\AVLSI\CA\CA04\simulation\pipe\FF\sim.lis
+  Start time: Fri Jul 10 21:27:03 2026
+  lic:  
+  lic: FLEXlm: SDK_12.3 
+  lic: USER:   Mohammad-Khohsroo    HOSTNAME: DESKTOP-GMQQFUO 
+  lic: HOSTID: "088fc3e7a24d"       PID:      25072 
+  lic: Using FLEXlm license file: 
+  lic: 27000@DESKTOP-GMQQFUO 
+  lic: Checkout 1 hspice 
+  lic: License/Maintenance for hspice will expire on 30-dec-2030/2020.12 
+  lic: 1(in_use)/99(total) FLOATING license(s) on SERVER 27000@DESKTOP-GMQQFUO 
+  lic:   
+1****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******                    
+ ******  
+ ********************* hspice fa gates modeling **********************
+
+ ****** circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 xcircuit.                       reg_pipe           1.00 
+        2 xcircuit.xffa.                  d_ff_pos           1.00 
+        3 xcircuit.xffb.                  d_ff_pos           1.00 
+        4 xcircuit.xffc.                  d_ff_pos           1.00 
+        5 xcircuit.xffd.                  d_ff_pos           1.00 
+        6 xcircuit.xlogic.                circuit            1.00 
+        7 xcircuit.xffout.                d_ff_pos           1.00 
+        8 xcircuit.xffa.xinv_clk1.        inv                1.00 
+        9 xcircuit.xffa.xinv_clk2.        inv                1.00 
+       10 xcircuit.xffa.xmaster.          d_latch_nn         1.00 
+       11 xcircuit.xffa.xslave.           d_latch_nn         1.00 
+       12 xcircuit.xffb.xinv_clk1.        inv                1.00 
+       13 xcircuit.xffb.xinv_clk2.        inv                1.00 
+       14 xcircuit.xffb.xmaster.          d_latch_nn         1.00 
+       15 xcircuit.xffb.xslave.           d_latch_nn         1.00 
+       16 xcircuit.xffc.xinv_clk1.        inv                1.00 
+       17 xcircuit.xffc.xinv_clk2.        inv                1.00 
+       18 xcircuit.xffc.xmaster.          d_latch_nn         1.00 
+       19 xcircuit.xffc.xslave.           d_latch_nn         1.00 
+       20 xcircuit.xffd.xinv_clk1.        inv                1.00 
+       21 xcircuit.xffd.xinv_clk2.        inv                1.00 
+       22 xcircuit.xffd.xmaster.          d_latch_nn         1.00 
+       23 xcircuit.xffd.xslave.           d_latch_nn         1.00 
+       24 xcircuit.xlogic.xnand1.         nand2              1.00 
+       25 xcircuit.xlogic.xnor1.          nor2               1.00 
+       26 xcircuit.xlogic.xinv1.          inv                1.00 
+       27 xcircuit.xlogic.xxor1.          xor2_sym           1.00 
+       28 xcircuit.xlogic.xxnor1.         xnor2_sym          1.00 
+       29 xcircuit.xlogic.xnand2.         and2               1.00 
+       30 xcircuit.xlogic.xnor3.          nor3               1.00 
+       31 xcircuit.xffout.xinv_clk1.      inv                1.00 
+       32 xcircuit.xffout.xinv_clk2.      inv                1.00 
+       33 xcircuit.xffout.xmaster.        d_latch_nn         1.00 
+       34 xcircuit.xffout.xslave.         d_latch_nn         1.00 
+       35 xcircuit.xffa.xmaster.xinv_d.   inv                1.00 
+       36 xcircuit.xffa.xmaster.xnand1.   nand2              1.00 
+       37 xcircuit.xffa.xmaster.xnand2.   nand2              1.00 
+       38 xcircuit.xffa.xmaster.xnand3.   nand2              1.00 
+       39 xcircuit.xffa.xmaster.xnand4.   nand2              1.00 
+       40 xcircuit.xffa.xslave.xinv_d.    inv                1.00 
+       41 xcircuit.xffa.xslave.xnand1.    nand2              1.00 
+       42 xcircuit.xffa.xslave.xnand2.    nand2              1.00 
+       43 xcircuit.xffa.xslave.xnand3.    nand2              1.00 
+       44 xcircuit.xffa.xslave.xnand4.    nand2              1.00 
+       45 xcircuit.xffb.xmaster.xinv_d.   inv                1.00 
+       46 xcircuit.xffb.xmaster.xnand1.   nand2              1.00 
+       47 xcircuit.xffb.xmaster.xnand2.   nand2              1.00 
+       48 xcircuit.xffb.xmaster.xnand3.   nand2              1.00 
+       49 xcircuit.xffb.xmaster.xnand4.   nand2              1.00 
+       50 xcircuit.xffb.xslave.xinv_d.    inv                1.00 
+       51 xcircuit.xffb.xslave.xnand1.    nand2              1.00 
+       52 xcircuit.xffb.xslave.xnand2.    nand2              1.00 
+       53 xcircuit.xffb.xslave.xnand3.    nand2              1.00 
+       54 xcircuit.xffb.xslave.xnand4.    nand2              1.00 
+       55 xcircuit.xffc.xmaster.xinv_d.   inv                1.00 
+       56 xcircuit.xffc.xmaster.xnand1.   nand2              1.00 
+       57 xcircuit.xffc.xmaster.xnand2.   nand2              1.00 
+       58 xcircuit.xffc.xmaster.xnand3.   nand2              1.00 
+       59 xcircuit.xffc.xmaster.xnand4.   nand2              1.00 
+       60 xcircuit.xffc.xslave.xinv_d.    inv                1.00 
+       61 xcircuit.xffc.xslave.xnand1.    nand2              1.00 
+       62 xcircuit.xffc.xslave.xnand2.    nand2              1.00 
+       63 xcircuit.xffc.xslave.xnand3.    nand2              1.00 
+       64 xcircuit.xffc.xslave.xnand4.    nand2              1.00 
+       65 xcircuit.xffd.xmaster.xinv_d.   inv                1.00 
+       66 xcircuit.xffd.xmaster.xnand1.   nand2              1.00 
+       67 xcircuit.xffd.xmaster.xnand2.   nand2              1.00 
+       68 xcircuit.xffd.xmaster.xnand3.   nand2              1.00 
+       69 xcircuit.xffd.xmaster.xnand4.   nand2              1.00 
+       70 xcircuit.xffd.xslave.xinv_d.    inv                1.00 
+       71 xcircuit.xffd.xslave.xnand1.    nand2              1.00 
+       72 xcircuit.xffd.xslave.xnand2.    nand2              1.00 
+       73 xcircuit.xffd.xslave.xnand3.    nand2              1.00 
+       74 xcircuit.xffd.xslave.xnand4.    nand2              1.00 
+       75 xcircuit.xlogic.xxor1.xinv1.    inv                1.00 
+       76 xcircuit.xlogic.xxor1.xinv2.    inv                1.00 
+       77 xcircuit.xlogic.xxnor1.xinv1.   inv                1.00 
+       78 xcircuit.xlogic.xxnor1.xinv2.   inv                1.00 
+       79 xcircuit.xlogic.xnand2.xinv.    inv                1.00 
+       80 xcircuit.xlogic.xnand2.xnand.   nand2              1.00 
+       81 xcircuit.xffout.xmaster.xinv_d. inv                1.00 
+       82 xcircuit.xffout.xmaster.xnand1. nand2              1.00 
+       83 xcircuit.xffout.xmaster.xnand2. nand2              1.00 
+       84 xcircuit.xffout.xmaster.xnand3. nand2              1.00 
+       85 xcircuit.xffout.xmaster.xnand4. nand2              1.00 
+       86 xcircuit.xffout.xslave.xinv_d.  inv                1.00 
+       87 xcircuit.xffout.xslave.xnand1.  nand2              1.00 
+       88 xcircuit.xffout.xslave.xnand2.  nand2              1.00 
+       89 xcircuit.xffout.xslave.xnand3.  nand2              1.00 
+       90 xcircuit.xffout.xslave.xnand4.  nand2              1.00 
+  **info** (sim.sp:41) DC voltage reset to initial transient source value in source 0:vb. new dc=0.1800D+01
+ 
+
+  
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 6         bypass  = 2.0000    
+  Opening plot unit= 79
+ file=D:\UT.CE\Term-06\AVLSI\CA\CA04\simulation\pipe\FF\sim.pa0
+
+ **info** dc convergence successful at Newton-Raphson method 
+
+   *** parameter tc =    1.500E-09 ***
+
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+ out=   4.6532u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4990n       ***
+  
+ out=   4.5928u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4980n       ***
+  
+ out=   4.0366u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4970n       ***
+  
+ out=   4.5913u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4960n       ***
+  
+ out=   4.4486u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4950n       ***
+  
+ out=   3.9237u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4940n       ***
+  
+ out=   4.7745u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4930n       ***
+  
+ out=   3.2217u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4920n       ***
+  
+ out=   4.4765u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4910n       ***
+  
+ out=   4.1975u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4900n       ***
+  
+ out=   3.3998u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4890n       ***
+  
+ out=   4.0777u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4880n       ***
+  
+ out=   3.5438u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4870n       ***
+  
+ out=   3.2756u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4860n       ***
+  
+ out=   3.6902u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4850n       ***
+  
+ out=   3.8199u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4840n       ***
+  
+ out=   3.2713u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4830n       ***
+  
+ out=   3.9664u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4820n       ***
+  
+ out=   4.3452u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4810n       ***
+  
+ out=   2.7677u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4800n       ***
+  
+ out=   2.7017u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4790n       ***
+  
+ out=   3.6018u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4780n       ***
+  
+ out=   3.9069u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4770n       ***
+  
+ out=   2.7119u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4760n       ***
+  
+ out=   2.2887u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4750n       ***
+  
+ out=   3.8082u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4740n       ***
+  
+ out=   2.6179u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4730n       ***
+  
+ out=   3.4934u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4720n       ***
+  
+ out=   2.8605u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4710n       ***
+  
+ out=   3.3091u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4700n       ***
+  
+ out=   3.3887u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4690n       ***
+  
+ out=   2.4804u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4680n       ***
+  
+ out=   3.0940u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4670n       ***
+  
+ out=   3.4307u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4660n       ***
+  
+ out=   3.5247u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4650n       ***
+  
+ out=   3.8244u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4640n       ***
+  
+ out=   3.1331u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4630n       ***
+  
+ out=   2.6150u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4620n       ***
+  
+ out=   4.0345u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4610n       ***
+  
+ out=   5.7165u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4600n       ***
+  
+ out=   3.2403u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4590n       ***
+  
+ out=   5.2202u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4580n       ***
+  
+ out=   6.4733u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4570n       ***
+  
+ out=   8.9102u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4560n       ***
+  
+ out= 124.0786u
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4550n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4540n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4530n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4520n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4510n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4500n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4490n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4480n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4470n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4460n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4450n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4440n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4430n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4420n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4410n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4400n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4390n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4380n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4370n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4360n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4350n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4340n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4330n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4320n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4310n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4300n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4290n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4280n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4270n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4260n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4250n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4240n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4230n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4220n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4210n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4200n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4190n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4180n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4170n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4160n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4150n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4140n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4130n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4120n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4110n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4100n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4090n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4080n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4070n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4060n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4050n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4040n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4030n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4020n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4010n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.4000n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3990n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3980n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3970n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3960n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3950n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3940n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3930n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3920n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3910n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3900n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3890n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3880n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3870n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3860n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3850n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3840n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3830n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3820n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3810n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3800n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3790n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3780n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3770n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3760n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3750n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3740n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3730n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3720n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3710n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3700n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3690n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3680n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3670n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3660n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3650n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3640n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3630n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3620n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3610n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3600n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3590n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3580n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3570n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3560n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3550n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3540n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3530n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3520n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3510n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3500n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3490n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3480n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3470n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3460n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3450n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3440n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3430n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3420n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3410n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3400n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3390n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3380n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3370n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3360n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3350n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3340n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3330n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3320n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3310n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3300n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3290n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3280n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3270n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3260n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3250n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3240n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3230n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3220n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3210n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3200n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3190n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3180n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3170n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3160n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3150n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3140n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3130n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3120n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3110n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3100n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3090n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3080n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3070n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3060n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3050n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3040n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3030n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3020n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3010n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.3000n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2990n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2980n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2970n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2960n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2950n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2940n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2930n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2920n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2910n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2900n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2890n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2880n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2870n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2860n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2850n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2840n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2830n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2820n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2810n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2800n       ***
+  
+ out=   1.8001 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2790n       ***
+  
+ out=   1.8001 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2780n       ***
+  
+ out=   1.8001 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2770n       ***
+  
+ out=   1.8001 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2760n       ***
+  
+ out=   1.8001 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2750n       ***
+  
+ out=   1.8001 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2740n       ***
+  
+ out=   1.8001 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2730n       ***
+  
+ out=   1.8001 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2720n       ***
+  
+ out=   1.8001 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2710n       ***
+  
+ out=   1.8001 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2700n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2690n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2680n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2670n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2660n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2650n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2640n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2630n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2620n       ***
+  
+ out=   1.7999 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2610n       ***
+  
+ out=   1.7999 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2600n       ***
+  
+ out=   1.7999 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2590n       ***
+  
+ out=   1.7999 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2580n       ***
+  
+ out=   1.7999 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2570n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2560n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2550n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2540n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2530n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2520n       ***
+  
+ out=   1.7997 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2510n       ***
+  
+ out=   1.7997 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2500n       ***
+  
+ out=   1.7997 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2490n       ***
+  
+ out=   1.7997 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2480n       ***
+  
+ out=   1.7997 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2470n       ***
+  
+ out=   1.7997 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2460n       ***
+  
+ out=   1.7997 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2450n       ***
+  
+ out=   1.7997 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2440n       ***
+  
+ out=   1.7996 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2430n       ***
+  
+ out=   1.7996 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2420n       ***
+  
+ out=   1.7996 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2410n       ***
+  
+ out=   1.7996 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2400n       ***
+  
+ out=   1.7996 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2390n       ***
+  
+ out=   1.7995 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2380n       ***
+  
+ out=   1.7995 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2370n       ***
+  
+ out=   1.7995 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2360n       ***
+  
+ out=   1.7994 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2350n       ***
+  
+ out=   1.7994 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2340n       ***
+  
+ out=   1.7994 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2330n       ***
+  
+ out=   1.7994 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2320n       ***
+  
+ out=   1.7994 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2310n       ***
+  
+ out=   1.7994 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2300n       ***
+  
+ out=   1.7994 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2290n       ***
+  
+ out=   1.7994 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2280n       ***
+  
+ out=   1.7994 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2270n       ***
+  
+ out=   1.7994 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2260n       ***
+  
+ out=   1.7995 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2250n       ***
+  
+ out=   1.7996 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2240n       ***
+  
+ out=   1.7997 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2230n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2220n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2210n       ***
+  
+ out=   1.8001 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2200n       ***
+  
+ out=   1.8003 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2190n       ***
+  
+ out=   1.8005 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2180n       ***
+  
+ out=   1.8008 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2170n       ***
+  
+ out=   1.8010 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2160n       ***
+  
+ out=   1.8013 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2150n       ***
+  
+ out=   1.8016 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2140n       ***
+  
+ out=   1.8020 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2130n       ***
+  
+ out=   1.8023 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2120n       ***
+  
+ out=   1.8027 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2110n       ***
+  
+ out=   1.8031 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2100n       ***
+  
+ out=   1.8035 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2090n       ***
+  
+ out=   1.8040 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2080n       ***
+  
+ out=   1.8046 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2070n       ***
+  
+ out=   1.8052 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2060n       ***
+  
+ out=   1.8059 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2050n       ***
+  
+ out=   1.8067 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2040n       ***
+  
+ out=   1.8075 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2030n       ***
+  
+ out=   1.8085 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2020n       ***
+  
+ out=   1.8096 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2010n       ***
+  
+ out=   1.8106 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.2000n       ***
+  
+ out=   1.8117 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1990n       ***
+  
+ out=   1.8128 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1980n       ***
+  
+ out=   1.8140 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1970n       ***
+  
+ out=   1.8151 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1960n       ***
+  
+ out=   1.8162 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1950n       ***
+  
+ out=   1.8173 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1940n       ***
+  
+ out=   1.8183 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1930n       ***
+  
+ out=   1.8194 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1920n       ***
+  
+ out=   1.8204 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1910n       ***
+  
+ out=   1.8213 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1900n       ***
+  
+ out=   1.8221 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1890n       ***
+  
+ out=   1.8229 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1880n       ***
+  
+ out=   1.8237 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1870n       ***
+  
+ out=   1.8244 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1860n       ***
+  
+ out=   1.8249 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1850n       ***
+  
+ out=   1.8255 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1840n       ***
+  
+ out=   1.8261 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1830n       ***
+  
+ out=   1.8266 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1820n       ***
+  
+ out=   1.8270 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1810n       ***
+  
+ out=   1.8274 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1800n       ***
+  
+ out=   1.8278 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1790n       ***
+  
+ out=   1.8282 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1780n       ***
+  
+ out=   1.8286 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1770n       ***
+  
+ out=   1.8289 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1760n       ***
+  
+ out=   1.8292 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1750n       ***
+  
+ out=   1.8298 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1740n       ***
+  
+ out=   1.8305 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1730n       ***
+  
+ out=   1.8312 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1720n       ***
+  
+ out=   1.8321 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1710n       ***
+  
+ out=   1.8332 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1700n       ***
+  
+ out=   1.8343 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1690n       ***
+  
+ out=   1.8354 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1680n       ***
+  
+ out=   1.8365 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1670n       ***
+  
+ out=   1.8375 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1660n       ***
+  
+ out=   1.8387 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1650n       ***
+  
+ out=   1.8398 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1640n       ***
+  
+ out=   1.8408 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1630n       ***
+  
+ out=   1.8418 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1620n       ***
+  
+ out=   1.8426 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1610n       ***
+  
+ out=   1.8436 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1600n       ***
+  
+ out=   1.8445 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1590n       ***
+  
+ out=   1.8455 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1580n       ***
+  
+ out=   1.8463 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1570n       ***
+  
+ out=   1.8470 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1560n       ***
+  
+ out=   1.8474 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1550n       ***
+  
+ out=   1.8469 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1540n       ***
+  
+ out=   1.8465 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1530n       ***
+  
+ out=   1.8454 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1520n       ***
+  
+ out=   1.8441 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1510n       ***
+  
+ out=   1.8429 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1500n       ***
+  
+ out=   1.8416 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1490n       ***
+  
+ out=   1.8403 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1480n       ***
+  
+ out=   1.8390 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1470n       ***
+  
+ out=   1.8378 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1460n       ***
+  
+ out=   1.8366 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1450n       ***
+  
+ out=   1.8353 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1440n       ***
+  
+ out=   1.8340 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1430n       ***
+  
+ out=   1.8329 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1420n       ***
+  
+ out=   1.8317 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1410n       ***
+  
+ out=   1.8304 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1400n       ***
+  
+ out=   1.8293 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1390n       ***
+  
+ out=   1.8281 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1380n       ***
+  
+ out=   1.8270 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1370n       ***
+  
+ out=   1.8258 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1360n       ***
+  
+ out=   1.8247 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1350n       ***
+  
+ out=   1.8236 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1340n       ***
+  
+ out=   1.8225 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1330n       ***
+  
+ out=   1.8215 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1320n       ***
+  
+ out=   1.8204 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1310n       ***
+  
+ out=   1.8194 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1300n       ***
+  
+ out=   1.8185 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1290n       ***
+  
+ out=   1.8175 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1280n       ***
+  
+ out=   1.8167 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1270n       ***
+  
+ out=   1.8158 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1260n       ***
+  
+ out=   1.8150 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1250n       ***
+  
+ out=   1.8142 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1240n       ***
+  
+ out=   1.8135 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1230n       ***
+  
+ out=   1.8127 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1220n       ***
+  
+ out=   1.8121 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1210n       ***
+  
+ out=   1.8115 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1200n       ***
+  
+ out=   1.8108 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1190n       ***
+  
+ out=   1.8102 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1180n       ***
+  
+ out=   1.8097 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1170n       ***
+  
+ out=   1.8091 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1160n       ***
+  
+ out=   1.8086 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1150n       ***
+  
+ out=   1.8081 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1140n       ***
+  
+ out=   1.8077 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1130n       ***
+  
+ out=   1.8072 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1120n       ***
+  
+ out=   1.8068 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1110n       ***
+  
+ out=   1.8064 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1100n       ***
+  
+ out=   1.8061 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1090n       ***
+  
+ out=   1.8059 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1080n       ***
+  
+ out=   1.8055 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1070n       ***
+  
+ out=   1.8053 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1060n       ***
+  
+ out=   1.8050 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1050n       ***
+  
+ out=   1.8048 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1040n       ***
+  
+ out=   1.8046 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1030n       ***
+  
+ out=   1.8044 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1020n       ***
+  
+ out=   1.8042 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1010n       ***
+  
+ out=   1.8040 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.1000n       ***
+  
+ out=   1.8038 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0990n       ***
+  
+ out=   1.8036 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0980n       ***
+  
+ out=   1.8035 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0970n       ***
+  
+ out=   1.8033 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0960n       ***
+  
+ out=   1.8032 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0950n       ***
+  
+ out=   1.8030 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0940n       ***
+  
+ out=   1.8029 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0930n       ***
+  
+ out=   1.8027 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0920n       ***
+  
+ out=   1.8026 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0910n       ***
+  
+ out=   1.8024 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0900n       ***
+  
+ out=   1.8023 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0890n       ***
+  
+ out=   1.8022 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0880n       ***
+  
+ out=   1.8021 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0870n       ***
+  
+ out=   1.8019 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0860n       ***
+  
+ out=   1.8018 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0850n       ***
+  
+ out=   1.8017 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0840n       ***
+  
+ out=   1.8016 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0830n       ***
+  
+ out=   1.8015 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0820n       ***
+  
+ out=   1.8014 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0810n       ***
+  
+ out=   1.8013 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0800n       ***
+  
+ out=   1.8012 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0790n       ***
+  
+ out=   1.8011 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0780n       ***
+  
+ out=   1.8011 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0770n       ***
+  
+ out=   1.8010 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0760n       ***
+  
+ out=   1.8009 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0750n       ***
+  
+ out=   1.8009 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0740n       ***
+  
+ out=   1.8008 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0730n       ***
+  
+ out=   1.8007 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0720n       ***
+  
+ out=   1.8007 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0710n       ***
+  
+ out=   1.8006 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0700n       ***
+  
+ out=   1.8005 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0690n       ***
+  
+ out=   1.8005 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0680n       ***
+  
+ out=   1.8005 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0670n       ***
+  
+ out=   1.8004 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0660n       ***
+  
+ out=   1.8004 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0650n       ***
+  
+ out=   1.8003 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0640n       ***
+  
+ out=   1.8003 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0630n       ***
+  
+ out=   1.8003 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0620n       ***
+  
+ out=   1.8002 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0610n       ***
+  
+ out=   1.8002 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0600n       ***
+  
+ out=   1.8002 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0590n       ***
+  
+ out=   1.8001 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0580n       ***
+  
+ out=   1.8001 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0570n       ***
+  
+ out=   1.8001 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0560n       ***
+  
+ out=   1.8001 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0550n       ***
+  
+ out=   1.8001 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0540n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0530n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0520n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0510n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0500n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0490n       ***
+  
+ out=   1.8000 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0480n       ***
+  
+ out=   1.7999 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0470n       ***
+  
+ out=   1.7999 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0460n       ***
+  
+ out=   1.7999 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0450n       ***
+  
+ out=   1.7999 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0440n       ***
+  
+ out=   1.7999 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0430n       ***
+  
+ out=   1.7999 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0420n       ***
+  
+ out=   1.7999 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0410n       ***
+  
+ out=   1.7999 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0400n       ***
+  
+ out=   1.7999 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0390n       ***
+  
+ out=   1.7999 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0380n       ***
+  
+ out=   1.7999 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0370n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0360n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0350n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0340n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0330n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0320n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0310n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0300n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0290n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0280n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0270n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0260n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0250n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0240n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0230n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0220n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0210n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0200n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0190n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0180n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0170n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0160n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0150n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0140n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0130n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0120n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0110n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0100n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0090n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0080n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0070n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0060n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0050n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0040n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0030n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0020n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =     1.0010n       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******
+ ********************* hspice fa gates modeling **********************
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+  *** parameter tc =  1000.0000p       ***
+  
+ out=   1.7998 
+
+          ***** job concluded
+ ******  
+ ********************* hspice fa gates modeling **********************
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    16
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =     625 # elements   =     254
+  # resistors   =       0 # capacitors =       1 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       7
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =     246 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.01           1          60
+  transient        471.31     5010501     1716607      535180 rev=     69995
+  readin             0.05
+  errchk             0.01
+  setup              0.00
+  output             0.01
+
+
+           peak memory used         74.39 megabytes
+           total cpu time          471.85 seconds
+           total elapsed time      471.87 seconds
+           job started at     21:27:03 07/10/2026
+           job ended   at     21:34:55 07/10/2026
+           job total runtime       471.87 seconds
+
+
+  lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.02(s)
