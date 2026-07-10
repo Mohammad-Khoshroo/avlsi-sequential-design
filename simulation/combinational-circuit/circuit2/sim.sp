@@ -1,3 +1,38 @@
+********************* HSPICE FA GATES MODELING **********************
+*
+*   Mohammad Khoshroo - 810102441 
+*   Spring 2026
+*   AVLSI Course - by Dr. Vahdat
+*   Thechnolegy - mm018.lib (180nm)
+*   Standard MOSFET Model Name : nmos , pmos
+*   CIRCUIT SIMULATION
+*   TEMP(℃) 25
+*   CORNER TT
+*
+**************************** PARAMETERS *****************************
+
+.OPTION NOMOD
+.LIB "../../../include/mm018.lib" TT
+.INC "../../../include/comb_circuit.inc"
+
+.PARAM Vdd_val = 1.8                  $ supply-1 voltage
+.PARAM Vss_val = 0                    $ supply-0 voltage
+.PARAM beta = 2                       $ un/up
+.PARAM L = 180n                       $ Channel length
+.PARAM Wn_min = 220n                  $ Minimum Transistor width for n-types
+.PARAM Wp_min = 'beta * Wn_min'       $ Minimum Transistor width for p-types
+
+
+****************************** CIRCUIT ******************************
+
+Xcircuit A B C D OUT Vdd Vss CIRCUIT     $ CIRCUIT Under TEST/SIMULATION
+
+************************* SIMULATION SETTING ************************
+
+* Supplys Voltage Node
+Vdd Vdd 0 DC 'Vdd_val'
+Vss Vss 0 DC 'Vss_val'
+
 .TRAN 0.01p 1200.0p SWEEP DATA=CIRCUIT
 .TEMP 25
 
@@ -83,3 +118,31 @@ VD D 0 PWL(0p 'd_init*Vdd_val' 75.0p 'd_init*Vdd_val' 125.0p 'd_final*Vdd_val' 1
 .MEASURE TRAN tpLH_out_D TRIG V(D) VAL='0.5*Vdd_val' RISE=1 TD=65.0p TARG V(out) VAL='0.5*Vdd_val' RISE=1
 .MEASURE TRAN tpHL_out_D TRIG V(D) VAL='0.5*Vdd_val' FALL=1 TD=65.0p TARG V(out) VAL='0.5*Vdd_val' FALL=1
 
+
+* * ===================================================================
+* * Output Voltage Level (Vo)
+
+* .MEASURE TRAN VOH_val MAX V(out)
+* .MEASURE TRAN VOL_val MIN V(out)
+
+* * ===================================================================
+* * Power (P)
+
+* .MEASURE TRAN P_avg AVG POWER                       $ Average Power
+* .MEASURE TRAN P_max MAX POWER                       $ Maximum (Peak) Power
+* .MEASURE TRAN PDP PARAM = 'P_avg * tp_global_max'   $ Power-Delay Product (PDP)
+
+* * ===================================================================
+* * Current (I)
+
+* .MEASURE TRAN I_avg AVG  I(Vdd)
+* .MEASURE TRAN I_peak MIN I(Vdd)
+
+*************************** OUTPUT SETTING **************************
+
+.OPTION POST= 2 PROBE RUNLVL=6
+.PROBE V(A) V(B) V(C) V(D) V(out)
+
+* Each output file includes data for a fixed TEMP+Corner with beta parameter sweep
+
+.END

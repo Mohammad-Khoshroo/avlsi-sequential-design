@@ -25,7 +25,21 @@ $ Cross-coupled NAND
 Xnand3  N1      Q_bar   Q        Vdd Vss  NAND2  scale=scale
 Xnand4  N2      Q       Q_bar    Vdd Vss  NAND2  scale=scale
 
-.ENDS D_LATCH
+.ENDS D_LATCH_NN
+
+.SUBCKT NEG_D_LATCH_NN D E Q Q_bar Vdd Vss scale=1
+
+Xinv_D  D       D_not            Vdd Vss  INV    scale=scale
+Xinv_D  E       E_not            Vdd Vss  INV    scale=scale
+
+Xnand1  D       E_not       N1       Vdd Vss  NAND2  scale=scale
+Xnand2  D_not   E_not       N2       Vdd Vss  NAND2  scale=scale
+
+$ Cross-coupled NAND
+Xnand3  N1      Q_bar   Q        Vdd Vss  NAND2  scale=scale
+Xnand4  N2      Q       Q_bar    Vdd Vss  NAND2  scale=scale
+
+.ENDS NEG_D_LATCH_NN
 
 
 ****************** D FLIP-FLOP - REGISTER .SUBCKT *******************

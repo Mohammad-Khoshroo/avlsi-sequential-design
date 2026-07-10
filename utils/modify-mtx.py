@@ -8,13 +8,17 @@ import logging
 # CONFIG
 # ==========================================================
 
-BASE_DIR = "./simulation/seq-elements/D-Latch/delay"
+BASE_DIR = "simulation/seq-elements/D-Latch/delay"
 FILE_PATTERN = r"\.mt[a-zA-Z0-9]+$"
 OUTPUT_JSON_NAME = "measure.json"
 
 SUMMARIZE = True
 
-SIGNALS = ["A", "B", "Cin"]
+# NOTE: SIGNALS is no longer used for parsing — it is auto-detected from
+# the .mt* headers (every <name>_init / <name>_final pair is a signal).
+# The constant below is kept only as an optional override for special cases.
+# Leave it as None to use auto-detection.
+SIGNALS_OVERRIDE = None
 
 # Headers that are control/metadata, not measurements or delays
 CONTROL_HEADERS = {"index", "alter#", "temp", "temper", "is_fall_transition"}
@@ -24,6 +28,45 @@ CONTROL_HEADERS = {"index", "alter#", "temp", "temper", "is_fall_transition"}
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
+
+
+# ==========================================================
+# Auto-detect signals from headers
+# ==========================================================
+
+def detect_signals(records):
+    """Auto-detect signal names from <sig>_init / <sig>_final header pairs.
+
+    Returns a list of signal names (preserving the order they appear in
+    the header row of the first record).
+    """
+    if SIGNALS_OVERRIDE is not None:
+        return list(SIGNALS_OVERRIDE)
+
+    if not records:
+        return []
+
+    # Use the first record's key order (dicts in Python 3.7+ preserve insertion order,
+    # and parse_single_mt_file builds records by zipping headers in file order).
+    keys = list(records[0].keys())
+
+    init_keys = {k for k in keys if k.endswith("_init")}
+    final_keys = {k for k in keys if k.endswith("_final")}
+
+    signals = []
+    for k in keys:
+        if not k.endswith("_init"):
+            continue
+        sig = k[:-len("_init")]
+        # Only count it as a signal if both _init and _final exist
+        if sig and f"{sig}_final" in final_keys:
+            # Avoid duplicates
+            if sig not in [s.lower() for s in signals]:
+                signals.append(sig)
+
+    # Return signal names with original casing as found in headers.
+    # Headers are stored lowercased by parse_single_mt_file, so they are already lowercase.
+    return signals
 
 
 def scientific_to_si(val):
@@ -115,12 +158,12 @@ def parse_single_mt_file(filepath):
 # File-type detection
 # ==========================================================
 
-def is_sweep_file(records):
-    """A sweep file has no <sig>_init / <sig>_final columns for any signal."""
+def is_sweep_file(records, signals):
+    """A sweep file has no <sig>_init / <sig>_final columns for any detected signal."""
     if not records:
         return False
     sample = records[0]
-    for sig in SIGNALS:
+    for sig in signals:
         s = sig.lower()
         if f"{s}_init" in sample and f"{s}_final" in sample:
             return False
@@ -148,16 +191,16 @@ def detect_sweep_parameter(records):
 
 
 # ==========================================================
-# Delay-style processing (original logic, lightly refactored)
+# Delay-style processing
 # ==========================================================
 
-def build_test_name(rec):
+def build_test_name(rec, signals):
     transition_signal = None
     transition_from = None
     transition_to = None
     static_inputs = []
 
-    for sig in SIGNALS:
+    for sig in signals:
         s = sig.lower()
         init_key = f"{s}_init"
         final_key = f"{s}_final"
@@ -259,7 +302,13 @@ def build_delay_summary(output_data):
     return summary
 
 
-def process_delay_records(records):
+def process_delay_records(records, signals):
+    """Process a delay-style .mt file.
+
+    `signals` is the auto-detected list of signal names (e.g. ['a', 'b', 'c', 'd']).
+    Each signal contributes <sig>_init and <sig>_final columns. We find the
+    transition (init != final) and emit state for all other signals.
+    """
     if not records:
         return {}
 
@@ -270,17 +319,35 @@ def process_delay_records(records):
     meas_headers = sorted(list(all_keys - CONTROL_HEADERS))
     output_data = {}
 
-    for rec in records:
-        idx = rec.get("index")
-        if idx is None:
-            idx = rec.get("alter#", "unknown")
-        idx_str = str(int(idx)) if isinstance(idx, float) else str(idx)
+    last_alter = None
+    row_in_alter = 0
+    for rec_idx, rec in enumerate(records):
+        # Build a unique key per row. If alter# is present, use
+        # "<alter#>_<row_in_alter>" so rows sharing the same alter#
+        # (which is the normal case in HSPICE delay sweeps) don't
+        # overwrite each other. Otherwise fall back to the record index.
+        alter = rec.get("alter#")
+        if alter is not None:
+            if alter != last_alter:
+                last_alter = alter
+                row_in_alter = 0
+            else:
+                row_in_alter += 1
+            alter_int = int(alter) if isinstance(alter, float) else alter
+            idx_str = f"{alter_int}_{row_in_alter}"
+        else:
+            # Fall back to 'index' if present, else just the row counter
+            idx_val = rec.get("index")
+            if idx_val is not None and isinstance(idx_val, float):
+                idx_str = str(int(idx_val))
+            else:
+                idx_str = str(rec_idx)
 
         transition = {}
         state = {}
         transition_signal = None
 
-        for sig in SIGNALS:
+        for sig in signals:
             s = sig.lower()
             init_key = f"{s}_init"
             final_key = f"{s}_final"
@@ -291,12 +358,14 @@ def process_delay_records(records):
             if init_val != final_val:
                 transition_signal = s
                 transition = {
-                    "signal": sig,
+                    "signal": sig.upper() if len(sig) == 1 else sig,
                     "from": int(init_val),
                     "to": int(final_val),
                 }
             else:
-                state[sig] = int(init_val)
+                # Preserve original (uppercase) signal name in state for readability
+                display_name = sig.upper() if len(sig) == 1 else sig
+                state[display_name] = int(init_val)
 
         delay = {}
         measurements = {}
@@ -310,9 +379,17 @@ def process_delay_records(records):
             val = rec.get(key)
 
             if is_delay:
+                # The delay name format is tplh_<out>_<in> or tphl_<out>_<in>.
+                # Match it to this row's transition signal (the <in> part).
                 if transition_signal is None:
                     continue
-                if not lower_key.endswith("_" + transition_signal):
+                # Extract the input signal name from the delay key:
+                #   tplh_out_a  ->  parts = ['tplh', 'out', 'a']  -> input = 'a'
+                parts = lower_key.split("_")
+                if len(parts) < 3:
+                    continue
+                delay_input_sig = parts[-1]  # last segment = input signal
+                if delay_input_sig != transition_signal:
                     continue
                 delay[key] = val
             else:
@@ -334,7 +411,7 @@ def process_delay_records(records):
 
 
 # ==========================================================
-# Sweep-style processing (NEW)
+# Sweep-style processing
 # ==========================================================
 
 def build_sweep_summary(rows, sweep_param):
@@ -354,7 +431,6 @@ def build_sweep_summary(rows, sweep_param):
             "avg": sum(values) / len(values),
         }
 
-    # Identify sweep extremes (useful for finding critical setup time, etc.)
     if sweep_param and sweep_param in numeric_cols:
         sp_vals = numeric_cols[sweep_param]
         summary["sweep_range"] = {
@@ -369,11 +445,7 @@ def build_sweep_summary(rows, sweep_param):
 
 
 def process_sweep_records(records):
-    """Process a sweep-style .mt file (e.g. t_setup vs q_max).
-
-    Each row becomes one entry, keyed by a unique per-row id (alter# + row#),
-    so rows with the same alter# no longer overwrite each other.
-    """
+    """Process a sweep-style .mt file (e.g. t_setup vs q_max)."""
     if not records:
         return {}
 
@@ -425,9 +497,14 @@ def process_sweep_records(records):
 def process_records(records):
     if not records:
         return {}
-    if is_sweep_file(records):
+
+    signals = detect_signals(records)
+    if signals:
+        print(f"   detected signals: {signals}")
+
+    if is_sweep_file(records, signals):
         return process_sweep_records(records)
-    return process_delay_records(records)
+    return process_delay_records(records, signals)
 
 
 # ==========================================================
@@ -455,8 +532,9 @@ def main():
             if not recs:
                 continue
 
-            file_kind = "sweep" if is_sweep_file(recs) else "delay"
-            print(f"   detected: {file_kind} file, {len(recs)} rows")
+            signals = detect_signals(recs)
+            file_kind = "sweep" if is_sweep_file(recs, signals) else "delay"
+            print(f"   detected: {file_kind} file, {len(recs)} rows, signals={signals}")
 
             result = process_records(recs)
 

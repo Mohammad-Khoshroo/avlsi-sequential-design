@@ -12,8 +12,8 @@
 **************************** PARAMETERS *****************************
 
 .OPTION NOMOD
-.LIB "../../include/mm018.lib" TT
-.INC "../../include/comb_circuit.inc"
+.LIB "../../../include/mm018.lib" TT
+.INC "../../../include/comb_circuit.inc"
 
 .PARAM Vdd_val = 1.8                  $ supply-1 voltage
 .PARAM Vss_val = 0                    $ supply-0 voltage

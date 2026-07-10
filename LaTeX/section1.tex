@@ -46,3 +46,21 @@
 ولی اگر خروجی \lr{XOR2} صفر شود، خروجی گیت \lr{NAND2}ای که drive می‌کند یک می‌شود!
 اما در این میان برای مدتی به اندازه تاخیر انتشار گیت \lr{NAND2} هرسه ورودی می‌توانند صفر باشند.
 ازونجایی که \lr{$V_{dd}/2$} روی ورودی‌ها در \lr{100ps} اتفاق می‌افتد می‌توان تأخیرها را اینگونه فرض کرد: \lr{$t_{cd}=250ps$} و \lr{$t_{pd}=400ps$}.
+
+\newpage
+مدار محاسباتی را تغییر می‌دهیم و به‌جای \lr{NAND2} با \lr{scale=2.4} یک \lr{AND2} با همین scale قرار می‌دهیم:
+
+\newimage[\textwidth]{images/comb-circuit/comb-circuit-3.png}{مدار محاسباتی}{fig:comb-circuit-3}
+
+\newimage[\textwidth]{images/comb-circuit/delay-sim2.png}{شکل موج خروجی شبیه‌سازی‌ها به ازای تمام \lr{Transition}ها}{fig:delay-sim2}
+
+در نهایت این مقادیر تاخیر برای مدار محاسباتی measure شده است:
+
+\lr{
+    $$
+        \begin{cases}
+            t_{pd} = 541 \text{ ps}   & (5.41 \times 10^{-10} \text{ s})  \\
+            t_{cd} = 424.2 \text{ ps} & (4.242 \times 10^{-10} \text{ s})
+        \end{cases}
+    $$
+}
