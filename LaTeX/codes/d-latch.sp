@@ -16,4 +16,4 @@ $ Cross-coupled NAND
 Xnand3  N1      Q_bar   Q        Vdd Vss  NAND2  scale=scale
 Xnand4  N2      Q       Q_bar    Vdd Vss  NAND2  scale=scale
 
-.ENDS D_LATCH
+.ENDS D_LATCH_NN

@@ -4,7 +4,10 @@
 *   Spring 2026
 *   AVLSI Course - by Dr. Vahdat
 *   Thechnolegy - mm018.lib (180nm)
-*   D-LATCH TIMING CHARACTERIZATION (tsetup, thold, tdq)
+*   Standard MOSFET Model Name : nmos , pmos
+*   FF SIMULATION
+*   TEMP(℃) 25
+*   CORNER TT
 *
 **************************** PARAMETERS *****************************
 
@@ -12,74 +15,34 @@
 .LIB "../../../../include/mm018.lib" TT
 .INC "../../../../include/sequential_elements.inc"
 
-.PARAM Vdd_val = 1.8
-.PARAM Vss_val = 0
-.PARAM beta = 2
-.PARAM L = 180n
-.PARAM Wn_min = 220n
-.PARAM Wp_min = 'beta * Wn_min'
-.PARAM Vth = 'Vdd_val/2'         $ Threshold voltage for measurements
-.PARAM t_tran = 20p              $ Transition time (Rise/Fall time)
+.PARAM Vdd_val = 1.8                  $ supply-1 voltage
+.PARAM Vss_val = 0                    $ supply-0 voltage
+.PARAM beta = 2                       $ un/up
+.PARAM L = 180n                       $ Channel length
+.PARAM Wn_min = 220n                  $ Minimum Transistor width for n-types
+.PARAM Wp_min = 'beta * Wn_min'       $ Minimum Transistor width for p-types
+
 
 ****************************** CIRCUIT ******************************
 
-Xcircuit D E Q Q_bar Vdd Vss D_Latch_NN
+Xcircuit D CLK Q Q_bar Vdd Vss D_FF_POS     $ POS FF Under TEST/SIMULATION
 
 ************************* SIMULATION SETTING ************************
 
+* Supplys Voltage Node
 Vdd Vdd 0 DC 'Vdd_val'
 Vss Vss 0 DC 'Vss_val'
+.IC V(Q)="Vdd_val" V(Q_bar)="Vss_val"
 
+VD   D   0 PWL(0p 0  200p 0  240p 'Vdd_val'  520p 'Vdd_val'  560p 0  1000p 0  1040p 'Vdd_val'  1320p 'Vdd_val'  1360p 0  2400p 0  2440p 'Vdd_val'  3200p 'Vdd_val')
+VCLK CLK 0 PWL(0p 0  800p 0  840p 'Vdd_val'  1600p 'Vdd_val'  1640p 0  1800p 0  1840p 'Vdd_val'  2120p 'Vdd_val'  2160p 0  2600p 0  2640p 'Vdd_val'  2920p 'Vdd_val'  2960p 0  3200p 0)
 
 *************************** OUTPUT SETTING **************************
 
-.ALTER tdq_tcq_measure
-
-.IC V(Q)=0 V(Q_bar)=1.8
-.TRAN 1p 4000p UIC
-
-VD D 0 PWL(0p 0 200p 0 '200p+t_tran' Vdd_val 1200p Vdd_val '1200p+t_tran' 0 4000p 0)
-VE E 0 PWL(0p 0 1000p 0 '1000p+t_tran' Vdd_val 2000p Vdd_val '2000p+t_tran' 0 4000p 0)
-
-.MEASURE TRAN t_cq TRIG V(E) VAL='Vth' RISE=1 TARG V(Q) VAL='Vth' RISE=1
-.MEASURE TRAN t_dq TRIG V(D) VAL='Vth' FALL=1 TARG V(Q) VAL='Vth' FALL=1
-
+.TRAN 1p 3200p UIC
 .OPTION POST= 2 PROBE RUNLVL=6
-.PROBE V(D) V(Q) V(E)
+.PROBE V(D) V(Q) V(CLK)
 
-
-************************************************************************* 
-
-.ALTER setup_sweep
-
-.PARAM t_setup = 300p
-.IC V(Q)=0 V(Q_bar)=1.8
-
-VE E 0 PWL(0p 0 1000p 0 '1000p+t_tran' Vdd_val 2000p Vdd_val '2000p+t_tran' 0 4000p 0)
-VD D 0 PWL(0p 0 '2000p-t_setup' 0 '2000p-t_setup+t_tran' Vdd_val 3500p Vdd_val '3500p+t_tran' 0 4000p 0)
-
-.TRAN 1p 4000p UIC SWEEP t_setup 300p 10p -1p
-.MEASURE TRAN Q_max MAX V(Q) FROM=1800p TO=3500p
-
-.OPTION POST= 2 PROBE RUNLVL=6
-.PROBE V(D) V(Q) V(E)
-
-
-*************************************************************************
-
-.ALTER hold_sweep
-
-.PARAM t_hold = 200p
-.IC V(Q)=1.8 V(Q_bar)=0
-
-VE E 0 PWL(0p 0 1000p 0 '1000p+t_tran' Vdd_val 2000p Vdd_val '2000p+t_tran' 0 4000p 0)
-VD D 0 PWL(0p Vdd_val '2000p+t_hold' Vdd_val '2000p+t_hold+t_tran' 0 4000p 0)
-
-.TRAN 1p 4000p UIC SWEEP t_hold 200p -100p -1p
-.MEASURE TRAN Q_min MIN V(Q) FROM=1800p TO=3500p
-
-.OPTION POST= 2 PROBE RUNLVL=6
-.PROBE V(D) V(Q) V(E)
-
+* Each output file includes data for a fixed TEMP+Corner with beta parameter sweep
 
 .END

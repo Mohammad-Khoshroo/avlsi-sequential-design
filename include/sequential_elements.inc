@@ -53,10 +53,10 @@ Xinv_clk2  Clk_bar    Clk_buf  Vdd Vss  INV  scale=scale
 
 
 $ Master D-Latch (Neg)
-Xmaster    D          Clk_bar  Qm       Qm_bar   Vdd Vss  D_LATCH  scale=scale
+Xmaster    D          Clk_bar  Qm       Qm_bar   Vdd Vss  D_LATCH_NN  scale=scale
 
 $ Slave  D-Latch (pos)
-Xslave     Qm         Clk_buf  Q        Q_bar    Vdd Vss  D_LATCH  scale=scale
+Xslave     Qm         Clk_buf  Q        Q_bar    Vdd Vss  D_LATCH_NN  scale=scale
 
 .ENDS D_FF_POS
 

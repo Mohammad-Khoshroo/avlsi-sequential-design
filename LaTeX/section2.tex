@@ -5,11 +5,9 @@
 اگر که خود سیگنال clk را به enable مدار وصل کنیم یک latch حساس به سطح مثبت خواهیم داشت.
 
 \newimage[0.5\textwidth]{./images/gate/negDLATCH.png}{شماتیک مدار \lr{D-Latch} (از نوع حساس به سطح منفی)}{fig:negd-latch}
-
-\newcode[0.7]{spice}{codes/d-latch.sp}{پیاده‌سازی HSPICE مدار \lr{D-Latch}}{code:D-latch}
-
-\newimage[0.79\textwidth]{./images/d-latch/d-latch-sim.png}{شکل موج شبیه‌سازی \lr{D-Latch}}{fig:d-latch-sim}
-همانطور که مشخص است \lr{D-Latch} ما
+\newcode[0.68]{spice}{codes/d-latch.sp}{پیاده‌سازی HSPICE مدار \lr{D-Latch}}{code:D-latch}
+همانطور که مشخص است \lr{D-Latch} ما هرگاه ورودی enable خود را سطح مثبت ببیند داده‌ی D ورودی خود را عبور می‌دهد در غیر این صورت همان داده قبلی خود را روی خروجی حفظ می‌کند.
+\newimage[0.68\textwidth]{./images/d-latch/d-latch-sim.png}{شکل موج شبیه‌سازی \lr{D-Latch}}{fig:d-latch-sim}
 
 با استفاده از \texttt{.SWEEP} و \texttt{.ALTER} پارامتر‌های $t_{hold}$ و $t_{setup}$ و تاخیر‌های $t_{cq}$ و $t_{dq}$ را برای \lr{D-Latch} بدست می‌آوریم:
 
@@ -19,7 +17,7 @@
 \newimage[0.83\textwidth]{./images/d-latch/hold2-sim.png}{شکل موج شبیه‌سازی \lr{D-Latch} برای محاسبه $t_{hold}$ در بازه \lr{200ps} تا \lr{-50ps}}{fig:d-latch-hold2-sim}
 \newimage[0.83\textwidth]{./images/d-latch/hold3-sim.png}{شکل موج شبیه‌سازی \lr{D-Latch} برای محاسبه $t_{hold}$ در بازه \lr{-50ps} تا \lr{-100ps}}{fig:d-latch-hold3-sim}
 
-\newimage[0.7\textwidth]{./images/d-latch/hold-plot.png}{نمودار تاثیر زمان تغییر در ورودی و تاثیر آن در خروجی \lr{D-Latch}}{fig:d-latch-hold-plot}
+\newimage[0.68\textwidth]{./images/d-latch/hold-plot.png}{نمودار تاثیر زمان تغییر در ورودی و تاثیر آن در خروجی \lr{D-Latch}}{fig:d-latch-hold-plot}
 
 در نهایت این مقادیر تاخیر برای مدار محاسباتی measure شده است:
 
@@ -46,33 +44,33 @@
 ساختار زیر یک FF حساس به لبه بالارونده ورودی CLK هست که از قرار گرفتن پشت سر هم یک \lr{neg-level sensitive D-Latch} و \lr{pos-level sensitive D-Latch} ساخته شده.
 موقع سطح منفی سیگنال CLK ورودی FF عبور کرده و در ورودی Latch دوم گیر می‌کند. و هنگامی که سطح مثبت سیگنال CLK می‌رسد این داده را عبور می‌دهد و داده جدیدی نیز از Laych اول عبور نمی‌کند.
 
-\newimage[0.75\textwidth]{./images/gate/FF.png}{شماتیک مدار \lr{Master-Slave FF} (از نوع حساس به لبه مثبت)}{fig:ff}
+\newimage[0.7\textwidth]{./images/gate/FF.png}{شماتیک مدار \lr{Master-Slave FF} (از نوع حساس به لبه مثبت)}{fig:ff}
 
 \newcode[1]{spice}{codes/ff.sp}{پیاده‌سازی HSPICE مدار \lr{posedge-FF}}{code:ff}
 
-% \newimage[0.79\textwidth]{./images/d-latch/d-latch-sim.png}{شکل موج شبیه‌سازی \lr{D-Latch}}{fig:d-latch-sim}
+\newimage[\textwidth]{./images/ff/sim.png}{شکل موج شبیه‌سازی \lr{FF}}{fig:ff-sim}
+از شکل موج شبیه‌سازی مشخص است که FF تنها زمانی از داده D ورودی نمونه‌برداری می‌کند که pos-edge سیگنال ورودی CLK اش را ببیند.
 
+\newpage
 
-% با استفاده از \texttt{.SWEEP} و \texttt{.ALTER} پارامتر‌های $t_{hold}$ و $t_{setup}$ و تاخیر‌های $t_{cq}$ و $t_{dq}$ را برای \lr{D-Latch} بدست می‌آوریم:
+مشابه \lr{D-Latch} با استفاده از \texttt{.SWEEP} و \texttt{.ALTER} پارامتر‌های $t_{hold}$ و $t_{setup}$ و تاخیر‌های $t_{cq}$ و $t_{dq}$ را برای \lr{ff} بدست می‌آوریم:
 
-% \newimage[\textwidth]{./images/d-latch/setup-sim.png}{شکل موج شبیه‌سازی \lr{D-Latch} برای محاسبه $t_{setup}$}{fig:d-latch-setup-sim}
-% \newimage[\textwidth]{./images/d-latch/setup-plot.png}{نمودار تاثیر زمان تغییر در ورودی و تاثیر آن در خروجی \lr{D-Latch}}{fig:d-latch-setup-plot}
-% \newimage[0.83\textwidth]{./images/d-latch/hold1-sim.png}{شکل موج شبیه‌سازی \lr{D-Latch} برای محاسبه $t_{hold}$}{fig:d-latch-hold1-sim}
-% \newimage[0.83\textwidth]{./images/d-latch/hold2-sim.png}{شکل موج شبیه‌سازی \lr{D-Latch} برای محاسبه $t_{hold}$ در بازه \lr{200ps} تا \lr{-50ps}}{fig:d-latch-hold2-sim}
-% \newimage[0.83\textwidth]{./images/d-latch/hold3-sim.png}{شکل موج شبیه‌سازی \lr{D-Latch} برای محاسبه $t_{hold}$ در بازه \lr{-50ps} تا \lr{-100ps}}{fig:d-latch-hold3-sim}
-% \newimage[\textwidth]{./images/d-latch/hold-plot.png}{نمودار تاثیر زمان تغییر در ورودی و تاثیر آن در خروجی \lr{D-Latch}}{fig:d-latch-hold-plot}
+\newimage[\textwidth]{./images/ff/setup-sim.png}{شکل موج شبیه‌سازی \lr{ff} برای محاسبه $t_{setup}$}{fig:ff-setup-sim}
+\newimage[\textwidth]{./images/ff/setup-plot.png}{نمودار تاثیر زمان تغییر در ورودی و تاثیر آن در خروجی \lr{ff}}{fig:ff-setup-plot}
+\newimage[0.83\textwidth]{./images/ff/hold1-sim.png}{شکل موج شبیه‌سازی \lr{ff} برای محاسبه $t_{hold}$}{fig:ff-hold1-sim}
+\newimage[0.83\textwidth]{./images/ff/hold2-sim.png}{شکل موج شبیه‌سازی \lr{ff} برای محاسبه $t_{hold}$ در بازه \lr{200ps} تا \lr{-50ps}}{fig:ff-hold2-sim}
+\newimage[0.83\textwidth]{./images/ff/hold3-sim.png}{شکل موج شبیه‌سازی \lr{ff} برای محاسبه $t_{hold}$ در بازه \lr{-50ps} تا \lr{-100ps}}{fig:ff-hold3-sim}
+\newimage[\textwidth]{./images/ff/hold-plot.png}{نمودار تاثیر زمان تغییر در ورودی و تاثیر آن در خروجی \lr{ff}}{fig:ff-hold-plot}
 
-% در نهایت این مقادیر تاخیر برای مدار محاسباتی measure شده است:
+در نهایت این مقادیر تاخیر برای مدار محاسباتی measure شده است:
 
-% \lr{
-%     $$
-%         \begin{cases}
-%             t_{dq} =    142.9 \text{ ps} & (1.429e-10 \text{ s})  \\
-%             t_{cq} =    76.25 \text{ ps} & (7.625e-11 \text{ s})  \\
-%             t_{setup} = 56    \text{ ps} & (5.600e-11 \text{ s})  \\
-%             t_{hold} =  -80   \text{ ps} & (-8.000e-11 \text{ s})
-%         \end{cases}
-%     $$
-% }
-
-% طبق شبیه‌سازی ها D-Latch ما نیازی به نگه‌داشتن داده بعد از لبه سیگنال Enable یا CLK ندارد.
+\lr{
+    $$
+        \begin{cases}
+            t_{dq} =    142.9 \text{ ps} & (1.429e-10 \text{ s})  \\
+            t_{cq} =    76.25 \text{ ps} & (7.625e-11 \text{ s})  \\
+            t_{setup} = 56    \text{ ps} & (5.600e-11 \text{ s})  \\
+            t_{hold} =  -80   \text{ ps} & (-8.000e-11 \text{ s})
+        \end{cases}
+    $$
+}
