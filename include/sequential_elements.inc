@@ -30,7 +30,7 @@ Xnand4  N2      Q       Q_bar    Vdd Vss  NAND2  scale=scale
 .SUBCKT NEG_D_LATCH_NN D E Q Q_bar Vdd Vss scale=1
 
 Xinv_D  D       D_not            Vdd Vss  INV    scale=scale
-Xinv_D  E       E_not            Vdd Vss  INV    scale=scale
+Xinv_E  E       E_not            Vdd Vss  INV    scale=scale
 
 Xnand1  D       E_not       N1       Vdd Vss  NAND2  scale=scale
 Xnand2  D_not   E_not       N2       Vdd Vss  NAND2  scale=scale
