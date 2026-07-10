@@ -7,11 +7,11 @@
   this software is strictly prohibited.
   Input File: sim.sp                                                            
   Command line options: C:\synopsys\Hspice_P-2019.06-SP1-1\WIN64\hspice.com -i sim.sp -o D:\UT.CE\Term-06\AVLSI\CA\CA04\simulation\seq-elements\master-slave-flipflop\delay\sim.lis
-  Start time: Fri Jul 10 15:51:47 2026
+  Start time: Fri Jul 10 16:04:54 2026
   lic:  
   lic: FLEXlm: SDK_12.3 
   lic: USER:   Mohammad-Khohsroo    HOSTNAME: DESKTOP-GMQQFUO 
-  lic: HOSTID: "088fc3e7a24d"       PID:      7428 
+  lic: HOSTID: "088fc3e7a24d"       PID:      20216 
   lic: Using FLEXlm license file: 
   lic: 27000@DESKTOP-GMQQFUO 
   lic: Checkout 1 hspice 
@@ -50,8 +50,8 @@
  -----------------------
  |Node      |Subckt    |
  |----------+----------|
+ |clk       |0         |
  |d         |0         |
- |e         |0         |
  -----------------------
               
       
@@ -96,11 +96,11 @@
   output             0.00
 
 
-           peak memory used         65.89 megabytes
+           peak memory used         65.85 megabytes
            total cpu time            0.05 seconds
-           total elapsed time        0.08 seconds
-           job started at     15:51:47 07/10/2026
-           job ended   at     15:51:47 07/10/2026
+           total elapsed time        0.07 seconds
+           job started at     16:04:54 07/10/2026
+           job ended   at     16:04:54 07/10/2026
  ******  
  tdq_tcq_measure
 
@@ -123,7 +123,7 @@
        13 xcircuit.xslave.xnand2.         nand2              1.00 
        14 xcircuit.xslave.xnand3.         nand2              1.00 
        15 xcircuit.xslave.xnand4.         nand2              1.00 
-  **info** (sim.sp:41) DC voltage reset to initial transient source value in source 0:vd. new dc=0.0000D+00
+  **info** (sim.sp:42) DC voltage reset to initial transient source value in source 0:vclk. new dc=0.0000D+00
   
       
  **info** set option symb=1 internally to help for convergence.
@@ -171,11 +171,11 @@
   output             0.00
 
 
-           peak memory used         66.88 megabytes
+           peak memory used         66.58 megabytes
            total cpu time            0.05 seconds
            total elapsed time        0.06 seconds
-           job started at     15:51:47 07/10/2026
-           job ended   at     15:51:47 07/10/2026
+           job started at     16:04:54 07/10/2026
+           job ended   at     16:04:54 07/10/2026
  ******  
  setup_sweep
 
@@ -198,7 +198,7 @@
        13 xcircuit.xslave.xnand2.         nand2              1.00 
        14 xcircuit.xslave.xnand3.         nand2              1.00 
        15 xcircuit.xslave.xnand4.         nand2              1.00 
-  **info** (sim.sp:60) DC voltage reset to initial transient source value in source 0:vd. new dc=0.0000D+00
+  **info** (sim.sp:58) DC voltage reset to initial transient source value in source 0:vclk. new dc=0.0000D+00
   **warning** (sim.sp:56) Duplicate .ic/.nodeset declaration for node q. Taking the .ic value 0.00
   
       
@@ -6048,18 +6048,18 @@
 
   analysis           time    # points   tot. iter  conv.iter
   op point           0.00           1           0
-  transient         47.95        4001      854105      272078 rev=     35800
+  transient         22.69        4001      854007      272048 rev=     35790
   readin             0.01
   errchk             0.00
   setup              0.00
   output             0.01
 
 
-           peak memory used         73.06 megabytes
-           total cpu time           48.24 seconds
-           total elapsed time       48.25 seconds
-           job started at     15:51:47 07/10/2026
-           job ended   at     15:52:35 07/10/2026
+           peak memory used         72.88 megabytes
+           total cpu time           22.85 seconds
+           total elapsed time       22.86 seconds
+           job started at     16:04:54 07/10/2026
+           job ended   at     16:05:17 07/10/2026
  ******  
  hold_sweep
 
@@ -6082,7 +6082,7 @@
        13 xcircuit.xslave.xnand2.         nand2              1.00 
        14 xcircuit.xslave.xnand3.         nand2              1.00 
        15 xcircuit.xslave.xnand4.         nand2              1.00 
-  **info** (sim.sp:78) DC voltage reset to initial transient source value in source 0:vd. new dc=0.1800D+01
+  **info** (sim.sp:76) DC voltage reset to initial transient source value in source 0:vclk. new dc=0.0000D+00
   **warning** (sim.sp:56) Duplicate .ic/.nodeset declaration for node q. Taking the .ic value 0.00
   
       
@@ -14555,7 +14555,7 @@
  ****** transient analysis tnom=  25.000 temp=  25.000 ******
   *** parameter t_hold =   -64.0000p       ***
   
- q_min=  -1.3234m    at=   2.1056n
+ q_min=  -1.3425m    at=   2.1066n
              from= 800.0000p    to=   3.5000n
 
           ***** job concluded
@@ -14575,7 +14575,7 @@
  ****** transient analysis tnom=  25.000 temp=  25.000 ******
   *** parameter t_hold =   -66.0000p       ***
   
- q_min=  -1.3426m    at=   2.1066n
+ q_min=  -1.3258m    at=   2.1057n
              from= 800.0000p    to=   3.5000n
 
           ***** job concluded
@@ -15255,7 +15255,7 @@
  ****** transient analysis tnom=  25.000 temp=  25.000 ******
   *** parameter t_hold =   -66.0000p       ***
   
- q_min=  -1.3426m    at=   2.1066n
+ q_min=  -1.3258m    at=   2.1057n
              from= 800.0000p    to=   3.5000n
 
           ***** job concluded
@@ -15275,7 +15275,7 @@
  ****** transient analysis tnom=  25.000 temp=  25.000 ******
   *** parameter t_hold =   -64.0000p       ***
   
- q_min=  -1.3234m    at=   2.1056n
+ q_min=  -1.3425m    at=   2.1066n
              from= 800.0000p    to=   3.5000n
 
           ***** job concluded
@@ -17940,19 +17940,19 @@
 
   analysis           time    # points   tot. iter  conv.iter
   op point           0.00           1           0
-  transient         66.34        4001     1181304      375322 rev=     47158
-  readin             0.02
-  errchk             0.01
+  transient         31.80        4001     1181304      375322 rev=     47158
+  readin             0.01
+  errchk             0.00
   setup              0.00
-  output             0.03
+  output             0.01
 
 
-           peak memory used         73.06 megabytes
-           total cpu time           66.88 seconds
-           total elapsed time       66.91 seconds
-           job started at     15:51:47 07/10/2026
-           job ended   at     15:53:42 07/10/2026
-           job total runtime       115.30 seconds
+           peak memory used         72.88 megabytes
+           total cpu time           32.09 seconds
+           total elapsed time       32.12 seconds
+           job started at     16:04:54 07/10/2026
+           job ended   at     16:05:49 07/10/2026
+           job total runtime        55.12 seconds
 
 
   lic: Release hspice token(s) 

@@ -51,6 +51,7 @@ VE E 0 PWL(0p 0 1000p 0 '1000p+t_tran' Vdd_val 2000p Vdd_val '2000p+t_tran' 0 40
 ************************************************************************* 
 
 .ALTER setup_sweep
+.PARAM t_tran = 20p              $ Transition time (Rise/Fall time)
 
 .PARAM t_setup = 300p
 .IC V(Q)=0 V(Q_bar)=1.8

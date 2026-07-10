@@ -50,9 +50,9 @@
 \newpage
 مدار محاسباتی را تغییر می‌دهیم و به‌جای \lr{NAND2} با \lr{scale=2.4} یک \lr{AND2} با همین scale قرار می‌دهیم:
 
-\newimage[\textwidth]{images/comb-circuit/comb-circuit-3.png}{مدار محاسباتی}{fig:comb-circuit-3}
+\newimage[0.78\textwidth]{images/comb-circuit/comb-circuit-3.png}{مدار محاسباتی}{fig:comb-circuit-3}
 
-\newimage[\textwidth]{images/comb-circuit/delay-sim2.png}{شکل موج خروجی شبیه‌سازی‌ها به ازای تمام \lr{Transition}ها}{fig:delay-sim2}
+\newimage[0.85\textwidth]{images/comb-circuit/delay-sim2.png}{شکل موج خروجی شبیه‌سازی‌ها به ازای تمام \lr{Transition}ها}{fig:delay-sim2}
 
 در نهایت این مقادیر تاخیر برای مدار محاسباتی measure شده است:
 
@@ -64,3 +64,7 @@
         \end{cases}
     $$
 }
+
+اسکریپت‌های استخراج داده به گونه‌ای طراحی شده‌اند که \lr{transition}ای که با آن این تاخیر‌ها بدست آمده‌اند را نیز ذخیره می‌کنند.
+
+\newcodeFont[\scriptsize]{spice}{codes/comb-delay.sp}{\lr{Transition}هایی که تاخیر‌های اکسترمم را بدست‌ آورده‌اند}{code:comb-delay}
