@@ -8,7 +8,7 @@ import logging
 # CONFIG
 # ==========================================================
 
-BASE_DIR = "simulation/pipe/FF"
+BASE_DIR = "simulation/pipe/2latch"
 FILE_PATTERN = r"\.mt[a-zA-Z0-9]+$"
 OUTPUT_JSON_NAME = "measure.json"
 

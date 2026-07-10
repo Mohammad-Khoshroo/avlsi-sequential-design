@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # ==========================================================
 
 TARGET_DIRS = [
-    r"simulation/pipe/FF/sim_mt0_measure.json",
+    r"simulation/pipe/2latch/sim_mt0_measure.json",
 ]
 
 LEGEND_LABELS = [
@@ -19,7 +19,7 @@ LEGEND_LABELS = [
 # "t بر حسب Q"  ->  t on Y-axis, Q on X-axis.
 # Swap these two if you want the conventional Q(t) orientation instead.
 X_PARAM  = "tc"     # X-axis measurement key
-Y_PARAM  = "out"   # Y-axis measurement key
+Y_PARAM  = "out_min"   # Y-axis measurement key
 X_UNIT   = "s"         # unit symbol for X (empty string to omit)
 Y_UNIT   = "V"         # unit symbol for Y (will be SI-prefixed: p, n, µ, m ...)
 

@@ -1,0 +1,3232 @@
+{
+    "1_0": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.5e-09,
+            "out_min": -0.009672
+        }
+    },
+    "1_1": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.499e-09,
+            "out_min": -0.009796
+        }
+    },
+    "1_2": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.498e-09,
+            "out_min": -0.009807
+        }
+    },
+    "1_3": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.497e-09,
+            "out_min": -0.00981
+        }
+    },
+    "1_4": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.496e-09,
+            "out_min": -0.009814
+        }
+    },
+    "1_5": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.495e-09,
+            "out_min": -0.00982
+        }
+    },
+    "1_6": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.494e-09,
+            "out_min": -0.009825
+        }
+    },
+    "1_7": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.493e-09,
+            "out_min": -0.009831
+        }
+    },
+    "1_8": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.492e-09,
+            "out_min": -0.009838
+        }
+    },
+    "1_9": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.491e-09,
+            "out_min": -0.009848
+        }
+    },
+    "1_10": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.49e-09,
+            "out_min": -0.009852
+        }
+    },
+    "1_11": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.489e-09,
+            "out_min": -0.009863
+        }
+    },
+    "1_12": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.488e-09,
+            "out_min": -0.009861
+        }
+    },
+    "1_13": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.487e-09,
+            "out_min": -0.009869
+        }
+    },
+    "1_14": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.486e-09,
+            "out_min": -0.00988
+        }
+    },
+    "1_15": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.485e-09,
+            "out_min": -0.009882
+        }
+    },
+    "1_16": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.484e-09,
+            "out_min": -0.009888
+        }
+    },
+    "1_17": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.483e-09,
+            "out_min": -0.009899
+        }
+    },
+    "1_18": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.482e-09,
+            "out_min": -0.009903
+        }
+    },
+    "1_19": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.481e-09,
+            "out_min": -0.009909
+        }
+    },
+    "1_20": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.48e-09,
+            "out_min": -0.009918
+        }
+    },
+    "1_21": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.479e-09,
+            "out_min": -0.009932
+        }
+    },
+    "1_22": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.478e-09,
+            "out_min": -0.009932
+        }
+    },
+    "1_23": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.477e-09,
+            "out_min": -0.009939
+        }
+    },
+    "1_24": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.476e-09,
+            "out_min": -0.009951
+        }
+    },
+    "1_25": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.475e-09,
+            "out_min": -0.009957
+        }
+    },
+    "1_26": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.474e-09,
+            "out_min": -0.009964
+        }
+    },
+    "1_27": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.473e-09,
+            "out_min": -0.009964
+        }
+    },
+    "1_28": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.472e-09,
+            "out_min": -0.009971
+        }
+    },
+    "1_29": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.471e-09,
+            "out_min": -0.009987
+        }
+    },
+    "1_30": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.47e-09,
+            "out_min": -0.009994
+        }
+    },
+    "1_31": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.469e-09,
+            "out_min": -0.01
+        }
+    },
+    "1_32": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.468e-09,
+            "out_min": -0.01001
+        }
+    },
+    "1_33": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.467e-09,
+            "out_min": -0.01002
+        }
+    },
+    "1_34": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.466e-09,
+            "out_min": -0.01003
+        }
+    },
+    "1_35": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.465e-09,
+            "out_min": -0.01003
+        }
+    },
+    "1_36": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.464e-09,
+            "out_min": -0.01004
+        }
+    },
+    "1_37": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.463e-09,
+            "out_min": -0.01006
+        }
+    },
+    "1_38": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.462e-09,
+            "out_min": -0.01005
+        }
+    },
+    "1_39": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.461e-09,
+            "out_min": -0.01005
+        }
+    },
+    "1_40": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.46e-09,
+            "out_min": -0.01006
+        }
+    },
+    "1_41": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.459e-09,
+            "out_min": -0.0101
+        }
+    },
+    "1_42": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.458e-09,
+            "out_min": -0.01009
+        }
+    },
+    "1_43": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.457e-09,
+            "out_min": -0.01009
+        }
+    },
+    "1_44": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.456e-09,
+            "out_min": -0.0101
+        }
+    },
+    "1_45": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.455e-09,
+            "out_min": -0.01011
+        }
+    },
+    "1_46": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.454e-09,
+            "out_min": -0.01011
+        }
+    },
+    "1_47": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.453e-09,
+            "out_min": -0.01014
+        }
+    },
+    "1_48": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.452e-09,
+            "out_min": -0.01015
+        }
+    },
+    "1_49": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.451e-09,
+            "out_min": -0.01016
+        }
+    },
+    "1_50": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.45e-09,
+            "out_min": -0.01018
+        }
+    },
+    "1_51": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.449e-09,
+            "out_min": -0.01019
+        }
+    },
+    "1_52": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.448e-09,
+            "out_min": -0.0102
+        }
+    },
+    "1_53": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.447e-09,
+            "out_min": -0.01021
+        }
+    },
+    "1_54": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.446e-09,
+            "out_min": -0.01022
+        }
+    },
+    "1_55": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.445e-09,
+            "out_min": -0.009977
+        }
+    },
+    "1_56": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.444e-09,
+            "out_min": -0.009989
+        }
+    },
+    "1_57": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.443e-09,
+            "out_min": -0.009995
+        }
+    },
+    "1_58": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.442e-09,
+            "out_min": -0.0103
+        }
+    },
+    "1_59": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.441e-09,
+            "out_min": -0.01018
+        }
+    },
+    "1_60": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.44e-09,
+            "out_min": -0.01002
+        }
+    },
+    "1_61": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.439e-09,
+            "out_min": -0.01019
+        }
+    },
+    "1_62": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.438e-09,
+            "out_min": -0.01017
+        }
+    },
+    "1_63": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.437e-09,
+            "out_min": -0.01021
+        }
+    },
+    "1_64": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.436e-09,
+            "out_min": -0.01022
+        }
+    },
+    "1_65": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.435e-09,
+            "out_min": -0.01022
+        }
+    },
+    "1_66": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.434e-09,
+            "out_min": -0.01031
+        }
+    },
+    "1_67": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.433e-09,
+            "out_min": -0.01023
+        }
+    },
+    "1_68": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.432e-09,
+            "out_min": -0.01024
+        }
+    },
+    "1_69": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.431e-09,
+            "out_min": -0.01025
+        }
+    },
+    "1_70": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.43e-09,
+            "out_min": -0.01024
+        }
+    },
+    "1_71": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.429e-09,
+            "out_min": -0.0103
+        }
+    },
+    "1_72": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.428e-09,
+            "out_min": -0.01031
+        }
+    },
+    "1_73": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.427e-09,
+            "out_min": -0.01044
+        }
+    },
+    "1_74": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.426e-09,
+            "out_min": -0.01024
+        }
+    },
+    "1_75": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.425e-09,
+            "out_min": -0.01038
+        }
+    },
+    "1_76": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.424e-09,
+            "out_min": -0.01013
+        }
+    },
+    "1_77": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.423e-09,
+            "out_min": -0.01041
+        }
+    },
+    "1_78": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.422e-09,
+            "out_min": -0.01043
+        }
+    },
+    "1_79": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.421e-09,
+            "out_min": -0.01024
+        }
+    },
+    "1_80": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.42e-09,
+            "out_min": -0.01035
+        }
+    },
+    "1_81": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.419e-09,
+            "out_min": -0.01044
+        }
+    },
+    "1_82": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.418e-09,
+            "out_min": -0.01045
+        }
+    },
+    "1_83": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.417e-09,
+            "out_min": -0.01025
+        }
+    },
+    "1_84": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.416e-09,
+            "out_min": -0.01028
+        }
+    },
+    "1_85": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.415e-09,
+            "out_min": -0.0103
+        }
+    },
+    "1_86": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.414e-09,
+            "out_min": -0.0105
+        }
+    },
+    "1_87": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.413e-09,
+            "out_min": -0.01031
+        }
+    },
+    "1_88": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.412e-09,
+            "out_min": -0.01036
+        }
+    },
+    "1_89": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.411e-09,
+            "out_min": -0.01035
+        }
+    },
+    "1_90": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.41e-09,
+            "out_min": -0.01054
+        }
+    },
+    "1_91": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.409e-09,
+            "out_min": -0.01043
+        }
+    },
+    "1_92": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.408e-09,
+            "out_min": -0.01047
+        }
+    },
+    "1_93": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.407e-09,
+            "out_min": -0.0104
+        }
+    },
+    "1_94": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.406e-09,
+            "out_min": -0.01057
+        }
+    },
+    "1_95": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.405e-09,
+            "out_min": -0.0106
+        }
+    },
+    "1_96": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.404e-09,
+            "out_min": -0.01045
+        }
+    },
+    "1_97": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.403e-09,
+            "out_min": -0.01045
+        }
+    },
+    "1_98": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.402e-09,
+            "out_min": -0.0104
+        }
+    },
+    "1_99": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.401e-09,
+            "out_min": -0.01069
+        }
+    },
+    "1_100": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.4e-09,
+            "out_min": -0.0105
+        }
+    },
+    "1_101": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.399e-09,
+            "out_min": -0.01065
+        }
+    },
+    "1_102": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.398e-09,
+            "out_min": -0.01052
+        }
+    },
+    "1_103": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.397e-09,
+            "out_min": -0.01056
+        }
+    },
+    "1_104": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.396e-09,
+            "out_min": -0.0107
+        }
+    },
+    "1_105": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.395e-09,
+            "out_min": -0.01063
+        }
+    },
+    "1_106": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.394e-09,
+            "out_min": -0.0107
+        }
+    },
+    "1_107": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.393e-09,
+            "out_min": -0.01066
+        }
+    },
+    "1_108": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.392e-09,
+            "out_min": -0.01061
+        }
+    },
+    "1_109": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.391e-09,
+            "out_min": -0.01056
+        }
+    },
+    "1_110": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.39e-09,
+            "out_min": -0.01064
+        }
+    },
+    "1_111": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.389e-09,
+            "out_min": -0.01064
+        }
+    },
+    "1_112": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.388e-09,
+            "out_min": -0.01081
+        }
+    },
+    "1_113": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.387e-09,
+            "out_min": -0.01086
+        }
+    },
+    "1_114": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.386e-09,
+            "out_min": -0.01088
+        }
+    },
+    "1_115": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.385e-09,
+            "out_min": -0.01081
+        }
+    },
+    "1_116": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.384e-09,
+            "out_min": -0.01082
+        }
+    },
+    "1_117": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.383e-09,
+            "out_min": -0.01073
+        }
+    },
+    "1_118": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.382e-09,
+            "out_min": -0.01085
+        }
+    },
+    "1_119": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.381e-09,
+            "out_min": -0.01052
+        }
+    },
+    "1_120": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.38e-09,
+            "out_min": -0.01065
+        }
+    },
+    "1_121": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.379e-09,
+            "out_min": -0.01068
+        }
+    },
+    "1_122": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.378e-09,
+            "out_min": -0.01073
+        }
+    },
+    "1_123": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.377e-09,
+            "out_min": -0.01075
+        }
+    },
+    "1_124": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.376e-09,
+            "out_min": -0.01072
+        }
+    },
+    "1_125": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.375e-09,
+            "out_min": -0.01094
+        }
+    },
+    "1_126": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.374e-09,
+            "out_min": -0.01092
+        }
+    },
+    "1_127": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.373e-09,
+            "out_min": -0.0109
+        }
+    },
+    "1_128": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.372e-09,
+            "out_min": -0.01103
+        }
+    },
+    "1_129": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.371e-09,
+            "out_min": -0.01101
+        }
+    },
+    "1_130": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.37e-09,
+            "out_min": -0.01101
+        }
+    },
+    "1_131": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.369e-09,
+            "out_min": -0.01104
+        }
+    },
+    "1_132": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.368e-09,
+            "out_min": -0.01104
+        }
+    },
+    "1_133": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.367e-09,
+            "out_min": -0.01099
+        }
+    },
+    "1_134": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.366e-09,
+            "out_min": -0.01106
+        }
+    },
+    "1_135": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.365e-09,
+            "out_min": -0.01107
+        }
+    },
+    "1_136": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.364e-09,
+            "out_min": -0.01112
+        }
+    },
+    "1_137": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.363e-09,
+            "out_min": -0.01112
+        }
+    },
+    "1_138": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.362e-09,
+            "out_min": -0.01067
+        }
+    },
+    "1_139": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.361e-09,
+            "out_min": -0.01086
+        }
+    },
+    "1_140": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.36e-09,
+            "out_min": -0.01072
+        }
+    },
+    "1_141": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.359e-09,
+            "out_min": -0.01081
+        }
+    },
+    "1_142": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.358e-09,
+            "out_min": -0.01116
+        }
+    },
+    "1_143": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.357e-09,
+            "out_min": -0.01105
+        }
+    },
+    "1_144": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.356e-09,
+            "out_min": -0.01109
+        }
+    },
+    "1_145": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.355e-09,
+            "out_min": -0.01119
+        }
+    },
+    "1_146": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.354e-09,
+            "out_min": -0.01112
+        }
+    },
+    "1_147": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.353e-09,
+            "out_min": -0.01092
+        }
+    },
+    "1_148": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.352e-09,
+            "out_min": -0.01088
+        }
+    },
+    "1_149": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.351e-09,
+            "out_min": -0.01088
+        }
+    },
+    "1_150": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.35e-09,
+            "out_min": -0.01108
+        }
+    },
+    "1_151": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.349e-09,
+            "out_min": -0.011
+        }
+    },
+    "1_152": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.348e-09,
+            "out_min": 0.5694
+        }
+    },
+    "1_153": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.347e-09,
+            "out_min": 0.5775
+        }
+    },
+    "1_154": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.346e-09,
+            "out_min": 0.5863
+        }
+    },
+    "1_155": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.345e-09,
+            "out_min": 0.5945
+        }
+    },
+    "1_156": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.344e-09,
+            "out_min": 0.6027
+        }
+    },
+    "1_157": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.343e-09,
+            "out_min": 0.6155
+        }
+    },
+    "1_158": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.342e-09,
+            "out_min": 0.6201
+        }
+    },
+    "1_159": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.341e-09,
+            "out_min": 0.628
+        }
+    },
+    "1_160": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.34e-09,
+            "out_min": 0.6372
+        }
+    },
+    "1_161": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.339e-09,
+            "out_min": 0.6527
+        }
+    },
+    "1_162": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.338e-09,
+            "out_min": 0.6592
+        }
+    },
+    "1_163": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.337e-09,
+            "out_min": 0.6622
+        }
+    },
+    "1_164": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.336e-09,
+            "out_min": 0.6709
+        }
+    },
+    "1_165": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.335e-09,
+            "out_min": 0.6795
+        }
+    },
+    "1_166": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.334e-09,
+            "out_min": 0.7008
+        }
+    },
+    "1_167": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.333e-09,
+            "out_min": 0.7143
+        }
+    },
+    "1_168": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.332e-09,
+            "out_min": 0.7251
+        }
+    },
+    "1_169": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.331e-09,
+            "out_min": 0.7352
+        }
+    },
+    "1_170": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.33e-09,
+            "out_min": 0.7291
+        }
+    },
+    "1_171": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.329e-09,
+            "out_min": 0.7429
+        }
+    },
+    "1_172": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.328e-09,
+            "out_min": 0.7488
+        }
+    },
+    "1_173": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.327e-09,
+            "out_min": 0.7533
+        }
+    },
+    "1_174": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.326e-09,
+            "out_min": 0.7627
+        }
+    },
+    "1_175": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.325e-09,
+            "out_min": 0.771
+        }
+    },
+    "1_176": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.324e-09,
+            "out_min": 0.7798
+        }
+    },
+    "1_177": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.323e-09,
+            "out_min": 0.7888
+        }
+    },
+    "1_178": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.322e-09,
+            "out_min": 0.7975
+        }
+    },
+    "1_179": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.321e-09,
+            "out_min": 0.8064
+        }
+    },
+    "1_180": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.32e-09,
+            "out_min": 0.8154
+        }
+    },
+    "1_181": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.319e-09,
+            "out_min": 0.8246
+        }
+    },
+    "1_182": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.318e-09,
+            "out_min": 0.8338
+        }
+    },
+    "1_183": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.317e-09,
+            "out_min": 0.8429
+        }
+    },
+    "1_184": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.316e-09,
+            "out_min": 0.8518
+        }
+    },
+    "1_185": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.315e-09,
+            "out_min": 0.8612
+        }
+    },
+    "1_186": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.314e-09,
+            "out_min": 0.8712
+        }
+    },
+    "1_187": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.313e-09,
+            "out_min": 0.8818
+        }
+    },
+    "1_188": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.312e-09,
+            "out_min": 0.8909
+        }
+    },
+    "1_189": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.311e-09,
+            "out_min": 0.8977
+        }
+    },
+    "1_190": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.31e-09,
+            "out_min": 0.9083
+        }
+    },
+    "1_191": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.309e-09,
+            "out_min": 0.9182
+        }
+    },
+    "1_192": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.308e-09,
+            "out_min": 0.9289
+        }
+    },
+    "1_193": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.307e-09,
+            "out_min": 0.943
+        }
+    },
+    "1_194": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.306e-09,
+            "out_min": 0.9515
+        }
+    },
+    "1_195": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.305e-09,
+            "out_min": 0.9591
+        }
+    },
+    "1_196": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.304e-09,
+            "out_min": 0.9746
+        }
+    },
+    "1_197": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.303e-09,
+            "out_min": 0.9899
+        }
+    },
+    "1_198": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.302e-09,
+            "out_min": 0.9931
+        }
+    },
+    "1_199": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.301e-09,
+            "out_min": 0.9958
+        }
+    },
+    "1_200": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.3e-09,
+            "out_min": 1.017
+        }
+    },
+    "1_201": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.299e-09,
+            "out_min": 1.0241
+        }
+    },
+    "1_202": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.298e-09,
+            "out_min": 1.0388
+        }
+    },
+    "1_203": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.297e-09,
+            "out_min": 1.036
+        }
+    },
+    "1_204": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.296e-09,
+            "out_min": 1.047
+        }
+    },
+    "1_205": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.295e-09,
+            "out_min": 1.0569
+        }
+    },
+    "1_206": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.294e-09,
+            "out_min": 1.0666
+        }
+    },
+    "1_207": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.293e-09,
+            "out_min": 1.079
+        }
+    },
+    "1_208": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.292e-09,
+            "out_min": 1.0905
+        }
+    },
+    "1_209": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.291e-09,
+            "out_min": 1.0977
+        }
+    },
+    "1_210": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.29e-09,
+            "out_min": 1.1045
+        }
+    },
+    "1_211": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.289e-09,
+            "out_min": 1.1084
+        }
+    },
+    "1_212": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.288e-09,
+            "out_min": 1.12
+        }
+    },
+    "1_213": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.287e-09,
+            "out_min": 1.1271
+        }
+    },
+    "1_214": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.286e-09,
+            "out_min": 1.1344
+        }
+    },
+    "1_215": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.285e-09,
+            "out_min": 1.1419
+        }
+    },
+    "1_216": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.284e-09,
+            "out_min": 1.1519
+        }
+    },
+    "1_217": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.283e-09,
+            "out_min": 1.1583
+        }
+    },
+    "1_218": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.282e-09,
+            "out_min": 1.1664
+        }
+    },
+    "1_219": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.281e-09,
+            "out_min": 1.1748
+        }
+    },
+    "1_220": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.28e-09,
+            "out_min": 1.1826
+        }
+    },
+    "1_221": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.279e-09,
+            "out_min": 1.191
+        }
+    },
+    "1_222": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.278e-09,
+            "out_min": 1.1996
+        }
+    },
+    "1_223": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.277e-09,
+            "out_min": 1.2082
+        }
+    },
+    "1_224": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.276e-09,
+            "out_min": 1.2175
+        }
+    },
+    "1_225": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.275e-09,
+            "out_min": 1.2267
+        }
+    },
+    "1_226": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.274e-09,
+            "out_min": 1.2361
+        }
+    },
+    "1_227": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.273e-09,
+            "out_min": 1.2456
+        }
+    },
+    "1_228": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.272e-09,
+            "out_min": 1.2579
+        }
+    },
+    "1_229": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.271e-09,
+            "out_min": 1.2877
+        }
+    },
+    "1_230": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.27e-09,
+            "out_min": 1.2936
+        }
+    },
+    "1_231": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.269e-09,
+            "out_min": 1.2843
+        }
+    },
+    "1_232": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.268e-09,
+            "out_min": 1.3086
+        }
+    },
+    "1_233": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.267e-09,
+            "out_min": 1.3206
+        }
+    },
+    "1_234": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.266e-09,
+            "out_min": 1.3294
+        }
+    },
+    "1_235": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.265e-09,
+            "out_min": 1.3387
+        }
+    },
+    "1_236": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.264e-09,
+            "out_min": 1.3486
+        }
+    },
+    "1_237": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.263e-09,
+            "out_min": 1.3558
+        }
+    },
+    "1_238": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.262e-09,
+            "out_min": 1.3619
+        }
+    },
+    "1_239": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.261e-09,
+            "out_min": 1.3706
+        }
+    },
+    "1_240": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.26e-09,
+            "out_min": 1.3739
+        }
+    },
+    "1_241": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.259e-09,
+            "out_min": 1.3851
+        }
+    },
+    "1_242": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.258e-09,
+            "out_min": 1.3916
+        }
+    },
+    "1_243": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.257e-09,
+            "out_min": 1.3981
+        }
+    },
+    "1_244": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.256e-09,
+            "out_min": 1.4077
+        }
+    },
+    "1_245": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.255e-09,
+            "out_min": 1.4144
+        }
+    },
+    "1_246": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.254e-09,
+            "out_min": 1.4208
+        }
+    },
+    "1_247": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.253e-09,
+            "out_min": 1.4274
+        }
+    },
+    "1_248": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.252e-09,
+            "out_min": 1.4339
+        }
+    },
+    "1_249": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.251e-09,
+            "out_min": 1.4371
+        }
+    },
+    "1_250": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.25e-09,
+            "out_min": 1.444
+        }
+    },
+    "1_251": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.249e-09,
+            "out_min": 1.4515
+        }
+    },
+    "1_252": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.248e-09,
+            "out_min": 1.46
+        }
+    },
+    "1_253": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.247e-09,
+            "out_min": 1.4665
+        }
+    },
+    "1_254": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.246e-09,
+            "out_min": 1.4728
+        }
+    },
+    "1_255": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.245e-09,
+            "out_min": 1.4789
+        }
+    },
+    "1_256": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.244e-09,
+            "out_min": 1.4857
+        }
+    },
+    "1_257": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.243e-09,
+            "out_min": 1.4927
+        }
+    },
+    "1_258": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.242e-09,
+            "out_min": 1.4996
+        }
+    },
+    "1_259": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.241e-09,
+            "out_min": 1.5067
+        }
+    },
+    "1_260": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.24e-09,
+            "out_min": 1.514
+        }
+    },
+    "1_261": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.239e-09,
+            "out_min": 1.5215
+        }
+    },
+    "1_262": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.238e-09,
+            "out_min": 1.5324
+        }
+    },
+    "1_263": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.237e-09,
+            "out_min": 1.5368
+        }
+    },
+    "1_264": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.236e-09,
+            "out_min": 1.5479
+        }
+    },
+    "1_265": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.235e-09,
+            "out_min": 1.5577
+        }
+    },
+    "1_266": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.234e-09,
+            "out_min": 1.566
+        }
+    },
+    "1_267": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.233e-09,
+            "out_min": 1.5722
+        }
+    },
+    "1_268": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.232e-09,
+            "out_min": 1.5778
+        }
+    },
+    "1_269": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.231e-09,
+            "out_min": 1.5833
+        }
+    },
+    "1_270": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.23e-09,
+            "out_min": 1.5874
+        }
+    },
+    "1_271": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.229e-09,
+            "out_min": 1.5926
+        }
+    },
+    "1_272": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.228e-09,
+            "out_min": 1.5988
+        }
+    },
+    "1_273": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.227e-09,
+            "out_min": 1.6048
+        }
+    },
+    "1_274": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.226e-09,
+            "out_min": 1.6096
+        }
+    },
+    "1_275": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.225e-09,
+            "out_min": 1.6136
+        }
+    },
+    "1_276": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.224e-09,
+            "out_min": 1.6218
+        }
+    },
+    "1_277": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.223e-09,
+            "out_min": 1.6281
+        }
+    },
+    "1_278": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.222e-09,
+            "out_min": 1.6342
+        }
+    },
+    "1_279": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.221e-09,
+            "out_min": 1.6404
+        }
+    },
+    "1_280": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.22e-09,
+            "out_min": 1.6464
+        }
+    },
+    "1_281": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.219e-09,
+            "out_min": 1.6506
+        }
+    },
+    "1_282": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.218e-09,
+            "out_min": 1.6563
+        }
+    },
+    "1_283": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.217e-09,
+            "out_min": 1.6607
+        }
+    },
+    "1_284": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.216e-09,
+            "out_min": 1.6647
+        }
+    },
+    "1_285": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.215e-09,
+            "out_min": 1.6694
+        }
+    },
+    "1_286": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.214e-09,
+            "out_min": 1.6756
+        }
+    },
+    "1_287": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.213e-09,
+            "out_min": 1.6817
+        }
+    },
+    "1_288": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.212e-09,
+            "out_min": 1.6891
+        }
+    },
+    "1_289": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.211e-09,
+            "out_min": 1.6989
+        }
+    },
+    "1_290": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.21e-09,
+            "out_min": 1.7043
+        }
+    },
+    "1_291": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.209e-09,
+            "out_min": 1.7099
+        }
+    },
+    "1_292": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.208e-09,
+            "out_min": 1.716
+        }
+    },
+    "1_293": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.207e-09,
+            "out_min": 1.7218
+        }
+    },
+    "1_294": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.206e-09,
+            "out_min": 1.7275
+        }
+    },
+    "1_295": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.205e-09,
+            "out_min": 1.73
+        }
+    },
+    "1_296": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.204e-09,
+            "out_min": 1.7333
+        }
+    },
+    "1_297": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.203e-09,
+            "out_min": 1.7359
+        }
+    },
+    "1_298": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.202e-09,
+            "out_min": 1.7375
+        }
+    },
+    "1_299": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.201e-09,
+            "out_min": 1.7391
+        }
+    },
+    "1_300": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.2e-09,
+            "out_min": 1.7406
+        }
+    },
+    "1_301": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.199e-09,
+            "out_min": 1.7426
+        }
+    },
+    "1_302": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.198e-09,
+            "out_min": 1.7436
+        }
+    },
+    "1_303": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.197e-09,
+            "out_min": 1.7471
+        }
+    },
+    "1_304": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.196e-09,
+            "out_min": 1.7475
+        }
+    },
+    "1_305": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.195e-09,
+            "out_min": 1.7499
+        }
+    },
+    "1_306": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.194e-09,
+            "out_min": 1.7524
+        }
+    },
+    "1_307": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.193e-09,
+            "out_min": 1.7551
+        }
+    },
+    "1_308": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.192e-09,
+            "out_min": 1.7571
+        }
+    },
+    "1_309": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.191e-09,
+            "out_min": 1.7569
+        }
+    },
+    "1_310": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.19e-09,
+            "out_min": 1.7572
+        }
+    },
+    "1_311": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.189e-09,
+            "out_min": 1.7588
+        }
+    },
+    "1_312": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.188e-09,
+            "out_min": 1.7611
+        }
+    },
+    "1_313": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.187e-09,
+            "out_min": 1.7626
+        }
+    },
+    "1_314": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.186e-09,
+            "out_min": 1.7646
+        }
+    },
+    "1_315": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.185e-09,
+            "out_min": 1.7665
+        }
+    },
+    "1_316": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.184e-09,
+            "out_min": 1.767
+        }
+    },
+    "1_317": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.183e-09,
+            "out_min": 1.7676
+        }
+    },
+    "1_318": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.182e-09,
+            "out_min": 1.7685
+        }
+    },
+    "1_319": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.181e-09,
+            "out_min": 1.7697
+        }
+    },
+    "1_320": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.18e-09,
+            "out_min": 1.7707
+        }
+    },
+    "1_321": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.179e-09,
+            "out_min": 1.7717
+        }
+    },
+    "1_322": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.178e-09,
+            "out_min": 1.7728
+        }
+    },
+    "1_323": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.177e-09,
+            "out_min": 1.7738
+        }
+    },
+    "1_324": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.176e-09,
+            "out_min": 1.7739
+        }
+    },
+    "1_325": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.175e-09,
+            "out_min": 1.7739
+        }
+    },
+    "1_326": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.174e-09,
+            "out_min": 1.7741
+        }
+    },
+    "1_327": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.173e-09,
+            "out_min": 1.7742
+        }
+    },
+    "1_328": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.172e-09,
+            "out_min": 1.7744
+        }
+    },
+    "1_329": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.171e-09,
+            "out_min": 1.7746
+        }
+    },
+    "1_330": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.17e-09,
+            "out_min": 1.7748
+        }
+    },
+    "1_331": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.169e-09,
+            "out_min": 1.7751
+        }
+    },
+    "1_332": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.168e-09,
+            "out_min": 1.7753
+        }
+    },
+    "1_333": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.167e-09,
+            "out_min": 1.7755
+        }
+    },
+    "1_334": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.166e-09,
+            "out_min": 1.7756
+        }
+    },
+    "1_335": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.165e-09,
+            "out_min": 1.7758
+        }
+    },
+    "1_336": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.164e-09,
+            "out_min": 1.776
+        }
+    },
+    "1_337": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.163e-09,
+            "out_min": 1.7761
+        }
+    },
+    "1_338": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.162e-09,
+            "out_min": 1.7762
+        }
+    },
+    "1_339": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.161e-09,
+            "out_min": 1.7763
+        }
+    },
+    "1_340": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.16e-09,
+            "out_min": 1.7764
+        }
+    },
+    "1_341": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.159e-09,
+            "out_min": 1.7765
+        }
+    },
+    "1_342": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.158e-09,
+            "out_min": 1.7765
+        }
+    },
+    "1_343": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.157e-09,
+            "out_min": 1.7765
+        }
+    },
+    "1_344": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.156e-09,
+            "out_min": 1.7764
+        }
+    },
+    "1_345": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.155e-09,
+            "out_min": 1.7764
+        }
+    },
+    "1_346": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.154e-09,
+            "out_min": 1.7764
+        }
+    },
+    "1_347": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.153e-09,
+            "out_min": 1.7764
+        }
+    },
+    "1_348": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.152e-09,
+            "out_min": 1.7763
+        }
+    },
+    "1_349": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.151e-09,
+            "out_min": 1.7763
+        }
+    },
+    "1_350": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.15e-09,
+            "out_min": 1.7763
+        }
+    },
+    "1_351": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.149e-09,
+            "out_min": 1.7763
+        }
+    },
+    "1_352": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.148e-09,
+            "out_min": 1.7763
+        }
+    },
+    "1_353": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.147e-09,
+            "out_min": 1.7763
+        }
+    },
+    "1_354": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.146e-09,
+            "out_min": 1.7762
+        }
+    },
+    "1_355": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.145e-09,
+            "out_min": 1.7762
+        }
+    },
+    "1_356": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.144e-09,
+            "out_min": 1.7762
+        }
+    },
+    "1_357": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.143e-09,
+            "out_min": 1.7761
+        }
+    },
+    "1_358": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.142e-09,
+            "out_min": 1.7761
+        }
+    },
+    "1_359": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.141e-09,
+            "out_min": 1.776
+        }
+    },
+    "1_360": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.14e-09,
+            "out_min": 1.776
+        }
+    },
+    "1_361": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.139e-09,
+            "out_min": 1.7759
+        }
+    },
+    "1_362": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.138e-09,
+            "out_min": 1.7758
+        }
+    },
+    "1_363": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.137e-09,
+            "out_min": 1.7758
+        }
+    },
+    "1_364": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.136e-09,
+            "out_min": 1.7757
+        }
+    },
+    "1_365": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.135e-09,
+            "out_min": 1.7757
+        }
+    },
+    "1_366": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.134e-09,
+            "out_min": 1.7756
+        }
+    },
+    "1_367": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.133e-09,
+            "out_min": 1.7756
+        }
+    },
+    "1_368": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.132e-09,
+            "out_min": 1.7755
+        }
+    },
+    "1_369": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.131e-09,
+            "out_min": 1.7755
+        }
+    },
+    "1_370": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.13e-09,
+            "out_min": 1.7754
+        }
+    },
+    "1_371": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.129e-09,
+            "out_min": 1.7712
+        }
+    },
+    "1_372": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.128e-09,
+            "out_min": 1.7669
+        }
+    },
+    "1_373": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.127e-09,
+            "out_min": 1.7613
+        }
+    },
+    "1_374": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.126e-09,
+            "out_min": 1.7562
+        }
+    },
+    "1_375": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.125e-09,
+            "out_min": 1.7525
+        }
+    },
+    "1_376": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.124e-09,
+            "out_min": 1.7456
+        }
+    },
+    "1_377": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.123e-09,
+            "out_min": 1.7442
+        }
+    },
+    "1_378": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.122e-09,
+            "out_min": 1.7402
+        }
+    },
+    "1_379": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.121e-09,
+            "out_min": 1.7378
+        }
+    },
+    "1_380": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.12e-09,
+            "out_min": 1.7378
+        }
+    },
+    "1_381": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.119e-09,
+            "out_min": 1.7377
+        }
+    },
+    "1_382": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.118e-09,
+            "out_min": 1.7378
+        }
+    },
+    "1_383": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.117e-09,
+            "out_min": 1.7378
+        }
+    },
+    "1_384": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.116e-09,
+            "out_min": 1.7379
+        }
+    },
+    "1_385": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.115e-09,
+            "out_min": 1.7379
+        }
+    },
+    "1_386": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.114e-09,
+            "out_min": 1.7376
+        }
+    },
+    "1_387": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.113e-09,
+            "out_min": 1.7379
+        }
+    },
+    "1_388": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.112e-09,
+            "out_min": 1.7379
+        }
+    },
+    "1_389": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.111e-09,
+            "out_min": 1.7377
+        }
+    },
+    "1_390": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.11e-09,
+            "out_min": 1.7378
+        }
+    },
+    "1_391": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.109e-09,
+            "out_min": 1.7379
+        }
+    },
+    "1_392": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.108e-09,
+            "out_min": 1.7378
+        }
+    },
+    "1_393": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.107e-09,
+            "out_min": 1.7379
+        }
+    },
+    "1_394": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.106e-09,
+            "out_min": 1.7377
+        }
+    },
+    "1_395": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.105e-09,
+            "out_min": 1.7378
+        }
+    },
+    "1_396": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.104e-09,
+            "out_min": 1.7378
+        }
+    },
+    "1_397": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.103e-09,
+            "out_min": 1.7378
+        }
+    },
+    "1_398": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.102e-09,
+            "out_min": 1.7378
+        }
+    },
+    "1_399": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.101e-09,
+            "out_min": 1.7378
+        }
+    },
+    "1_400": {
+        "type": "sweep",
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": 1.1e-09,
+            "out_min": 1.7377
+        }
+    },
+    "summary": {
+        "sweep_parameter": "tc",
+        "measurements": {
+            "tc": {
+                "min": 1.1e-09,
+                "max": 1.5e-09,
+                "avg": 1.3e-09
+            },
+            "out_min": {
+                "min": -0.01119,
+                "max": 1.7765,
+                "avg": 0.8872021271820449
+            }
+        },
+        "sweep_range": {
+            "start": 1.5e-09,
+            "end": 1.1e-09,
+            "min": 1.1e-09,
+            "max": 1.5e-09,
+            "step": -9.999999999998931e-13
+        }
+    }
+}

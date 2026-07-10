@@ -31,7 +31,7 @@
 \subsection{\lr{pipe-Line} مبتنی بر Latch}
 \subsubsection{ساختار یک طبقه‌ای}
 
-\newimage[0.65\textwidth]{./images/latch-pipe1.png}{شماتیک \lr{pipe-Line} مبنتی بر \lr{D-Latch} در یک طبقه}{fig:latch-pipe-1}
+\newimage[0.6\textwidth]{./images/latch-pipe1.png}{شماتیک \lr{pipe-Line} مبنتی بر \lr{D-Latch} در یک طبقه}{fig:latch-pipe-1}
 
 می‌خواهیم که به بالاترین فرکانس کاری (یا همان کمترین دوره تناوب سیگنال CLK) برای پایپ‌لاین تک طبقه مبتنی بر \lr{D-Latch} برسیم.
 چون داده‌ها قبل از لبه بالارونده آماده هستند، از Latch حساس به سطح مثبت استفاده کنیم. به محض اینکه سیگنال CLK 1  می‌شود، این \lr{Latch}ها داده را به ورودی‌های مدار محاسباتی منتقل می‌کنند.
@@ -40,19 +40,24 @@
 پس برای \lr{Latch}های ورودی از حساس به سطح مثبت و برای خروجی از حساس به سطح منفی استفاده می‌کنیم.
 
 از نظر تئوری حداقل دوره تناوب از رابطه زیر پیروی می‌کند و طبق تاخیر‌های اندازه‌گیری شده در دو بخش قبل برابر با \lr{673.25ps}
-($\delta$ مربوط به skew حاصل از قرار دادن inv بر سر راه سیگنال CLK است):
-
+($\delta$ مربوط به skew حاصل از قرار دادن inv بر سر راه سیگنال CLK است.)
 {\Large
-$$
-    T_c \geq t_{cq_{pos-latch}} + t_{pd_{CLB}} + t_{setup_{neg-latch}} - \delta
-$$
+    $$
+        T_c \geq t_{cq_{pos-latch}} + t_{pd_{CLB}} + t_{setup_{neg-latch}} - \delta
+    $$
 }
 
-
-
 \newcodeFont[\small]{spice}{codes/latch2-pipe.sp}{پیاده‌سازی HSPICE پایپ‌لاین مبتنی بر \lr{D-Latch} تک طبقه}{code:latch2-pipe}
+در اینجا نیز مثل پایپ‌لاین مبتنی بر رجیستر حداقل دوره تناوب CLK بیشتر از تئوری شد و برابر با \lr{1.348e-09s} یا همان \lr{1348ps} اندازه‌گیری شد.
+احتمالا دلیلش هم همون هست.
 
-\newimage[\textwidth]{./images/latch2-pipe-1500-sim.png}{شکل موج \lr{$T_c = 1500ps$} برای مدار \lr{pipe-Line} مبتنی بر Latch تک طبقه}{fig:latch2-pipe-sim}
+\newimage[0.8\textwidth]{./images/latch2-pipe-1500-sim.png}{شکل موج \lr{$T_c = 1500ps$} برای مدار \lr{pipe-Line} مبتنی بر Latch تک طبقه}{fig:latch2-pipe-1500-sim}
+\newimage[0.8\textwidth]{./images/latch2-pipe-sim.png}{شکل موج \texttt{SWEEP} $T_c$ برای مدار \lr{pipe-Line} مبتنی بر Latch تک طبقه}{fig:latch2-pipe-sim}
+\newimage[0.8\textwidth]{./images/latch2-tc-plot.png}{نمودار تاثیر دوره تناوب بر عملکرد صحیح مدار \lr{pipe-Line} مبتنی بر Latch تک طبقه}{fig:latch2-pipe-plot}
 
+\newpage
 
 \subsubsection{ساختار دو طبقه‌ای}
+
+\newimage[0.7\textwidth]{./images/latch-pipe.png.png}{شماتیک \lr{pipe-Line} مبنتی بر Latch}{fig:latch-pipe}
+مهم‌ترین مزیت استفاده از \lr{Latch}ها به جای رجیسترها، قرض گرفتن زمان \lr{(Time Borrowing)} است.
