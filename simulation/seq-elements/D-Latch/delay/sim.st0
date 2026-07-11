@@ -1,0 +1,184 @@
+****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******
+Input File: sim.sp
+lic:
+lic: FLEXlm: SDK_12.3
+lic: USER:   Mohammad-Khohsroo    HOSTNAME: DESKTOP-GMQQFUO
+lic: HOSTID: "088fc3e7a24d"       PID:      22564
+lic: Using FLEXlm license file:
+lic: 27000@DESKTOP-GMQQFUO
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 30-dec-2030/2020.12
+lic: 1(in_use)/99(total) FLOATING license(s) on SERVER 27000@DESKTOP-GMQQFUO
+lic:
+
+ init: begin read circuit files, cpu clock= 6.90E-02
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/behave/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/AD/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/XILINX/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TLINE/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/SIGNET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PCI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/LIN_TEC
+                         H/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/DI0/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/COMLINE
+                         /
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BURR_BR
+                         M/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BJT/
+       option nomod
+ init: end read circuit files, cpu clock= 7.20E-02 peak memory=      63 mb
+ init: begin check errors, cpu clock= 7.20E-02
+  **warning**  No DC path to ground from node        0:
+ init: end check errors, cpu clock= 7.60E-02 peak memory=      65 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 7.60E-02
+       establish matrix -- done, cpu clock= 7.60E-02 peak memory=      65 mb
+       re-order matrix -- done, cpu clock= 7.60E-02 peak memory=      65 mb
+ init: end setup matrix, cpu clock= 7.60E-02 peak memory=      65 mb
+>info:         ***** hspice job concluded
+ init: begin read circuit files, cpu clock= 9.40E-02
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/behave/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/AD/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/XILINX/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TLINE/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/SIGNET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PCI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/LIN_TEC
+                         H/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/DI0/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/COMLINE
+                         /
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BURR_BR
+                         M/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BJT/
+       option nomod
+       option post =     2.00
+       option probe
+       option runlvl =     6.00
+ init: end read circuit files, cpu clock= 9.70E-02 peak memory=      64 mb
+ init: begin check errors, cpu clock= 9.70E-02
+ init: end check errors, cpu clock= 9.90E-02 peak memory=      64 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 9.90E-02
+       establish matrix -- done, cpu clock= 9.90E-02 peak memory=      64 mb
+       re-order matrix -- done, cpu clock= 9.90E-02 peak memory=      64 mb
+ init: end setup matrix, cpu clock= 1.00E-01 peak memory=      64 mb
+ sweep: data            data1            begin, #sweeps =   8
+ data: data=circuit         e_init          =    0.00E+00
+ output: D:\UT.CE\Term-06\AVLSI\CA\CA04\simulation\seq-elements\D-Latch\delay\si
+ sweep: tran tran1    begin, stop_t=  1.20E-09 #sweeps=**** cpu clock= 1.01E-01
+ tran: time= 1.2215E-10 tot_iter=     261 conv_iter=      85 cpu clock= 1.06E-01
+ tran: time= 2.4734E-10 tot_iter=     311 conv_iter=     105 cpu clock= 1.07E-01
+ tran: time= 4.1629E-10 tot_iter=     321 conv_iter=     110 cpu clock= 1.07E-01
+ tran: time= 5.3629E-10 tot_iter=     325 conv_iter=     112 cpu clock= 1.07E-01
+ tran: time= 6.5629E-10 tot_iter=     329 conv_iter=     114 cpu clock= 1.07E-01
+ tran: time= 7.7629E-10 tot_iter=     333 conv_iter=     116 cpu clock= 1.07E-01
+ tran: time= 8.9629E-10 tot_iter=     337 conv_iter=     118 cpu clock= 1.07E-01
+ tran: time= 1.0163E-09 tot_iter=     341 conv_iter=     120 cpu clock= 1.07E-01
+ tran: time= 1.1363E-09 tot_iter=     345 conv_iter=     122 cpu clock= 1.07E-01
+ tran: time= 1.2000E-09 tot_iter=     347 conv_iter=     123 cpu clock= 1.07E-01
+ sweep: tran tran1    end, cpu clock= 1.08E-01 peak memory=      64 mb
+ data: data=circuit         e_init          =    1.00E+00
+ output: D:\UT.CE\Term-06\AVLSI\CA\CA04\simulation\seq-elements\D-Latch\delay\si
+ sweep: tran tran2    begin, stop_t=  1.20E-09 #sweeps=**** cpu clock= 1.08E-01
+ tran: time= 1.2014E-10 tot_iter=     205 conv_iter=      69 cpu clock= 1.11E-01
+ tran: time= 2.4577E-10 tot_iter=     294 conv_iter=      95 cpu clock= 1.12E-01
+ tran: time= 3.8516E-10 tot_iter=     312 conv_iter=     104 cpu clock= 1.13E-01
+ tran: time= 4.9523E-10 tot_iter=     318 conv_iter=     107 cpu clock= 1.13E-01
+ tran: time= 6.0650E-10 tot_iter=     322 conv_iter=     109 cpu clock= 1.13E-01
+ tran: time= 7.2650E-10 tot_iter=     326 conv_iter=     111 cpu clock= 1.13E-01
+ tran: time= 8.4650E-10 tot_iter=     330 conv_iter=     113 cpu clock= 1.13E-01
+ tran: time= 9.6650E-10 tot_iter=     334 conv_iter=     115 cpu clock= 1.13E-01
+ tran: time= 1.0865E-09 tot_iter=     338 conv_iter=     117 cpu clock= 1.13E-01
+ tran: time= 1.2000E-09 tot_iter=     342 conv_iter=     119 cpu clock= 1.13E-01
+ sweep: tran tran2    end, cpu clock= 1.13E-01 peak memory=      64 mb
+ data: data=circuit         e_init          =    0.00E+00
+ output: D:\UT.CE\Term-06\AVLSI\CA\CA04\simulation\seq-elements\D-Latch\delay\si
+ sweep: tran tran3    begin, stop_t=  1.20E-09 #sweeps=**** cpu clock= 1.14E-01
+ tran: time= 1.2155E-10 tot_iter=     292 conv_iter=      92 cpu clock= 1.18E-01
+ tran: time= 2.4223E-10 tot_iter=     483 conv_iter=     154 cpu clock= 1.20E-01
+ tran: time= 3.7119E-10 tot_iter=     511 conv_iter=     166 cpu clock= 1.21E-01
+ tran: time= 5.3472E-10 tot_iter=     519 conv_iter=     170 cpu clock= 1.21E-01
+ tran: time= 6.5472E-10 tot_iter=     523 conv_iter=     172 cpu clock= 1.21E-01
+ tran: time= 7.7472E-10 tot_iter=     527 conv_iter=     174 cpu clock= 1.21E-01
+ tran: time= 8.9472E-10 tot_iter=     531 conv_iter=     176 cpu clock= 1.21E-01
+ tran: time= 1.0147E-09 tot_iter=     535 conv_iter=     178 cpu clock= 1.21E-01
+ tran: time= 1.1347E-09 tot_iter=     539 conv_iter=     180 cpu clock= 1.21E-01
+ tran: time= 1.2000E-09 tot_iter=     541 conv_iter=     181 cpu clock= 1.21E-01
+ sweep: tran tran3    end, cpu clock= 1.21E-01 peak memory=      64 mb
+ data: data=circuit         e_init          =    1.00E+00
+ output: D:\UT.CE\Term-06\AVLSI\CA\CA04\simulation\seq-elements\D-Latch\delay\si
+ sweep: tran tran4    begin, stop_t=  1.20E-09 #sweeps=**** cpu clock= 1.22E-01
+ tran: time= 1.2149E-10 tot_iter=     275 conv_iter=      95 cpu clock= 1.26E-01
+ tran: time= 2.4599E-10 tot_iter=     360 conv_iter=     120 cpu clock= 1.27E-01
+ tran: time= 3.6216E-10 tot_iter=     376 conv_iter=     128 cpu clock= 1.27E-01
+ tran: time= 5.0196E-10 tot_iter=     384 conv_iter=     132 cpu clock= 1.27E-01
+ tran: time= 6.1466E-10 tot_iter=     388 conv_iter=     134 cpu clock= 1.27E-01
+ tran: time= 7.3466E-10 tot_iter=     392 conv_iter=     136 cpu clock= 1.27E-01
+ tran: time= 8.5466E-10 tot_iter=     396 conv_iter=     138 cpu clock= 1.27E-01
+ tran: time= 9.7466E-10 tot_iter=     400 conv_iter=     140 cpu clock= 1.27E-01
+ tran: time= 1.0947E-09 tot_iter=     404 conv_iter=     142 cpu clock= 1.27E-01
+ tran: time= 1.2000E-09 tot_iter=     408 conv_iter=     144 cpu clock= 1.27E-01
+ sweep: tran tran4    end, cpu clock= 1.28E-01 peak memory=      64 mb
+ data: data=circuit         e_init          =    0.00E+00
+ output: D:\UT.CE\Term-06\AVLSI\CA\CA04\simulation\seq-elements\D-Latch\delay\si
+ sweep: tran tran5    begin, stop_t=  1.20E-09 #sweeps=**** cpu clock= 1.28E-01
+ tran: time= 1.2042E-10 tot_iter=     273 conv_iter=      83 cpu clock= 1.32E-01
+ tran: time= 2.4368E-10 tot_iter=     324 conv_iter=     103 cpu clock= 1.32E-01
+ tran: time= 4.0340E-10 tot_iter=     334 conv_iter=     108 cpu clock= 1.33E-01
+ tran: time= 5.1556E-10 tot_iter=     338 conv_iter=     110 cpu clock= 1.33E-01
+ tran: time= 6.3556E-10 tot_iter=     342 conv_iter=     112 cpu clock= 1.33E-01
+ tran: time= 7.5556E-10 tot_iter=     346 conv_iter=     114 cpu clock= 1.33E-01
+ tran: time= 8.7556E-10 tot_iter=     350 conv_iter=     116 cpu clock= 1.33E-01
+ tran: time= 9.9556E-10 tot_iter=     354 conv_iter=     118 cpu clock= 1.33E-01
+ tran: time= 1.1156E-09 tot_iter=     358 conv_iter=     120 cpu clock= 1.33E-01
+ tran: time= 1.2000E-09 tot_iter=     362 conv_iter=     122 cpu clock= 1.33E-01
+ sweep: tran tran5    end, cpu clock= 1.33E-01 peak memory=      64 mb
+ data: data=circuit         e_init          =    0.00E+00
+ output: D:\UT.CE\Term-06\AVLSI\CA\CA04\simulation\seq-elements\D-Latch\delay\si
+ sweep: tran tran6    begin, stop_t=  1.20E-09 #sweeps=**** cpu clock= 1.33E-01
+ tran: time= 1.2159E-10 tot_iter=     247 conv_iter=      75 cpu clock= 1.37E-01
+ tran: time= 2.4037E-10 tot_iter=     321 conv_iter=      98 cpu clock= 1.38E-01
+ tran: time= 3.7145E-10 tot_iter=     333 conv_iter=     104 cpu clock= 1.38E-01
+ tran: time= 5.0899E-10 tot_iter=     339 conv_iter=     107 cpu clock= 1.38E-01
+ tran: time= 6.2899E-10 tot_iter=     343 conv_iter=     109 cpu clock= 1.38E-01
+ tran: time= 7.4899E-10 tot_iter=     347 conv_iter=     111 cpu clock= 1.38E-01
+ tran: time= 8.6899E-10 tot_iter=     351 conv_iter=     113 cpu clock= 1.38E-01
+ tran: time= 9.8899E-10 tot_iter=     355 conv_iter=     115 cpu clock= 1.38E-01
+ tran: time= 1.1090E-09 tot_iter=     359 conv_iter=     117 cpu clock= 1.38E-01
+ tran: time= 1.2000E-09 tot_iter=     363 conv_iter=     119 cpu clock= 1.38E-01
+ sweep: tran tran6    end, cpu clock= 1.39E-01 peak memory=      64 mb
+ data: data=circuit         e_init          =    1.00E+00
+ output: D:\UT.CE\Term-06\AVLSI\CA\CA04\simulation\seq-elements\D-Latch\delay\si
+ sweep: tran tran7    begin, stop_t=  1.20E-09 #sweeps=**** cpu clock= 1.39E-01
+ tran: time= 1.2078E-10 tot_iter=     229 conv_iter=      77 cpu clock= 1.42E-01
+ tran: time= 2.4299E-10 tot_iter=     389 conv_iter=     129 cpu clock= 1.44E-01
+ tran: time= 3.6908E-10 tot_iter=     418 conv_iter=     142 cpu clock= 1.45E-01
+ tran: time= 4.8399E-10 tot_iter=     426 conv_iter=     146 cpu clock= 1.45E-01
+ tran: time= 6.4414E-10 tot_iter=     432 conv_iter=     149 cpu clock= 1.45E-01
+ tran: time= 7.6414E-10 tot_iter=     436 conv_iter=     151 cpu clock= 1.45E-01
+ tran: time= 8.8414E-10 tot_iter=     440 conv_iter=     153 cpu clock= 1.45E-01
+ tran: time= 1.0041E-09 tot_iter=     444 conv_iter=     155 cpu clock= 1.45E-01
+ tran: time= 1.1241E-09 tot_iter=     448 conv_iter=     157 cpu clock= 1.45E-01
+ tran: time= 1.2000E-09 tot_iter=     452 conv_iter=     159 cpu clock= 1.45E-01
+ sweep: tran tran7    end, cpu clock= 1.45E-01 peak memory=      64 mb
+ data: data=circuit         e_init          =    1.00E+00
+ output: D:\UT.CE\Term-06\AVLSI\CA\CA04\simulation\seq-elements\D-Latch\delay\si
+ sweep: tran tran8    begin, stop_t=  1.20E-09 #sweeps=**** cpu clock= 1.46E-01
+ tran: time= 1.2163E-10 tot_iter=     295 conv_iter=      99 cpu clock= 1.50E-01
+ tran: time= 2.4339E-10 tot_iter=     476 conv_iter=     152 cpu clock= 1.52E-01
+ tran: time= 3.6796E-10 tot_iter=     539 conv_iter=     177 cpu clock= 1.53E-01
+ tran: time= 5.0317E-10 tot_iter=     550 conv_iter=     182 cpu clock= 1.53E-01
+ tran: time= 6.2317E-10 tot_iter=     554 conv_iter=     184 cpu clock= 1.53E-01
+ tran: time= 7.4317E-10 tot_iter=     558 conv_iter=     186 cpu clock= 1.53E-01
+ tran: time= 8.6317E-10 tot_iter=     562 conv_iter=     188 cpu clock= 1.54E-01
+ tran: time= 9.8317E-10 tot_iter=     566 conv_iter=     190 cpu clock= 1.54E-01
+ tran: time= 1.1032E-09 tot_iter=     570 conv_iter=     192 cpu clock= 1.54E-01
+ tran: time= 1.2000E-09 tot_iter=     574 conv_iter=     194 cpu clock= 1.54E-01
+ sweep: tran tran8    end, cpu clock= 1.54E-01 peak memory=      64 mb
+ sweep: data            data            1 end
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

@@ -1,0 +1,195 @@
+ ****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******                    
+  Copyright (c) 1986 - 2026 by Synopsys, Inc. All Rights Reserved.              
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: sim.sp                                                            
+  Command line options: C:\synopsys\Hspice_P-2019.06-SP1-1\WIN64\hspice.com -i sim.sp -o D:\UT.CE\Term-06\AVLSI\CA\CA04\simulation\pipe\3latch\P2\func + time borrow\sim.lis
+  Start time: Sat Jul 11 04:48:11 2026
+  lic:  
+  lic: FLEXlm: SDK_12.3 
+  lic: USER:   Mohammad-Khohsroo    HOSTNAME: DESKTOP-GMQQFUO 
+  lic: HOSTID: "088fc3e7a24d"       PID:      7628 
+  lic: Using FLEXlm license file: 
+  lic: 27000@DESKTOP-GMQQFUO 
+  lic: Checkout 1 hspice 
+  lic: License/Maintenance for hspice will expire on 30-dec-2030/2020.12 
+  lic: 1(in_use)/99(total) FLOATING license(s) on SERVER 27000@DESKTOP-GMQQFUO 
+  lic:   
+1****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******                    
+ ******  
+ ********************* hspice fa gates modeling **********************
+
+ ****** circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 xpipe.                          latch_pipe_p2      1.00 
+        2 xpipe.xinv_clk.                 inv                1.00 
+        3 xpipe.xlatch_a.                 d_latch_nn         1.00 
+        4 xpipe.xlatch_b.                 d_latch_nn         1.00 
+        5 xpipe.xlatch_c.                 d_latch_nn         1.00 
+        6 xpipe.xlatch_d.                 d_latch_nn         1.00 
+        7 xpipe.xnand1.                   nand2              1.00 
+        8 xpipe.xnor1.                    nor2               1.00 
+        9 xpipe.xinv1.                    inv                1.00 
+       10 xpipe.xlatch_nand.              d_latch_nn         1.00 
+       11 xpipe.xlatch_nor.               d_latch_nn         1.00 
+       12 xpipe.xlatch_inv.               d_latch_nn         1.00 
+       13 xpipe.xxor1.                    xor2_sym           1.00 
+       14 xpipe.xxnor1.                   xnor2_sym          1.00 
+       15 xpipe.xnand2.                   and2               1.00 
+       16 xpipe.xnor3.                    nor3               1.00 
+       17 xpipe.xlatch_out.               d_latch_nn         1.00 
+       18 xpipe.xlatch_a.xinv_d.          inv                1.00 
+       19 xpipe.xlatch_a.xnand1.          nand2              1.00 
+       20 xpipe.xlatch_a.xnand2.          nand2              1.00 
+       21 xpipe.xlatch_a.xnand3.          nand2              1.00 
+       22 xpipe.xlatch_a.xnand4.          nand2              1.00 
+       23 xpipe.xlatch_b.xinv_d.          inv                1.00 
+       24 xpipe.xlatch_b.xnand1.          nand2              1.00 
+       25 xpipe.xlatch_b.xnand2.          nand2              1.00 
+       26 xpipe.xlatch_b.xnand3.          nand2              1.00 
+       27 xpipe.xlatch_b.xnand4.          nand2              1.00 
+       28 xpipe.xlatch_c.xinv_d.          inv                1.00 
+       29 xpipe.xlatch_c.xnand1.          nand2              1.00 
+       30 xpipe.xlatch_c.xnand2.          nand2              1.00 
+       31 xpipe.xlatch_c.xnand3.          nand2              1.00 
+       32 xpipe.xlatch_c.xnand4.          nand2              1.00 
+       33 xpipe.xlatch_d.xinv_d.          inv                1.00 
+       34 xpipe.xlatch_d.xnand1.          nand2              1.00 
+       35 xpipe.xlatch_d.xnand2.          nand2              1.00 
+       36 xpipe.xlatch_d.xnand3.          nand2              1.00 
+       37 xpipe.xlatch_d.xnand4.          nand2              1.00 
+       38 xpipe.xlatch_nand.xinv_d.       inv                1.00 
+       39 xpipe.xlatch_nand.xnand1.       nand2              1.00 
+       40 xpipe.xlatch_nand.xnand2.       nand2              1.00 
+       41 xpipe.xlatch_nand.xnand3.       nand2              1.00 
+       42 xpipe.xlatch_nand.xnand4.       nand2              1.00 
+       43 xpipe.xlatch_nor.xinv_d.        inv                1.00 
+       44 xpipe.xlatch_nor.xnand1.        nand2              1.00 
+       45 xpipe.xlatch_nor.xnand2.        nand2              1.00 
+       46 xpipe.xlatch_nor.xnand3.        nand2              1.00 
+       47 xpipe.xlatch_nor.xnand4.        nand2              1.00 
+       48 xpipe.xlatch_inv.xinv_d.        inv                1.00 
+       49 xpipe.xlatch_inv.xnand1.        nand2              1.00 
+       50 xpipe.xlatch_inv.xnand2.        nand2              1.00 
+       51 xpipe.xlatch_inv.xnand3.        nand2              1.00 
+       52 xpipe.xlatch_inv.xnand4.        nand2              1.00 
+       53 xpipe.xxor1.xinv1.              inv                1.00 
+       54 xpipe.xxor1.xinv2.              inv                1.00 
+       55 xpipe.xxnor1.xinv1.             inv                1.00 
+       56 xpipe.xxnor1.xinv2.             inv                1.00 
+       57 xpipe.xnand2.xinv.              inv                1.00 
+       58 xpipe.xnand2.xnand.             nand2              1.00 
+       59 xpipe.xlatch_out.xinv_d.        inv                1.00 
+       60 xpipe.xlatch_out.xnand1.        nand2              1.00 
+       61 xpipe.xlatch_out.xnand2.        nand2              1.00 
+       62 xpipe.xlatch_out.xnand3.        nand2              1.00 
+       63 xpipe.xlatch_out.xnand4.        nand2              1.00 
+  **info** (sim.sp:35) DC voltage reset to initial transient source value in source 0:va. new dc=0.0000D+00
+ 
+
+  
+      
+ **info** set option symb=1 internally to help for convergence.
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+  Opening plot unit= 79
+ file=D:\UT.CE\Term-06\AVLSI\CA\CA04\simulation\pipe\3latch\P2\func + time borrow\sim.pa0
+
+ **info** dc convergence successful at Newton-Raphson method 
+ ******  
+ ********************* hspice fa gates modeling **********************
+
+ ****** operating point information tnom=  25.000 temp=  25.000 ******
+ ****** operating point status is voltage   simulation time is     0.     
+     node    =voltage       node    =voltage       node    =voltage
+
+ + 0:a       =   0.       0:b       =   0.       0:c       =   0.     
+ + 0:clk     =   0.       0:d       =   0.       0:out_l   =  23.3748n
+ + 0:vdd     =   1.8000   0:vss     =   0.       1:a_l     = 726.8592m
+ + 1:a_l_bar = 726.8592m  1:and_out =   5.2635n  1:b_l     = 726.8592m
+ + 1:b_l_bar = 726.8592m  1:c_l     = 726.8592m  1:c_l_bar = 726.8592m
+ + 1:clk_bar =   1.8000   1:d_l     = 726.8592m  1:d_l_bar = 726.8592m
+ + 1:inv_d   =   1.5399   1:inv_d_l =   1.8000   1:inv_d_l_=  23.3748n
+ + 1:nand_ab =   1.7286   1:nand_ab_=   1.8000   1:nand_ab_=  23.3748n
+ + 1:nor_bc  = 561.0415m  1:nor_bc_l=  50.8014n  1:nor_bc_l=   1.8000 
+ + 1:out     =   9.7890n  1:out_l_ba=   1.8000   1:xnor_out=  13.7097n
+ + 1:xor_out =   1.8000   3:d_not   =   1.8000   3:n1      =   1.8000 
+ + 3:n2      =   1.8000   4:d_not   =   1.8000   4:n1      =   1.8000 
+ + 4:n2      =   1.8000   5:d_not   =   1.8000   5:n1      =   1.8000 
+ + 5:n2      =   1.8000   6:d_not   =   1.8000   6:n1      =   1.8000 
+ + 6:n2      =   1.8000   7:x       =  80.8075m  8:x       =   1.6335 
+ +10:d_not   =  39.7980n 10:n1      =  52.9427n 10:n2      =   1.8000 
+ +11:d_not   =   1.7562  11:n1      =   1.7308  11:n2      =  34.0758n
+ +12:d_not   =   8.5528u 12:n1      =   8.5252u 12:n2      =   1.8000 
+ +13:in1_bar =   4.0138n 13:in2_bar =   1.8000  13:x1      =   1.4492 
+ +13:x2      =   6.1432n 13:y1      =   1.8000  13:y2      =   1.8000 
+ +14:in1_bar =   1.8000  14:in2_bar =   3.8711n 14:x1      =   6.8276n
+ +14:x2      =   6.8549n 14:y1      =   1.8000  14:y2      = 416.8074m
+ +15:out_bar =   1.8000  16:x       = 434.4194m 16:y       = 412.9347m
+ +17:d_not   =   1.8000  17:n1      =   1.8000  17:n2      =   1.8000 
+ +19:x       =  44.8278m 20:x       =   1.4699  21:x       = 652.2813m
+ +22:x       = 652.2812m 24:x       =  44.8278m 25:x       =   1.4699 
+ +26:x       = 652.2813m 27:x       = 652.2812m 29:x       =  44.8278m
+ +30:x       =   1.4699  31:x       = 652.2813m 32:x       = 652.2812m
+ +34:x       =  44.8278m 35:x       =   1.4699  36:x       = 652.2813m
+ +37:x       = 652.2812m 39:x       =  26.1330n 40:x       =  18.7142n
+ +41:x       =  44.8278m 42:x       =  11.6874n 44:x       =   8.6260m
+ +45:x       =  16.9073n 46:x       =  25.0866n 47:x       =  44.8277m
+ +49:x       =   4.0303u 50:x       =  18.7184n 51:x       =  44.8324m
+ +52:x       =  11.6874n 58:x       =   1.4489  60:x       =  44.8278m
+ +61:x       =   1.4699  62:x       =  11.6874n 63:x       =   1.4699 
+
+
+          ***** job concluded
+ ******  
+ ********************* hspice fa gates modeling **********************
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    16
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =     490 # elements   =     200
+  # resistors   =       0 # capacitors =       1 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       7
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =     192 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.01           1          59
+  transient          0.58        3601        4866        1622 rev=        41
+  readin             0.05
+  errchk             0.01
+  setup              0.00
+  output             0.00
+
+
+           peak memory used         73.85 megabytes
+           total cpu time            0.65 seconds
+           total elapsed time        0.68 seconds
+           job started at     04:48:11 07/11/2026
+           job ended   at     04:48:12 07/11/2026
+           job total runtime         0.68 seconds
+
+
+  lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.02(s)

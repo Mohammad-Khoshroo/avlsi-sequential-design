@@ -1,0 +1,57 @@
+****** HSPICE -- P-2019.06-SP1-1 win64 (Sep 27 2019) ******
+Input File: sim.sp
+lic:
+lic: FLEXlm: SDK_12.3
+lic: USER:   Mohammad-Khohsroo    HOSTNAME: DESKTOP-GMQQFUO
+lic: HOSTID: "088fc3e7a24d"       PID:      1568
+lic: Using FLEXlm license file:
+lic: 27000@DESKTOP-GMQQFUO
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 30-dec-2030/2020.12
+lic: 1(in_use)/99(total) FLOATING license(s) on SERVER 27000@DESKTOP-GMQQFUO
+lic:
+
+ init: begin read circuit files, cpu clock= 6.70E-02
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/behave/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/AD/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/XILINX/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TLINE/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/TI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/SIGNET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PCI/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/LIN_TEC
+                         H/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/PET/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/DI0/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/COMLINE
+                         /
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BURR_BR
+                         M/
+       option search = C:/synopsys/Hspice_P-2019.06-SP1-1/parts/BJT/
+       option nomod
+       option post =     2.00
+       option probe
+ init: end read circuit files, cpu clock= 7.10E-02 peak memory=      63 mb
+ init: begin check errors, cpu clock= 7.10E-02
+ init: end check errors, cpu clock= 7.90E-02 peak memory=      65 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 7.90E-02
+       establish matrix -- done, cpu clock= 8.00E-02 peak memory=      65 mb
+       re-order matrix -- done, cpu clock= 8.10E-02 peak memory=      66 mb
+ init: end setup matrix, cpu clock= 8.20E-02 peak memory=      66 mb
+ dcop: begin dcop, cpu clock= 8.20E-02
+ dcop: end dcop, cpu clock= 9.00E-02 peak memory=      66 mb tot_iter=      49
+ output: D:\UT.CE\Term-06\AVLSI\CA\CA04\simulation\pipe\3latch\P1\func + time bo
+ sweep: tran tran0    begin, stop_t=  1.80E-07 #sweeps=3601 cpu clock= 9.10E-02
+ tran: time= 1.8074E-08 tot_iter=     574 conv_iter=     196 cpu clock= 1.53E-01
+ tran: time= 3.6174E-08 tot_iter=    1148 conv_iter=     387 cpu clock= 2.14E-01
+ tran: time= 5.5000E-08 tot_iter=    1561 conv_iter=     527 cpu clock= 2.57E-01
+ tran: time= 7.2275E-08 tot_iter=    2104 conv_iter=     708 cpu clock= 3.14E-01
+ tran: time= 9.0010E-08 tot_iter=    2563 conv_iter=     863 cpu clock= 3.65E-01
+ tran: time= 1.0837E-07 tot_iter=    3147 conv_iter=    1058 cpu clock= 4.29E-01
+ tran: time= 1.2604E-07 tot_iter=    3730 conv_iter=    1252 cpu clock= 4.93E-01
+ tran: time= 1.4500E-07 tot_iter=    4174 conv_iter=    1404 cpu clock= 5.40E-01
+ tran: time= 1.6254E-07 tot_iter=    4770 conv_iter=    1607 cpu clock= 6.06E-01
+ tran: time= 1.8000E-07 tot_iter=    5008 conv_iter=    1695 cpu clock= 6.34E-01
+ sweep: tran tran0    end, cpu clock= 6.34E-01 peak memory=      72 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

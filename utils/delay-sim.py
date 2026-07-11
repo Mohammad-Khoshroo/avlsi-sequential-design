@@ -1,10 +1,10 @@
 def generate_spice_deck():
 
-    signals = ["A", "B","C", "D"]
-    outputs = ["out"]
+    signals = ["E", "D"]
+    outputs = ["Q"]
 
     W = 1200.0
-    delta_t = 50.0
+    delta_t = 20.0
     t_start = 75.0
 
     temp = 25

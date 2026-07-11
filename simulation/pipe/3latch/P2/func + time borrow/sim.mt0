@@ -1,0 +1,12 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE '********************* hspice fa gates modeling **********************'
+ t_latch_f1       t_logic_r1       borrow_1         delay_q1        
+ t_latch_f2       t_logic_r2       borrow_2         delay_q2        
+ t_latch_f3       t_logic_r3       borrow_3         delay_q3        
+ t_latch_f4       t_logic_r4       borrow_4         delay_q4        
+ temper           alter#          
+    failed           failed           failed         1.468e-08      
+    failed           failed           failed         1.468e-08      
+    failed           failed           failed         4.684e-09      
+    failed           failed           failed         4.684e-09      
+   25.0000        1               

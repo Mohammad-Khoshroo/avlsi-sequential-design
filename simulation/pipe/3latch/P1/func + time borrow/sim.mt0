@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+.TITLE '********************* hspice pipeline latch simulation **********************'
+ tplh_clk_to_out  tphl_clk_to_out  temper           alter#          
+ -9.916e-09       -2.988e-08         25.0000        1               

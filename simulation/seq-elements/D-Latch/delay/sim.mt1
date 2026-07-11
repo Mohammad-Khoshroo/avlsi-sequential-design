@@ -1,4 +1,38 @@
-$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=0
+$DATA1 SOURCE='HSPICE' VERSION='P-2019.06-SP1-1 win64' PARAM_COUNT=6
 .TITLE 'tdq_tcq_measure'
- t_cq             t_dq             temper           alter#          
-  7.625e-11        1.429e-10         25.0000        2               
+ index            e_init           e_final          d_init          
+                  d_final          is_fall_transition tplh_q_e        
+                  tphl_q_e         tplh_q_d         tphl_q_d        
+                  temper           alter#          
+ 1                   0.               1.0000           0.           
+                     0.               0.               failed       
+                     failed           failed           failed       
+                    25.0000        2               
+ 2                   1.0000           0.               0.           
+                     0.               1.0000           failed       
+                     failed           failed           failed       
+                    25.0000        2               
+ 3                   0.               1.0000           1.0000       
+                     1.0000           0.             6.764e-11      
+                     failed           failed           failed       
+                    25.0000        2               
+ 4                   1.0000           0.               1.0000       
+                     1.0000           1.0000           failed       
+                     failed           failed           failed       
+                    25.0000        2               
+ 5                   0.               0.               0.           
+                     1.0000           0.               failed       
+                     failed           failed           failed       
+                    25.0000        2               
+ 6                   0.               0.               1.0000       
+                     0.               1.0000           failed       
+                     failed           failed           failed       
+                    25.0000        2               
+ 7                   1.0000           1.0000           0.           
+                     1.0000           0.               failed       
+                     failed         6.756e-11          failed       
+                    25.0000        2               
+ 8                   1.0000           1.0000           1.0000       
+                     0.               1.0000           failed       
+                     failed           failed         1.391e-10      
+                    25.0000        2               

@@ -1,32 +1,176 @@
 {
     "2_0": {
-        "type": "sweep",
-        "sweep_parameter": "t_cq",
-        "measurements": {
-            "t_cq": 7.625e-11,
-            "t_dq": 1.429e-10
-        }
+        "transition": {
+            "signal": "E",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "D": 0
+        },
+        "delay": {
+            "tphl_q_d": null,
+            "tphl_q_e": null,
+            "tplh_q_d": null,
+            "tplh_q_e": null
+        },
+        "measurements": {}
+    },
+    "2_1": {
+        "transition": {
+            "signal": "E",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "D": 0
+        },
+        "delay": {
+            "tphl_q_d": null,
+            "tphl_q_e": null,
+            "tplh_q_d": null,
+            "tplh_q_e": null
+        },
+        "measurements": {}
+    },
+    "2_2": {
+        "transition": {
+            "signal": "E",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "D": 1
+        },
+        "delay": {
+            "tphl_q_d": null,
+            "tphl_q_e": null,
+            "tplh_q_d": null,
+            "tplh_q_e": 6.764e-11
+        },
+        "measurements": {}
+    },
+    "2_3": {
+        "transition": {
+            "signal": "E",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "D": 1
+        },
+        "delay": {
+            "tphl_q_d": null,
+            "tphl_q_e": null,
+            "tplh_q_d": null,
+            "tplh_q_e": null
+        },
+        "measurements": {}
+    },
+    "2_4": {
+        "transition": {
+            "signal": "D",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "E": 0
+        },
+        "delay": {
+            "tphl_q_d": null,
+            "tphl_q_e": null,
+            "tplh_q_d": null,
+            "tplh_q_e": null
+        },
+        "measurements": {}
+    },
+    "2_5": {
+        "transition": {
+            "signal": "D",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "E": 0
+        },
+        "delay": {
+            "tphl_q_d": null,
+            "tphl_q_e": null,
+            "tplh_q_d": null,
+            "tplh_q_e": null
+        },
+        "measurements": {}
+    },
+    "2_6": {
+        "transition": {
+            "signal": "D",
+            "from": 0,
+            "to": 1
+        },
+        "state": {
+            "E": 1
+        },
+        "delay": {
+            "tphl_q_d": null,
+            "tphl_q_e": null,
+            "tplh_q_d": 6.756e-11,
+            "tplh_q_e": null
+        },
+        "measurements": {}
+    },
+    "2_7": {
+        "transition": {
+            "signal": "D",
+            "from": 1,
+            "to": 0
+        },
+        "state": {
+            "E": 1
+        },
+        "delay": {
+            "tphl_q_d": 1.391e-10,
+            "tphl_q_e": null,
+            "tplh_q_d": null,
+            "tplh_q_e": null
+        },
+        "measurements": {}
     },
     "summary": {
-        "sweep_parameter": "t_cq",
-        "measurements": {
-            "t_cq": {
-                "min": 7.625e-11,
-                "max": 7.625e-11,
-                "avg": 7.625e-11
+        "delay": {
+            "tplh_q_e": {
+                "min": 6.764e-11,
+                "max": 6.764e-11,
+                "avg": 6.764e-11
             },
-            "t_dq": {
-                "min": 1.429e-10,
-                "max": 1.429e-10,
-                "avg": 1.429e-10
+            "tplh_q_d": {
+                "min": 6.756e-11,
+                "max": 6.756e-11,
+                "avg": 6.756e-11
+            },
+            "tphl_q_d": {
+                "min": 1.391e-10,
+                "max": 1.391e-10,
+                "avg": 1.391e-10
+            },
+            "tplh_q": {
+                "min": 6.756e-11,
+                "max": 6.764e-11,
+                "avg": 6.76e-11
+            },
+            "tphl_q": {
+                "min": 1.391e-10,
+                "max": 1.391e-10,
+                "avg": 1.391e-10
+            },
+            "t_p_q": {
+                "min": 6.756e-11,
+                "max": 1.391e-10,
+                "avg": 9.143333333333332e-11
             }
         },
-        "sweep_range": {
-            "start": 7.625e-11,
-            "end": 7.625e-11,
-            "min": 7.625e-11,
-            "max": 7.625e-11,
-            "step": null
-        }
+        "measurements": {},
+        "worst_case_delay": 1.391e-10,
+        "best_case_delay": 6.756e-11,
+        "avg_case_delay": 9.143333333333332e-11
     }
 }
